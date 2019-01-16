@@ -2,6 +2,6 @@
 session_start();
 ?>
 <?
-$URL="http://www.test.vedrov.ru/samokleyka/blog/раздел/novosti/";
+$URL="http://test.vedrov.ru/samokleyka/blog/раздел/novosti/";
 header ("Location: $URL");
 ?>

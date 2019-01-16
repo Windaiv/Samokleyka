@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -82,7 +82,7 @@ session_start();
 <td>
 <img src="info1_1/4.jpg" style="float: right">
 <b>Цвет</b> - Здесь Вам нужно выбрать цвет, а если Вы 
-в разделе <a href="http://www.test.vedrov.ru/samokleyka/albom9.php">Двухцветные</a>,
+в разделе <a href="http://test.vedrov.ru/samokleyka/albom9.php">Двухцветные</a>,
 то необходимо выбрать два цвета.<br>
 <b>Материал</b> - Дальше нужно выбрать материал, из которого будет сделана наклейка.<br>
 <b>Матовая плёнка</b> не бликует на свету и имеет ровный однотонный тон, 

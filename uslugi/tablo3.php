@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -44,12 +44,12 @@ session_start();
 <div class="product-medium222">
 
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
+<p>- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
 - Для АЗС<br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
 </p>
 <h2 align=center> ТАБЛО ДЛЯ АЗС</h2> <br>
 <p align="justify">
@@ -197,14 +197,14 @@ session_start();
   - символы зеленого цвета свечения – k= цена*1.4; <br>
   - символы синего или белого цвета свечения – k= цена*1.5.<br>
   Также возможно изготовление индивидуальных моделей под  определённые размеры и условия эксплуатации.</p>
-  <p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
+  <p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
+<p>- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
 - Для АЗС<br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
 </p>
 </div>
 <div class="clearfix"></div>

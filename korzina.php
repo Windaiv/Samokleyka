@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -404,7 +404,7 @@ function myCustomErrorDisplayFunction2(f, errorInfo)
 	<option value="4">Сбербанк</option>
 	<option value="5">Оплата курьеру (Пенза)</option>
 	</select></b></td>
-	<td><h7>   Выберите способ оплаты, подробнее можно узнать в разделе <a href="http://www.test.vedrov.ru/samokleyka/oplata.php" target="_blank">Оплата</a></h7></td>
+	<td><h7>   Выберите способ оплаты, подробнее можно узнать в разделе <a href="http://test.vedrov.ru/samokleyka/oplata.php" target="_blank">Оплата</a></h7></td>
 </tr>
 <tr align="left"> 
 	<td><b>Сертификат:</b></td>

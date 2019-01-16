@@ -72,14 +72,14 @@ var Book_NextPage_Delay=1500; //1 second=1000
 var Book_Vertical_Turn=0;
 
 Book_Image_Sources=new Array(
-"images/slider/al1.jpg","http://www.test.vedrov.ru/samokleyka/albom10.php",
-"images/slider/al2.jpg","http://www.test.vedrov.ru/samokleyka/albom9.php",
-"images/slider/al3.jpg","http://www.test.vedrov.ru/samokleyka/albom11.php", 
-"images/slider/al4.jpg","http://www.test.vedrov.ru/samokleyka/albom12.php", 
-"images/slider/al5.jpg","http://www.test.vedrov.ru/samokleyka/blog/stati/vinilovye-naklejki/vyveska-na-dom",
-"images/slider/al6.jpg","http://www.test.vedrov.ru/samokleyka/albom6.php",
-"images/slider/al7.jpg","http://www.test.vedrov.ru/samokleyka/uslugi/tablo.php", 
-"images/slider/al8.jpg","http://www.test.vedrov.ru/samokleyka/uslugi/na_dver.php" 
+"images/slider/al1.jpg","http://test.vedrov.ru/samokleyka/albom10.php",
+"images/slider/al2.jpg","http://test.vedrov.ru/samokleyka/albom9.php",
+"images/slider/al3.jpg","http://test.vedrov.ru/samokleyka/albom11.php", 
+"images/slider/al4.jpg","http://test.vedrov.ru/samokleyka/albom12.php", 
+"images/slider/al5.jpg","http://test.vedrov.ru/samokleyka/blog/stati/vinilovye-naklejki/vyveska-na-dom",
+"images/slider/al6.jpg","http://test.vedrov.ru/samokleyka/albom6.php",
+"images/slider/al7.jpg","http://test.vedrov.ru/samokleyka/uslugi/tablo.php", 
+"images/slider/al8.jpg","http://test.vedrov.ru/samokleyka/uslugi/na_dver.php" 
 );
 
 
@@ -183,7 +183,7 @@ function B_Rstrt(){B_Stppd=false}
 			
 		<div class="sticky-point-1">
 			<h2>Просто как раз, два, три</h2>
-			<p>Все что вам необходимо -  это выбрать понравившуюся наклейку из нашего интернет- магазина (написать  нам  о своих пожеланиях), сделать заказ, и в течении нескольких дней наклейка будет у вас на руках. <a href="http://www.test.vedrov.ru/samokleyka/polezno/info1_1.php">Инструкция !</a></p>
+			<p>Все что вам необходимо -  это выбрать понравившуюся наклейку из нашего интернет- магазина (написать  нам  о своих пожеланиях), сделать заказ, и в течении нескольких дней наклейка будет у вас на руках. <a href="http://test.vedrov.ru/samokleyka/polezno/info1_1.php">Инструкция !</a></p>
 		</div>
 		
 		<div class="sticky-point-2">
@@ -236,12 +236,12 @@ $rnd=rand(1,5);
 		
 		<div class="sticky-point-3">
 			<h2>Блог</h2>
-			<p align="center">Хотите быть в курсе последних <b>новостей</b>, знать про <b>акции</b> на сайте, высказать своё мнение или написать статью, тогда ждём Вас в <a href="http://www.test.vedrov.ru/samokleyka/blog" >блоге</a>!<br>
+			<p align="center">Хотите быть в курсе последних <b>новостей</b>, знать про <b>акции</b> на сайте, высказать своё мнение или написать статью, тогда ждём Вас в <a href="http://test.vedrov.ru/samokleyka/blog" >блоге</a>!<br>
 <!--[if IE]>
-<p align="center"><a href="http://www.test.vedrov.ru/samokleyka/blog" title="Декоративные надписи"><img src="http://www.test.vedrov.ru/samokleyka/images/blog.png" alt="Декоративные надписи"/></a></p>
+<p align="center"><a href="http://test.vedrov.ru/samokleyka/blog" title="Декоративные надписи"><img src="http://test.vedrov.ru/samokleyka/images/blog.png" alt="Декоративные надписи"/></a></p>
 <![endif]-->
 <!--[if IE]><![if !IE]><![endif]-->
-<p align="center"><a href="http://www.test.vedrov.ru/samokleyka/blog" title="Декоративные надписи"><img src="http://www.test.vedrov.ru/samokleyka/images/blog.png" alt="Декоративные надписи"/></a></p>
+<p align="center"><a href="http://test.vedrov.ru/samokleyka/blog" title="Декоративные надписи"><img src="http://test.vedrov.ru/samokleyka/images/blog.png" alt="Декоративные надписи"/></a></p>
 <!--[if IE]><![endif]><![endif]-->	
 			</p>
 		</div>
@@ -262,34 +262,34 @@ $rnd=rand(1,5);
 </tr>
 <tr align="center"> 
 <td>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/stati/optovye-prodazhi-dlya-dillerov"><img src="http://www.test.vedrov.ru/samokleyka/images/blog/skidki_opt.jpg"  border="0" alt="Скидки оптовикам" width=125px height=125px/></a>
+<a href="http://test.vedrov.ru/samokleyka/blog/stati/optovye-prodazhi-dlya-dillerov"><img src="http://test.vedrov.ru/samokleyka/images/blog/skidki_opt.jpg"  border="0" alt="Скидки оптовикам" width=125px height=125px/></a>
 </td>
 <td>
 Мы предлагаем дилерам и оптовикам сотрудничать с нами на выгодных условиях! <br>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/stati/optovye-prodazhi-dlya-dillerov">Читать полностью</a>
+<a href="http://test.vedrov.ru/samokleyka/blog/stati/optovye-prodazhi-dlya-dillerov">Читать полностью</a>
 </td>
 <td>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/раздел/stati/vashi-fotografii"><img src="http://test.vedrov.ru/samokleyka/images/blog/vf.jpg"  border="0" alt="Скидки оптовикам" width=125px height=125px/></a>
+<a href="http://test.vedrov.ru/samokleyka/blog/раздел/stati/vashi-fotografii"><img src="http://test.vedrov.ru/samokleyka/images/blog/vf.jpg"  border="0" alt="Скидки оптовикам" width=125px height=125px/></a>
 </td>
 <td>
 Открыт новый раздел нашего блога - Ваши фотографии, в нём мы размещаем фотографии которые, Вы присылаете нам с разрешением на публикацию.<br>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/раздел/stati/vashi-fotografii">Читать полностью</a>
+<a href="http://test.vedrov.ru/samokleyka/blog/раздел/stati/vashi-fotografii">Читать полностью</a>
 </td>
 </tr>
 <tr align="center"> 
 <td>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/konkursi/luchshij-vektornyj-risunok/usloviya-konkursa/"><img src="http://test.vedrov.ru/samokleyka/images/blog/konkurs.jpg"  border="0" alt="Конкурс векторных рисунков" width=125px height=125px/></a>
+<a href="http://test.vedrov.ru/samokleyka/blog/konkursi/luchshij-vektornyj-risunok/usloviya-konkursa/"><img src="http://test.vedrov.ru/samokleyka/images/blog/konkurs.jpg"  border="0" alt="Конкурс векторных рисунков" width=125px height=125px/></a>
 </td>
 <td>
 Конкурс векторных рисунков. Цель конкурса сделать красивый, оригинальный векторный рисунок. Призы каждому участнику ! <br>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/konkursi/luchshij-vektornyj-risunok/usloviya-konkursa/">Читать полностью</a>
+<a href="http://test.vedrov.ru/samokleyka/blog/konkursi/luchshij-vektornyj-risunok/usloviya-konkursa/">Читать полностью</a>
 </td>
 <td>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/stati/vinilovye-naklejki/dekorativnye-nadpisi-na-steny/"><img src="http://www.test.vedrov.ru/samokleyka/albom11/a11_1.jpg"  border="0" alt="Скидки оптовикам" width=125px height=125px/></a>
+<a href="http://test.vedrov.ru/samokleyka/blog/stati/vinilovye-naklejki/dekorativnye-nadpisi-na-steny/"><img src="http://test.vedrov.ru/samokleyka/albom11/a11_1.jpg"  border="0" alt="Скидки оптовикам" width=125px height=125px/></a>
 </td>
 <td>
 Оригинальные наклейки для ноутбуков, макбуков и нетбуков! Выберите понравившуюся наклейку или закажите свою, индивидуальную! <br>
-<a href="http://www.test.vedrov.ru/samokleyka/blog/stati/vinilovye-naklejki/nakleki-na-noutbuk/">Читать полностью</a>
+<a href="http://test.vedrov.ru/samokleyka/blog/stati/vinilovye-naklejki/nakleki-na-noutbuk/">Читать полностью</a>
 </td>
 </tr>
 </table>

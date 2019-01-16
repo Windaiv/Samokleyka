@@ -97,12 +97,12 @@ $color='
 </tr>
 <tr align="center"> 
 <td width=90px>
-<img src="http://www.test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
+<img src="http://test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
 '.$color.'<br>
 '.$_SESSION['mas'][$i]["mat"].'
 </td>
 <td width=90px>
-<img src="http://www.test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color_2c"].'.jpg"><br>
+<img src="http://test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color_2c"].'.jpg"><br>
 '.$color_2c.'<br>
 '.$_SESSION['mas'][$i]["mat_2c"].'
 </td>
@@ -115,7 +115,7 @@ else
 if ($_SESSION['mas'][$i]["color"]=="Полноцвет")
 {
 $color='
-<img src="http://www.test.vedrov.ru/samokleyka/images/color/full.jpg"><br>
+<img src="http://test.vedrov.ru/samokleyka/images/color/full.jpg"><br>
 '.$color.'<br>
 '.$_SESSION['mas'][$i]["mat"].'
 ';
@@ -123,7 +123,7 @@ $color='
 else
 {
 $color='
-<img src="http://www.test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
+<img src="http://test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
 '.$color.'<br>
 '.$_SESSION['mas'][$i]["mat"].'
 ';
@@ -139,7 +139,7 @@ $one='<p>'.$_SESSION['mas'][$i]["text"].'</p>';
 }
 else
 {
-$one='<img src="http://www.test.vedrov.ru/samokleyka/imagesm/'.$_SESSION['mas'][$i]["id"].'.png">';
+$one='<img src="http://test.vedrov.ru/samokleyka/imagesm/'.$_SESSION['mas'][$i]["id"].'.png">';
 }
 $fog .='
 <tr align="center">
@@ -223,14 +223,14 @@ $message = '
 </td>
 </tr>
   </table>
-  <b>Подробнее про выбранный Вами способ оплаты можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/oplata.php">ЗДЕСЬ</a><br>
-  <b>О том, как наклеивать наклейки можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/support.php">ЗДЕСЬ</a><br>
+  <b>Подробнее про выбранный Вами способ оплаты можно узнать </b><a href="http://test.vedrov.ru/samokleyka/oplata.php">ЗДЕСЬ</a><br>
+  <b>О том, как наклеивать наклейки можно узнать </b><a href="http://test.vedrov.ru/samokleyka/support.php">ЗДЕСЬ</a><br>
 		</p>
 		<p>
 		<b>Если вы ничего не заказывали в нашем инетернет магазине и это письмо случайно оказалось у Вас в ящике, то отправьте пустое письмо на наш адрес:</b> support@test.vedrov.ru<br>
 		</p>
 		<p align="center">
-По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">он-лайн консультантам</a></p>
+По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://test.vedrov.ru/samokleyka/contacts.php">он-лайн консультантам</a></p>
     </body> 
 </html>'; 
 

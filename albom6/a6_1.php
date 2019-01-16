@@ -43,8 +43,8 @@ include("../formula.html");
 <head>
 <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
 
-<link rel="shortcut icon" href="http://www.test.vedrov.ru/samokleyka/favicon.gif"/>
-<link rel="icon" href="http://www.test.vedrov.ru/samokleyka/favicon.gif"/>
+<link rel="shortcut icon" href="http://test.vedrov.ru/samokleyka/favicon.gif"/>
+<link rel="icon" href="http://test.vedrov.ru/samokleyka/favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
  <title><?=$namefoto?> :: test.vedrov.ru</title>
  <meta name="Description" content="Интернет-каталог наклеек для всех, наклейка <?=$namefoto?> из нашего каталога для украшения Вашего авто!"/>
@@ -160,13 +160,13 @@ include("../formula.html");
 <table width="100%">
 <tr>
 <td width="50%" align="left">
-<a href="http://www.test.vedrov.ru/samokleyka/albom6.php">
-<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/catalog.png"
+<a href="http://test.vedrov.ru/samokleyka/albom6.php">
+<img src="http://test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/catalog.png"
 alt="Каталог" width="103" height="43" border="0" /></a>
 </td>
 <td  width="50%" align="right">
-<a href="http://www.test.vedrov.ru/samokleyka/albom6/<?=$next?>.php">
-<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
+<a href="http://test.vedrov.ru/samokleyka/albom6/<?=$next?>.php">
+<img src="http://test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
 alt="Дальше" width="103" height="43" border="0" /></a>
 </td>
 </tr>

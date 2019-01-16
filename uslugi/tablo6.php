@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -44,11 +44,11 @@ session_start();
 <div class="product-medium222">
 
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+<p>- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
 - Аптечный крест<br>
 </p>
 <h2 align=center> ТАБЛО АПТЕЧНЫЙ КРЕСТ</h2> <br>
@@ -77,7 +77,7 @@ session_start();
 </object>
 </p>
 <p>
-  - Режим   <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">"Бегущая строка"</a> с разрешением ,16х64 (точек)<br>
+  - Режим   <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">"Бегущая строка"</a> с разрешением ,16х64 (точек)<br>
   - Редактирование текста объявления<br>
   - Яркость   светодиодов от 500mСd до 2Cd 4.<br>
   - Отображение время, температура<br>
@@ -88,13 +88,13 @@ session_start();
   - Корпус алюминиевый   профиль, лицевая панель   закрыта тонированным акриловым стеклом <br>
   - Питание от сети переменного тока   220В 50Гц<br>
 </p>
-<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
+<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+<p>- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
 - Аптечный крест<br>
 </p>
 </div>

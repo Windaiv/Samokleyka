@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -51,7 +51,7 @@ session_start();
 У Вас есть идеи, но не знаете как воплотить их в жизнь, мы поможем в этом!<br>
 Всё, что от Вас требуется, это прислать эскиз нам на почтовый ящик <a href="mailto:zakaz@test.vedrov.ru">zakaz@test.vedrov.ru</a><br>
 с указанными размерами <b>Высота</b>, <b>Ширина</b> и пожеланиями к будущей наклейке.<br>
-У нас в <a href="http://www.test.vedrov.ru/samokleyka/blog">блоге</a> Вы сможете прочитать про индивидуальные наклейки, советы специалистов в области дизайна интерьеров и оставить свои комментарии к каждой статье.
+У нас в <a href="http://test.vedrov.ru/samokleyka/blog">блоге</a> Вы сможете прочитать про индивидуальные наклейки, советы специалистов в области дизайна интерьеров и оставить свои комментарии к каждой статье.
 </p>
 <p>
 <b>Требования к эскизу:</b><br>
@@ -67,14 +67,14 @@ session_start();
 </p>
 <p>
 Для ознакомления выкладываем 3 файла готовых эскизов:<br>
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/AI.ai">AI</a> | 
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/CDR.cdr">CDR</a> | 
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/EPS.eps">EPS</a><br>
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/AI.ai">AI</a> | 
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/CDR.cdr">CDR</a> | 
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/EPS.eps">EPS</a><br>
 И 4 файла рисунков, которые нам нужно будет обработать:<br>
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/JPEG.jpg">JPEG</a> | 
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/GIF.gif">GIF</a> | 
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/PNG.png">PNG</a> | 
-<a href="http://www.test.vedrov.ru/samokleyka/polezno/info2_2/TIFF.tif">TIFF</a><br>
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/JPEG.jpg">JPEG</a> | 
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/GIF.gif">GIF</a> | 
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/PNG.png">PNG</a> | 
+<a href="http://test.vedrov.ru/samokleyka/polezno/info2_2/TIFF.tif">TIFF</a><br>
 После того как Вы пришлёте нам эскиз или рисунок, мы произведём расчёт стоимости и в самые короткие сроки вышлем ответ с рассчитанной стоимостью.
 </p>
 <p>

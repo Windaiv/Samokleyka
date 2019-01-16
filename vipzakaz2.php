@@ -38,14 +38,14 @@ $message = '
 <p>Здравствуйте, '.$fam.' '.$imya.' '.$otch.'</p><br>
 <p><b>Вашему индивидуальному заказу присвоен номер: '.$count.'<b></p><br>
 <p>
-<b>Подробнее про способы оплаты можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/oplata.php">ЗДЕСЬ</a><br>
-<b>О том, как наклеивать наклейки можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/support.php">ЗДЕСЬ</a><br>
+<b>Подробнее про способы оплаты можно узнать </b><a href="http://test.vedrov.ru/samokleyka/oplata.php">ЗДЕСЬ</a><br>
+<b>О том, как наклеивать наклейки можно узнать </b><a href="http://test.vedrov.ru/samokleyka/support.php">ЗДЕСЬ</a><br>
 </p>
 		<p>
 		<b>Если вы ничего не заказывали в нашем инетернет магазине и это письмо случайно оказалось у Вас в ящике, то отправьте пустое письмо на наш адрес:</b> support@test.vedrov.ru<br>
 		</p>
 		<p align="center">
-По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">он-лайн консультантам</a></p>
+По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://test.vedrov.ru/samokleyka/contacts.php">он-лайн консультантам</a></p>
     </body> 
 </html>'; 
 

@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -49,7 +49,7 @@ session_start();
 Работаем по готовому эскизу, либо разрабатываем новый с учетом Ваших требований.
 <img src="../images/blog/tabl2.jpg"><br>
 </p>
-<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
+<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
 </div>
 <div class="clearfix"></div>
 </div>

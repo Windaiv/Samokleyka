@@ -114,7 +114,7 @@ letter-spacing:-1px;
 color:#fff;
 padding: 20px 1px 10px 0px;
 font-weight: 300;
-background:url("http://www.test.vedrov.ru/samokleyka/images/panel.png") 85% 55% no-repeat;
+background:url("http://test.vedrov.ru/samokleyka/images/panel.png") 85% 55% no-repeat;
 -moz-border-radius-topright: 0px;
 -webkit-border-top-right-radius: 0px;
 -moz-border-radius-bottomright: 10px;
@@ -135,7 +135,7 @@ letter-spacing:-1px;
 color:#fff;
 padding: 20px 1px 10px 0px;
 font-weight: 300;
-background: url("http://www.test.vedrov.ru/samokleyka/images/panel2.png") 85% 55% no-repeat;
+background: url("http://test.vedrov.ru/samokleyka/images/panel2.png") 85% 55% no-repeat;
 -moz-border-radius-topright: 0px;
 -webkit-border-top-right-radius: 0px;
 -moz-border-radius-bottomright: 10px;
@@ -146,7 +146,7 @@ display: block;
 }
 
 a.active.trigger {
-background:url("http://www.test.vedrov.ru/samokleyka/images/panel3.png") 85% 55% no-repeat;
+background:url("http://test.vedrov.ru/samokleyka/images/panel3.png") 85% 55% no-repeat;
 }
 
 body{background:#F4F4F4 url("../images/main_bg.jpg") repeat-x 0 0px}
@@ -347,7 +347,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab a 
 {
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_091.gif) no-repeat right top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bright_091.gif) no-repeat right top;
 	text-decoration:none;
 	border:0;
 	display:block;
@@ -358,7 +358,7 @@ full-title h1{font-size:36px;font-weight:normal}
 #tab a span 
 {
 	display:block;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bleft_091.gif) no-repeat left top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bleft_091.gif) no-repeat left top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#FFF;
@@ -386,7 +386,7 @@ full-title h1{font-size:36px;font-weight:normal}
 	display:block;
 	visibility:hidden;
 	border:0;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bmid_091.gif);
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bmid_091.gif);
 	color:#FFF;
 	z-index:100;
 	text-decoration:none;
@@ -410,7 +410,7 @@ full-title h1{font-size:36px;font-weight:normal}
 	width:180px;
 	display:block;
 	border:0;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bleft_091.gif) no-repeat left top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bleft_091.gif) no-repeat left top;
 	font-weight:700;
 	font-style:normal;
 	text-decoration:none;
@@ -421,7 +421,7 @@ full-title h1{font-size:36px;font-weight:normal}
 {
 	display:block;
 	line-height:31px;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_091.gif) no-repeat right top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bright_091.gif) no-repeat right top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:11px;
 	float:none;
@@ -472,7 +472,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab2 a 
 {
-	background:#000 url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_099.gif) no-repeat right top;
+	background:#000 url(http://test.vedrov.ru/samokleyka/images/menu/bright_099.gif) no-repeat right top;
 	text-decoration:none;
 	width:179px;
 	border:0;
@@ -484,7 +484,7 @@ full-title h1{font-size:36px;font-weight:normal}
 #tab2 a span 
 {
 	display:block;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bleft_099.gif) no-repeat left top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bleft_099.gif) no-repeat left top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#FFF;
@@ -494,7 +494,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab2_2c a 
 {
-	background: url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_099_2c.gif) no-repeat right top;
+	background: url(http://test.vedrov.ru/samokleyka/images/menu/bright_099_2c.gif) no-repeat right top;
 	text-decoration:none;
 	width:179px;
 	border:0;
@@ -506,7 +506,7 @@ full-title h1{font-size:36px;font-weight:normal}
 #tab2_2c a span 
 {
 	display:block;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bleft_099_2c.gif) no-repeat left top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bleft_099_2c.gif) no-repeat left top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#FFF;
@@ -516,7 +516,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab2_f a 
 {
-	background: url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_099_f.jpg) no-repeat right top;
+	background: url(http://test.vedrov.ru/samokleyka/images/menu/bright_099_f.jpg) no-repeat right top;
 	text-decoration:none;
 	width:179px;
 	border:0;
@@ -528,7 +528,7 @@ full-title h1{font-size:36px;font-weight:normal}
 #tab2_f a span 
 {
 	display:block;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bleft_099_f.gif) no-repeat left top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bleft_099_f.gif) no-repeat left top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#FFF;
@@ -538,7 +538,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab2_n a 
 {
-	background: url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_099_n.jpg) no-repeat right top;
+	background: url(http://test.vedrov.ru/samokleyka/images/menu/bright_099_n.jpg) no-repeat right top;
 	text-decoration:none;
 	width:179px;
 	border:0;
@@ -550,7 +550,7 @@ full-title h1{font-size:36px;font-weight:normal}
 #tab2_n a span 
 {
 	display:block;
-	background:url(http://www.test.vedrov.ru/samokleyka/images/menu/bleft_099_n.gif) no-repeat left top;
+	background:url(http://test.vedrov.ru/samokleyka/images/menu/bleft_099_n.gif) no-repeat left top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#FFF;
@@ -560,7 +560,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab2_a a 
 {
-	background: url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_099_a.jpg) no-repeat right top;
+	background: url(http://test.vedrov.ru/samokleyka/images/menu/bright_099_a.jpg) no-repeat right top;
 	text-decoration:none;
 	width:179px;
 	border:0;
@@ -571,7 +571,7 @@ full-title h1{font-size:36px;font-weight:normal}
 }
 #tab2_u a 
 {
-	background: url(http://www.test.vedrov.ru/samokleyka/images/menu/bright_099_u.jpg) no-repeat right top;
+	background: url(http://test.vedrov.ru/samokleyka/images/menu/bright_099_u.jpg) no-repeat right top;
 	text-decoration:none;
 	width:179px;
 	border:0;

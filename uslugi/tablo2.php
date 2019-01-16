@@ -3,7 +3,7 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -43,12 +43,12 @@ session_start();
 <div id="main-content-bloc-infinite-bottom">
 <div class="product-medium222">
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+<p>- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
 - Курсов валют<br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
 </p>
 <h2 align=center> ТАБЛО КУРСОВ ВАЛЮТ</h2> <br>
 <p align="justify">
@@ -103,7 +103,7 @@ session_start();
       <td align="center">57</td>
       <td align="center">-</td>
       <td align="center">550х340х40</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a>&nbsp;</td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a>&nbsp;</td>
     </tr>
     <tr>
       <td align="center">TVH-1c-57</td>
@@ -111,7 +111,7 @@ session_start();
       <td align="center">57</td>
       <td align="center">57</td>
       <td align="center">550х340х40</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVH-2-57</td>
@@ -119,7 +119,7 @@ session_start();
       <td align="center">57</td>
       <td align="center">-</td>
       <td align="center">400х340х40</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVH-2c-57</td>
@@ -127,7 +127,7 @@ session_start();
       <td align="center">57</td>
       <td align="center">57</td>
       <td align="center">400х340х40</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a>&nbsp;</td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a>&nbsp;</td>
     </tr>
 </table><br />
 </p>
@@ -160,7 +160,7 @@ session_start();
       <td align="center">100</td>
       <td align="center">2</td>
       <td align="center">800х500х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-100s</td>
@@ -168,7 +168,7 @@ session_start();
       <td align="center">100</td>
       <td align="center">3,5</td>
       <td align="center">800х500х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-150</td>
@@ -176,7 +176,7 @@ session_start();
       <td align="center">150</td>
       <td align="center">2</td>
       <td align="center">1200х650х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-150s</td>
@@ -184,7 +184,7 @@ session_start();
       <td align="center">150</td>
       <td align="center">3,5 </td>
       <td align="center">1200х650х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-210</td>
@@ -192,7 +192,7 @@ session_start();
       <td align="center">210</td>
       <td align="center">2</td>
       <td align="center">1700х900х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-210s</td>
@@ -200,7 +200,7 @@ session_start();
       <td align="center">210</td>
       <td align="center">3,5 </td>
       <td align="center">1700х900х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-300</td>
@@ -208,7 +208,7 @@ session_start();
       <td align="center">300</td>
       <td align="center">2</td>
       <td align="center">2300х1100х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-1-300s</td>
@@ -216,7 +216,7 @@ session_start();
       <td align="center">300</td>
       <td align="center">3,5 </td>
       <td align="center">2300х1100х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
 </table>
 </p>
@@ -229,7 +229,7 @@ session_start();
     Изготовление двухстороннего табло: <br />
     - k = цена*1.8; <br />
     <br />
-    Изменение  габаритов табло, добавление индикаторов, нанесение логотипов – <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">по заказу</a>. </p>
+    Изменение  габаритов табло, добавление индикаторов, нанесение логотипов – <a href="http://test.vedrov.ru/samokleyka/contacts.php">по заказу</a>. </p>
   <h4 align="center">Табло курсов валют для использования на улице с чередующимся знаком.</h4>
   <p align="center"><img src="http://mirtablo.ru/img/pages/val4.png" width="720" height="139" /></p>
   <p><br>
@@ -259,7 +259,7 @@ session_start();
       <td align="center">100</td>
       <td align="center">2</td>
       <td align="center">600х450х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-2-100s</td>
@@ -267,7 +267,7 @@ session_start();
       <td align="center">100</td>
       <td align="center">3,5</td>
       <td align="center">600х450х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-2-150</td>
@@ -275,7 +275,7 @@ session_start();
       <td align="center">150</td>
       <td align="center">2</td>
       <td align="center">800х550х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запрос</a>&nbsp;</td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запрос</a>&nbsp;</td>
     </tr>
     <tr>
       <td align="center">TVS-2-150s</td>
@@ -283,7 +283,7 @@ session_start();
       <td align="center">150</td>
       <td align="center">3,5 </td>
       <td align="center">800х550х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a>        </td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a>        </td>
     </tr>
     <tr>
       <td align="center">TVS-2-210</td>
@@ -291,7 +291,7 @@ session_start();
       <td align="center">210</td>
       <td align="center">2</td>
       <td align="center">1200х700х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-2-210s</td>
@@ -299,7 +299,7 @@ session_start();
       <td align="center">210</td>
       <td align="center">3,5 </td>
       <td align="center">1200х700х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a>        </td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a>        </td>
     </tr>
     <tr>
       <td align="center">TVS-2-300</td>
@@ -307,7 +307,7 @@ session_start();
       <td align="center">300</td>
       <td align="center">2</td>
       <td align="center">1600х1000х90</td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
     <tr>
       <td align="center">TVS-2-300s</td>
@@ -315,7 +315,7 @@ session_start();
       <td align="center">300</td>
       <td align="center">3,5 </td>
       <td align="center">1600х1000х90 </td>
-      <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+      <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
     </tr>
 </table>
 </p>
@@ -361,7 +361,7 @@ session_start();
     <td align="center">100</td>
     <td align="center">2</td>
     <td align="center">1050х600х90</td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
   </tr>
   <tr>
     <td align="center">TVS-3-100s</td>
@@ -369,7 +369,7 @@ session_start();
     <td align="center">100</td>
     <td align="center">3,5</td>
     <td align="center">1050х600х90 </td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
   </tr>
   <tr>
     <td align="center">TVS-3-150</td>
@@ -377,7 +377,7 @@ session_start();
     <td align="center">150</td>
     <td align="center">2</td>
     <td align="center">1200х850х90</td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
   </tr>
   <tr>
     <td align="center">TVS-3-150s</td>
@@ -385,7 +385,7 @@ session_start();
     <td align="center">150</td>
     <td align="center">3,5 </td>
     <td align="center">1200х850х90 </td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
   </tr>
   <tr>
     <td align="center">TVS-3-210</td>
@@ -393,7 +393,7 @@ session_start();
     <td align="center">210</td>
     <td align="center">2</td>
     <td align="center">1700х1000х90</td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a>      </td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a>      </td>
   </tr>
   <tr>
     <td align="center">TVS-3-210s</td>
@@ -401,7 +401,7 @@ session_start();
     <td align="center">210</td>
     <td align="center">3,5 </td>
     <td align="center">1700х1000х90 </td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a></td>
   </tr>
   <tr>
     <td align="center">TVS-3-300</td>
@@ -409,7 +409,7 @@ session_start();
     <td align="center">300</td>
     <td align="center">2</td>
     <td align="center">1700х1000х90</td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу</a>      </td>
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу</a>      </td>
   </tr>
   <tr>
     <td align="center">TVS-3-300s</td>
@@ -417,7 +417,7 @@ session_start();
     <td align="center">300</td>
     <td align="center">3,5 </td>
     <td align="center">1700х1000х90 </td>
-    <td align="center"><a href="http://www.test.vedrov.ru/samokleyka/contacts.php">По запросу 
+    <td align="center"><a href="http://test.vedrov.ru/samokleyka/contacts.php">По запросу 
       
     </a></td>
   </tr>
@@ -432,15 +432,15 @@ session_start();
   Изготовление двухстороннего табло: <br />
   - k = цена*1.8; <br /></p>
 
-  <p align="center">Изменение  габаритов табло, добавление индикаторов, нанесение логотипов – <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">по заказу</a>. </p>
-  <p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
+  <p align="center">Изменение  габаритов табло, добавление индикаторов, нанесение логотипов – <a href="http://test.vedrov.ru/samokleyka/contacts.php">по заказу</a>. </p>
+  <p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+<p>- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
 - Курсов валют<br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
-- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo4.php">Для спорта</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+- <a href="http://test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
 </p>
 </div>
 <div class="clearfix"></div>

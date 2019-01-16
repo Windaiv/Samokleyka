@@ -50,7 +50,7 @@ session_start();
 <td width="35%" align="left">
 </td>
 <td width="30%" align="center">
-<b>1</b> | <a href="http://www.test.vedrov.ru/samokleyka/albom5_1.php">2</a>
+<b>1</b> | <a href="http://test.vedrov.ru/samokleyka/albom5_1.php">2</a>
 </td>
 <td  width="35%" align="right">
 </td>
@@ -78,11 +78,11 @@ session_start();
 <td width="35%" align="left">
 </td>
 <td width="30%" align="center">
-<b>1</b> | <a href="http://www.test.vedrov.ru/samokleyka/albom5_1.php">2</a>
+<b>1</b> | <a href="http://test.vedrov.ru/samokleyka/albom5_1.php">2</a>
 </td>
 <td  width="35%" align="right">
-<a href="http://www.test.vedrov.ru/samokleyka/albom5_1.php">
-<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
+<a href="http://test.vedrov.ru/samokleyka/albom5_1.php">
+<img src="http://test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
 alt="Дальше" width="103" height="43" border="0" /></a>
 </td>
 </tr>
