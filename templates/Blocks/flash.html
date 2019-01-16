@@ -1,0 +1,49 @@
+﻿<div id="flash" style="background-image:url(images/<?echo ''.$idnomer.'';?>.png);">			
+		
+			<script language="javascript">AC_FL_RunContent = 0;</script>
+			<script src="../templates/Modification/js/AC_RunActiveContent.js" language="javascript"></script>		
+			<script src="../templates/Modification/js/productviewer_380_config.js" language="javascript"></script>		
+			
+			<script language="javascript">			
+			var hasReqestedVersion = DetectFlashVer(9, 0, 0);
+			if (hasReqestedVersion) {
+				if (AC_FL_RunContent == 0) {
+					alert("This page requires AC_RunActiveContent.js.");
+				} else {
+					AC_FL_RunContent(
+						'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+						'width', '380',
+						'height', '385',
+						'src', '../templates/Modification/swf/productviewer_380.swf',
+						'quality', 'high',
+						'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+						'align', 'middle',
+						'play', 'true',
+						'loop', 'true',
+						'scale', 'showall',
+						'wmode', 'transparent',
+						'devicefont', 'false',
+						'id', 'productviewer_380',
+						'FlashVars', 'ImgFile=images/<?=$idnomer?>.png',
+						'bgcolor', '#ffffff',
+						'name', 'productviewer_380',
+						'menu', 'false',
+						'allowFullScreen', 'false',
+						'allowScriptAccess','sameDomain',
+						'movie', '../templates/Modification/swf/productviewer_380',
+						'salign', ''
+					);//end AC code
+					//console.log(AC_FL_RunContent);
+				}
+			}
+			else {
+				//var alternateContent = '<p>Если вы хотите изменить цвет картинки и ее направление, необходимо скачать <a href="http://www.adobe.com/go/getflash/">Flash Player</a></p>';
+				var alternateContent = '<p class="important">Если вы хотите изменить цвет картинки и ее направление, необходимо скачать <a href="http://www.izone.ru/internet/plugins/adobe-flash-player-download.htm">Flash Player</a></p>';
+				document.write(alternateContent);
+			}
+			
+			if (history.navigationMode)
+				history.navigationMode="fast";
+
+			</script>
+</div>

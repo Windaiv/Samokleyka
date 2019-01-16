@@ -1,0 +1,701 @@
+AWSTATS DATA FILE 5.9 (build 1.605)
+# If you remove this file, all statistics for date 2010-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section
+# for direct I/O access. If you made changes somewhere in this file, you
+# should also remove completely the MAP section (AWStats will rewrite it
+# at next update).
+BEGIN_MAP 27
+POS_GENERAL 1837                
+POS_TIME 2421                
+POS_VISITOR 13212               
+POS_DAY 20957               
+POS_DOMAIN 2987                
+POS_LOGIN 3222                
+POS_ROBOT 3356                
+POS_WORMS 21628               
+POS_EMAILSENDER 3776                
+POS_EMAILRECEIVER 3919                
+POS_SESSION 21688               
+POS_SIDER 21898               
+POS_FILETYPES 4054                
+POS_OS 4289                
+POS_BROWSER 4426                
+POS_SCREENSIZE 4560                
+POS_UNKNOWNREFERER 4634                
+POS_UNKNOWNREFERERBROWSER 5491                
+POS_ORIGIN 5729                
+POS_SEREFERRALS 5875                
+POS_PAGEREFS 6064                
+POS_SEARCHWORDS 8045                
+POS_KEYWORDS 8255                
+POS_MISC 2170                
+POS_ERRORS 8372                
+POS_CLUSTER 3078                
+POS_SIDER_404 8525                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of old records - Nb of new records - Nb of corrupted - Nb of dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100501000117 1 0 35625864985
+FirstTime 20100409145548
+LastTime 20100430235942
+LastUpdate 20100502000720 1 0 0 0 0
+TotalVisits 243                 
+TotalUnique 181                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 184                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 9
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 13 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth
+BEGIN_TIME 24
+0 45 335 8656577
+1 36 325 8287085
+2 30 229 6070031
+3 17 128 3391498
+4 1 1 12487
+5 2 25 550094
+6 12 154 4250314
+7 8 82 999927
+8 35 459 10604858
+9 43 506 7072366
+10 35 438 10058328
+11 65 600 15275694
+12 21 249 5122885
+13 42 489 13258749
+14 308 3372 73148929
+15 235 1682 36037837
+16 171 1504 15466006
+17 103 1103 20127560
+18 147 1813 32996218
+19 210 1604 30032649
+20 132 1089 21690727
+21 74 620 12928679
+22 77 676 11447356
+23 76 549 10687984
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1925 18032 358174838
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+yandex 20127 120968500 20100430194641
+googlebot 155 2002690 20100430214448
+slurp 25 188519 20100429232328
+msnbot 10 103550 20100430001541
+aport 6 47813 20100427162220
+rambler 6 28728 20100421001244
+robot 6 147335 20100429003559
+surveybot 1 5641 20100430184306
+crawl 1 19818 20100430011236
+END_ROBOT
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+php 1389 5893142 0 0
+css 575 9451643 0 0
+png 1193 17500235 0 0
+html 97 68804 0 0
+js 840 17825603 0 0
+jpg 9396 296507538 0 0
+shtml 334 1940346 0 0
+gif 4103 4522486 0 0
+swf 105 4465041 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 12117
+winlong 711
+winnt 4460
+win2000 2
+linux 127
+macosx 285
+win2003 22
+wince 24
+Unknown 284
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+msie8.0 1400
+msie6.0 353
+mozilla 6407
+Unknown 14
+msie7.0 1369
+opera 7661
+safari 828
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.14912/812;_U;_ru)_Presto/2.4.15 20100426190815
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20100416152221
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/498;_U;_ru)_Presto/2.4.18_Version/10.00 20100422173900
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20100415223709
+- 20100416152520
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.18887/812;_U;_ru)_Presto/2.4.15 20100426220425
+Mozilla/5.0_(SymbianOS/9.2;_U;_Series60/3.1_NokiaN81-1/10.0.053_Profile/MIDP-2.0_Configuration/CLDC-1.1_)_AppleWebKit/413_(KHTML,_like_Gecko)_Safari/413 20100429103627
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.14912/802;_U;_ru)_Presto/2.4.15 20100426185806
+Java/1.6.0_16 20100430015027
+Apache-HttpClient/4.0-beta2_(java_1.5) 20100430015026
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+- 20100416152520
+Java/1.6.0_16 20100430015027
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20100416152221
+Apache-HttpClient/4.0-beta2_(java_1.5) 20100430015026
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 240 379
+From1 0 0
+From2 8 18
+From3 150 182
+From4 1527 17453
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+ya(ndex)?.ru 4 14
+rambler.ru 2 2
+google. 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 37
+http://darudar.org/gift/495098/ 53 53
+http://darudar.org/gift/inbox/495098/ 19 19
+http://darudar.org/search/ 11 11
+http://darudar.org/all/ 10 10
+http://vkontakte.ru/away.php 9 9
+http://windaiv.livejournal.com/13568.html 5 5
+http://top.mail.ru/hitdynamics 5 5
+http://darudar.org/filter/140258d5a6d397f6691006724b7bcb3f/ 3 3
+http://darudar.org/filter/all/7dcaf9fe19d7700780ebe715026d63ce/ 2 2
+http://go.mail.ru/search 2 2
+http://my.mail.ru 1 1
+http://darudar.org/filter/cce34b4bfa24bce3672edb01d6e1f0c0/ 1 1
+http://win.mail.ru/cgi-bin/readmsg 1 33
+http://darudar.org/filter/all/7b9e39747eaed68b42486e23e5716a18/ 1 1
+http://darudar.org/filter/38e7a78556bb40f53b1023b14a5ec562/ 1 1
+http://net.pnz.ru/forum/viewtopic.php 1 1
+http://darudar.org/filter/d5d1fc50833ae0c84e32fae2673c77d7/ 1 1
+http://darudar.org/filter/9e4025203bfb668da2ba45d284d98ac6/ 1 1
+http://darudar.org/filter/830ac139d5960491cdd19af8b3e0667f/ 1 1
+http://windaiv.fotostrana.ru 1 1
+http://www.diamant.spb.ru 1 1
+http://community.livejournal.com/penza_ru/friends 1 1
+http://darudar.org/filter/5e7c5374215dd2c4f08b0c3b5f5b59cf/ 1 1
+http://darudar.org/gift/wishers/495098/ 2 2
+http://top.mail.ru/Rating/House-Skillful/Today/Hosts/21.html 1 1
+http://hotlog.ru/adm/rating/moderate 1 1
+http://darudar.org/filter/all/29e1ff24b7cd28c72abe6ae53363fc8f/ 2 2
+http://darudar.org/filter/1c32bfb2cc21555c0b67e7985495fa86/ 1 1
+http://darudar.org/filter/89dc4780e82b3da99e0b49bc344597d7/ 1 1
+http://my.mail.ru/mail/ajiekc90/ 1 1
+http://www.imena.ua/site/check-domain 1 1
+http://darudar.org/filter/all/5ea1e04c5f65605a698f5f6aeabc2b3c/ 1 1
+http://darudar.org/users/satii/wishes/all/ 1 1
+http://darudar.org/filter/426e65ef16fd693c527434efa7939529/ 1 1
+http://darudar.org/users/Dolena/wishes/all/ 2 2
+http://darudar.org/filter/28cffe5324f5f7cf9efe0c09a4bb092a/ 1 1
+http://darudar.org 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+www.samokleyka.net 3
+samokleyka.net 1
+samokleyka.net%5d 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+www.samokleyka.net 3
+samokleyka.net 1
+samokleyka.net%5d 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 7 1851
+401 16 5856
+302 188 3828
+206 92 2269449
+404 832 228529
+301 12 3208
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 97
+/system/cms/ 1 -
+/images/webmoney.gif 2 http://www.samokleyka.net/oplata.php
+/htdocs/stat 1 -
+/admin.php 1 -
+/albom3/a3_9.php 1 http://www.samokleyka.net/albom3.php
+/albom2/favicon.gif 15 -
+/albom5/a5_11.php 3 http://www.samokleyka.net/albom5.php
+/albom5/a5_6.php 1 -
+/yandex_72d92d03bcd83a89.txt 1 -
+/templates/Modification/js/jquery-2.3.2.min.js 4 http://www.samokleyka.net/albom2/a2_2.php
+/albom1/images/a6_1.png 2 http://www.samokleyka.net/templates/Modification/swf/productviewer_380.swf
+/wp-admin/ 1 -
+/images/plat_doc.gif 2 http://www.samokleyka.net/oplata.php
+/templates/Modification/swf/productviewer_380 2 -
+/templates/Modification/images/buttons/french/add.png 1 http://www.samokleyka.net/korzina.php
+/images/yandexmoney.gif 1 http://www.samokleyka.net/oplata.php
+/albom3/a3_2.php 2 http://www.samokleyka.net/albom3.php
+/albom1/a1_2.php 1 http://www.samokleyka.net/albom1.php
+//templates/Modification/css/images/bmid_091.gif 11 http://www.samokleyka.net/albom3/a3_7.php
+/typo3/index.php 1 -
+/yandex_dded6f434e3a7a68.txt 1 -
+/albom4.php 1 http://www.samokleyka.net/index.php
+/cgi-bin/mt/mt-check.cgi 1 -
+/login_form 1 -
+/small/bg2.jpg 4 http://www.samokleyka.net/text.php
+/yandex_591869d432cdfb1d.txt 1 -
+/albom5/a5_4.php 1 -
+/templates/Modification/js/jquery-3.3.2.min.js 4 http://www.samokleyka.net/albom2/a2_3.php
+/yandex_24887a6f1b26554b.txt 1 -
+/albom5/a5_8.php 1 -
+/small/bg0.jpg 3 http://www.samokleyka.net/text.php
+/albom1/images/a1_12 2 http://www.samokleyka.net/templates/Modification/swf/productviewer_380.swf
+/albom1/images/.png 2 http://www.samokleyka.net/templates/Modification/swf/productviewer_380.swf
+/bg1.jpg 1 http://www.samokleyka.net/text.php
+/templates/Modification/js/productviewer_480_config.js 4 http://www.samokleyka.net/albom3/a3_4.php
+/imagesm/a5_10.png 1 http://www.samokleyka.net/korzina.php
+/albom5/a5_9.php 1 -
+/koen.php 2 -
+/stst 1 -
+/albom5/a5_12.jpg 13 http://www.samokleyka.net/albom5.php
+/small/bg4.jpg 4 http://www.samokleyka.net/text.php
+/yandex_6497aefb53374c31.txt 1 -
+/albom5/a5_12.php 1 -
+/wp-login.php 1 -
+/manager 1 -
+/yandex_92bb7791b0e124e0.txt 1 -
+/albom5/a5_10.php 1 -
+/engine/print.php 1 -
+/admin/ 2 -
+/cms/kernel/admin.php 1 -
+/small/bg3.jpg 4 http://www.samokleyka.net/text.php
+/sitetree/ 1 -
+/albom3/favicon.gif 31 -
+/albom4/images/a4_121.png 2 http://www.samokleyka.net/templates/Modification/swf/productviewer_380.swf
+/albom1/a1_3.jpg 7 http://www.samokleyka.net/albom1.php
+/placeholder.gif 112 http://www.samokleyka.net/index.php
+/albom2/a2_12.jpg 2 http://www.samokleyka.net/albom2.php
+/get_orders_list.php 1 -
+/albom4/a4_1.jpg 1 http://www.samokleyka.net/albom4.php
+/imagesm/.png 3 http://www.samokleyka.net/korzina.php
+/netcat/ 1 -
+/login.php 1 -
+/albom5/a5_11.jpg 12 http://www.samokleyka.net/albom5.php
+/yandex_50fa0f1d7c62adf5.txt 1 -
+/info.php 1 http://samokleyka.net/
+/stat 1 -
+/albom1/favicon.gif 8 http://www.samokleyka.net/albom1/a1_1.php
+/modx/manager 1 -
+/albom5/a5_7.php 1 -
+/albom5/a5_3.php 1 -
+/albom4/images/a4_121.jpg 1 http://www.samokleyka.net/albom4/a4_12.php
+/yandex_2dc79ab012478002.txt 1 -
+/albom5/a5_2.php 1 -
+/text/templates/Modification/js/jquery-1.3.2.min.js 6 http://www.samokleyka.net/text/text.php
+/text/index.html 1 -
+/e107_admin/admin.php 1 -
+/small/bg1.jpg 3 http://www.samokleyka.net/text.php
+/albom2/a2_10.jpg 1 http://www.samokleyka.net/albom2.php
+/templates/Modification/swf/productviewer_480.swf 4 http://www.samokleyka.net/albom3/a3_4.php
+/administrator/index.php 1 -
+/imagesm/a1_10.png 2 http://www.samokleyka.net/korzina.php
+/templates/Modification/swf/productviewer_680.swf 1 http://www.samokleyka.net/albom3/a3_6.php
+/member/login/ 1 -
+/text/favicon.gif 5 http://www.samokleyka.net/text/text.php
+/imagesm/a5_16.png 2 http://www.samokleyka.net/korzina.php
+/templates/Modification/css/images/bmid_091.gif 480 http://www.samokleyka.net/albom3.php
+/textpattern/ 1 -
+/albom5/a5_1.php 2 http://www.samokleyka.net/albom5.php
+/yandex_0ccafcde3edfb748.txt 1 -
+/bitrix/admin/ 1 -
+/yandex_67f0282079f15c37.txt 1 -
+/images/color/.jpg 3 http://www.samokleyka.net/korzina.php
+/albom2/a2_11.jpg 2 http://www.samokleyka.net/albom2.php
+/images/plat_pdf.gif 1 http://www.samokleyka.net/oplata.php
+/templates/Modification/js/productviewer_680_config.js 1 http://www.samokleyka.net/albom3/a3_6.php
+/albom1/images/a6_1.jpg 1 http://www.samokleyka.net/albom1/a1_1.php
+/albom5/a5_5.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start of last visit date] - [Last page of last visit]
+# [Start of last visit date] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 184
+77.108.209.201 300 2950 39780540 20100430210422
+93.124.13.102 74 427 4952098 20100416171301
+85.237.34.104 59 363 8223711 20100416195200
+93.124.74.99 55 834 4240314 20100420174843
+94.41.12.179 53 191 5784690 20100426194049
+91.77.65.96 36 167 4830457 20100429003422
+93.124.41.182 35 599 1823102 20100424231415
+95.83.102.46 31 86 1244212 20100409161728
+85.26.233.217 29 356 3886981 20100426152930
+93.124.8.86 27 260 2899795 20100430235942
+83.234.72.243 1 23 519102 20100426140246
+87.255.1.5 10 92 2562749 20100426141311
+77.108.237.159 0 2 21389 
+82.193.97.253 5 59 1528428 20100426140800
+85.235.223.57 1 23 520000 20100426154732
+85.26.234.55 3 3 14325 20100426160730
+93.124.14.155 20 86 1374534 20100409190813
+83.149.21.192 18 133 3641404 20100423180114
+94.181.142.99 3 70 2076313 20100427173612
+95.52.64.148 18 158 4370480 20100427235743
+83.149.41.27 14 109 2437355 20100424090917
+85.26.234.229 1 6 5641 20100430162442
+89.178.6.179 3 41 765520 20100426154355
+95.220.41.156 6 75 1724270 20100428212600
+78.36.214.163 1 1 5226 20100428083016
+80.95.36.67 4 82 2310111 20100426131837
+93.124.100.38 21 179 3066672 20100409172459
+93.124.10.26 17 79 1294197 20100411230635
+85.26.165.65 6 135 2741226 20100422174010
+188.40.74.9 6 10 77808 20100416152517
+95.83.120.42 1 29 635690 20100427181441
+94.181.138.149 1 23 538763 20100427174229
+188.123.242.182 1 25 575264 20100426140343
+77.108.194.72 2 24 425063 20100414093742
+77.243.99.97 12 146 4501385 20100428133655
+95.79.226.8 3 36 707263 20100426140848
+62.173.159.102 9 90 2278861 20100430011559
+92.36.34.245 12 82 2183656 20100426142013
+89.31.88.82 1 24 520453 20100426160158
+88.215.145.39 21 161 4618549 20100429021223
+85.15.84.9 9 98 2572251 20100426140747
+89.190.235.187 1 26 551764 20100423181812
+85.26.164.216 1 23 297658 20100423110447
+80.91.192.50 8 71 1336275 20100426155611
+213.248.36.100 1 1 13980 20100420150748
+93.81.100.77 7 104 3142449 20100427062155
+77.94.166.106 2 24 524608 20100426141317
+79.139.245.228 1 23 520000 20100426155119
+85.26.164.27 9 127 1119613 20100430115513
+212.57.146.130 5 64 1537795 20100426150433
+83.149.47.249 17 102 1703610 20100409165853
+93.124.66.109 3 48 367818 20100414130030
+82.199.105.143 1 24 566680 20100427164558
+94.181.146.13 2 45 1452030 20100423164755
+85.26.164.93 3 24 444687 20100428095252
+85.141.106.103 8 93 2725880 20100426181638
+80.239.242.203 10 101 3335069 20100426190815
+79.139.247.31 17 123 2695523 20100430130007
+195.248.184.47 7 68 1450153 20100420173047
+92.50.197.178 16 129 3603174 20100426113701
+109.72.73.149 3 46 1337273 20100429144444
+79.139.251.209 6 57 1283359 20100429135053
+94.181.190.59 1 23 520000 20100426142125
+85.234.37.68 10 73 972098 20100409182440
+95.107.32.182 9 92 2756470 20100426141113
+95.56.155.164 10 125 3530173 20100423181558
+89.107.25.226 11 136 3878557 20100426150626
+94.181.132.150 20 143 4347469 20100429103504
+85.26.233.250 3 54 72695 20100427120446
+94.27.71.93 10 89 2251926 20100429214510
+77.222.144.6 2 43 1117950 20100426144123
+91.187.24.15 2 41 1205448 20100426182029
+95.83.69.107 10 147 3262028 20100430120038
+83.234.217.70 4 63 1460741 20100424111256
+93.124.74.240 1 26 584521 20100428210147
+92.241.173.195 1 22 537867 20100430015028
+94.73.248.125 6 80 1580891 20100430203303
+77.108.200.173 13 127 3195817 20100427181523
+82.114.252.248 1 24 537492 20100426193941
+78.106.24.97 1 23 520000 20100426221335
+79.165.211.231 1 26 538716 20100427011558
+95.24.43.30 1 23 520000 20100426141101
+80.234.28.3 1 24 566823 20100427154618
+89.232.105.33 2 39 1007914 20100427103744
+90.155.179.46 3 40 1138419 20100429145026
+93.124.88.21 26 90 2370920 20100413225131
+94.181.177.160 11 140 4215950 20100429190811
+213.138.82.46 6 51 988943 20100426140353
+91.76.145.85 1 24 520453 20100426141358
+77.108.222.132 13 118 3266769 20100430010724
+94.50.187.160 4 33 620613 20100426201240
+94.179.139.143 2 26 464219 20100416000322
+85.26.234.75 10 91 1062780 20100428173158
+83.139.152.125 1 23 520000 20100426174024
+93.124.73.243 9 102 1801088 20100424142100
+213.248.36.123 1 23 428732 20100421020923
+178.95.97.151 1 23 547019 20100427000336
+77.105.184.233 8 122 3406530 20100429143215
+80.70.226.93 5 52 1217637 20100427093312
+92.241.173.178 1 2 20716 20100430015026
+188.186.228.222 1 23 520000 20100426144618
+94.253.77.121 9 121 3521524 20100426193052
+95.25.152.19 1 23 538763 20100429102317
+213.171.39.150 24 111 2582653 20100426151302
+217.66.24.6 10 143 2435017 20100427100339
+195.95.139.126 9 99 2849735 20100426142133
+93.124.9.58 3 35 733355 20100428233659
+83.242.222.151 18 135 4016630 20100426145357
+94.100.181.104 2 2 9804 20100423174348
+93.124.43.254 3 46 42724 20100429223836
+188.186.203.56 1 24 547917 20100426141018
+92.246.179.163 6 74 2263513 20100427133921
+198.186.192.44 3 3 37461 20100412064521
+94.181.146.156 2 40 973020 20100426212735
+91.77.52.215 19 29 179417 20100429165308
+77.108.201.141 12 79 1946920 20100424192830
+92.248.189.134 1 23 520000 20100426151811
+91.144.177.81 26 210 2970743 20100422171832
+85.26.233.75 3 40 948720 20100423230241
+188.143.136.243 11 149 3251303 20100428101656
+77.108.206.35 10 70 1568089 20100427181239
+95.83.121.207 18 131 2259451 20100428205919
+83.149.21.23 18 134 1487061 20100429145131
+82.114.230.100 3 51 1562610 20100430001629
+95.27.237.181 1 23 428828 20100422000555
+95.104.195.20 1 23 520000 20100426140242
+195.16.35.195 1 24 561892 20100426150317
+81.19.91.101 1 23 538765 20100429163322
+95.73.78.9 5 48 1028223 20100426144019
+195.78.69.26 4 48 1115666 20100427165051
+77.66.220.89 12 88 2252204 20100427223654
+93.185.192.75 12 115 3235508 20100426143905
+217.66.22.68 4 70 1914224 20100428085216
+85.234.36.68 4 60 1373106 20100429121731
+94.143.40.38 15 117 3319480 20100426113325
+93.124.13.200 9 94 1260485 20100426231321
+85.237.43.253 12 132 3919536 20100430135200
+82.209.239.58 7 36 773943 20100426141158
+85.26.164.70 2 21 5271 20100429171950
+93.124.122.35 2 25 3968 20100415091048
+213.33.171.243 4 63 1512879 20100430090057
+79.139.162.222 20 113 3270335 20100426210232
+87.103.156.181 1 25 538586 20100427092711
+92.255.200.117 1 23 528952 20100426141337
+94.181.156.101 8 60 1069282 20100409161114
+188.16.6.27 18 145 3999193 20100427113023
+206.183.1.74 2 3 75749 20100415223709
+85.26.164.65 1 1 5641 20100430134859
+94.28.27.138 8 75 1764669 20100426141639
+77.108.255.103 19 124 3110329 20100427213314
+95.165.171.136 7 74 1925715 20100426140506
+91.77.66.154 17 101 1867653 20100430155842
+94.181.143.112 5 55 1591729 20100414213534
+93.124.104.99 1 26 568047 20100427213414
+95.71.50.187 6 82 2379285 20100427015250
+77.232.15.244 14 112 3314418 20100426150829
+95.72.21.20 1 23 520000 20100426140454
+93.124.39.139 15 72 1750254 20100412154401
+94.181.135.231 5 72 1695148 20100427174049
+93.124.7.95 24 164 4619453 20100427235331
+95.141.225.130 7 108 3162755 20100426223558
+85.26.232.188 9 74 109807 20100426175510
+94.246.126.114 1 23 531265 20100422173855
+94.28.151.25 15 130 3469748 20100426142721
+213.87.86.117 4 119 2488720 20100429103534
+78.81.225.76 7 55 1306218 20100426152808
+82.114.250.147 8 108 3372038 20100430140923
+91.78.244.238 9 134 3945499 20100429180346
+217.26.6.64 15 135 3701002 20100429142503
+85.26.165.189 2 4 88285 20100426161626
+95.221.209.81 5 56 1256963 20100429180216
+78.36.218.71 11 105 3002086 20100430235652
+95.106.82.208 4 44 1397528 20100426141700
+93.124.6.56 0 2 19165 
+85.26.164.196 27 205 4923544 20100427171004
+95.53.180.83 1 25 555043 20100426140241
+92.125.162.17 1 24 564500 20100428063656
+94.246.126.173 1 24 537672 20100426220424
+94.181.155.226 3 43 1077617 20100427204837
+188.134.44.30 17 128 3391498 20100424031300
+92.243.171.11 8 123 3790941 20100426151858
+93.124.111.193 0 10 109724 
+77.108.193.42 2 42 1041940 20100427164751
+85.234.62.23 7 93 2360804 20100427181202
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20100409 147 861 13384635 11
+20100410 1 11 122211 1
+20100411 18 80 1306684 2
+20100412 28 144 3003694 3
+20100413 26 90 2370920 1
+20100414 12 152 2820754 4
+20100415 6 55 571029 3
+20100416 148 903 15798540 6
+20100417 0 2 19165 0
+20100419 1 1 183 1
+20100420 73 1012 8525675 6
+20100421 1 23 428732 1
+20100422 72 633 13134558 6
+20100423 54 560 13697473 10
+20100424 138 1783 20359517 13
+20100425 5 60 1215595 2
+20100426 492 4713 109802182 68
+20100427 287 3001 62922895 42
+20100428 54 595 13557759 14
+20100429 206 1841 44342004 27
+20100430 156 1512 30790633 22
+END_DAY
+
+# Worm ID - Hits - Last visit
+# The 10 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 16
+5mn-15mn 30
+30s-2mn 45
+15mn-30mn 8
+2mn-5mn 42
+0s-30s 96
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 81
+/ 334 1940346 183 67
+/index.php 160 835363 9 25
+/albom1.php 134 512038 6 14
+/albom5.php 118 503847 2 6
+/albom3.php 116 424635 0 13
+/albom6.php 107 443092 6 10
+/templates/Modification/swf/productviewer_380.swf 105 4465041 0 18
+/templates/Blocks/time.html 97 68804 0 11
+/albom2.php 75 270266 7 5
+/albom4.php 69 263546 0 5
+/albom2/a2_11.php 8 42007 1 2
+/albom2/a2_9.php 3 15484 0 0
+/albom6/a6_7.php 1 5270 0 0
+/albom3/a3_9.php 1 4145 0 0
+/albom3/a3_11.php 7 33457 0 1
+/contacts.php 41 121070 0 2
+/albom6/a6_9.php 14 71599 1 3
+/albom5/a5_11.php 1 5274 0 0
+/albom2/a2_5.php 3 15719 0 0
+/albom2/a2_10.php 3 15697 0 1
+/albom4/a4_2.php 1 5089 0 0
+/albom5/a5_16.php 15 78335 0 2
+/albom3/a3_2.php 5 24685 0 0
+/albom1/a1_9.php 3 15463 0 0
+/albom1/a1_2.php 8 37092 0 0
+/albom4/a4_1.php 3 15315 0 0
+/albom1/a1_8.php 5 25772 3 3
+/albom3/a3_7.php 6 25711 0 1
+/albom3/a3_12.php 5 25304 0 0
+/oplata.php 62 266410 1 5
+/albom3/a3_15.php 3 15807 0 1
+/albom2/a2_1.php 12 61080 0 0
+/albom1/a1_3.php 2 10178 0 0
+/albom3/a3_13.php 5 22341 0 0
+/albom5/a5_9.php 4 32540 0 1
+/albom5/a5_12.php 4 20475 0 0
+/albom6/a6_1.php 4 20341 0 0
+/albom1/a1_1.php 16 76280 0 0
+/albom3/a3_16.php 3 15205 0 1
+/albom6/a6_8.php 1 5267 0 0
+/albom5/a5_10.php 3 15197 0 0
+/albom6/a6_2.php 6 30202 0 1
+/albom1/a1_5.php 2 10168 0 0
+/koren.php 1 183 1 1
+/albom3/a3_1.php 7 30688 0 0
+/albom3/a3_20.php 1 4630 0 0
+/albom2/a2_12.php 1 5266 0 1
+/albom3/a3_8.php 1 5088 0 0
+/albom4/a4_12.php 2 10092 0 0
+/albom2/a2_6.php 2 10263 0 0
+/albom3/a3_3.php 4 20537 0 1
+/albom1/a1_11.php 3 15481 0 0
+/albom4/a4_3.php 4 20718 0 0
+/albom6/a6_11.php 1 5028 0 0
+/albom2/a2_4.php 2 10540 0 0
+/albom6/a6_4.php 8 41452 0 1
+/info.php 32 148051 5 10
+/albom1/a1_10.php 14 72306 1 1
+/albom5/a5_3.php 2 10367 0 0
+/albom2/a2_2.php 10 39877 0 0
+/albom6/a6_5.php 7 35762 0 1
+/albom5/a5_2.php 2 10356 0 1
+/albom6/a6_13.php 12 61109 1 2
+/albom2/a2_3.php 4 11495 0 0
+/albom3/a3_21.php 1 4148 0 0
+/news.php 1 3509 0 0
+/actions.php 26 80468 0 5
+/albom4/a4_5.php 1 5090 0 0
+/support.php 52 199507 11 7
+/albom3/a3_6.php 12 62127 5 1
+/dostavka.php 43 152067 0 3
+/albom1/a1_4.php 2 10182 0 1
+/albom6/a6_3.php 6 30780 0 1
+/forum.php 22 67282 0 2
+/albom3/a3_10.php 3 13387 0 0
+/albom6/a6_6.php 2 10113 0 1
+/albom5/a5_1.php 3 15212 0 0
+/albom3/a3_5.php 5 21017 0 0
+/korzina.php 34 123786 0 3
+/albom6/a6_10.php 4 20458 0 1
+/albom5/a5_5.php 13 67954 0 1
+END_SIDER

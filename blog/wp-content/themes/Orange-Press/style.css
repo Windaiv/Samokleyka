@@ -1,0 +1,1151 @@
+﻿/*
+Theme Name: Orange-Press
+Theme URI: http://wordpress.reviewitonline.net
+Description: Great Orange Premium Wordpress Theme
+Version: 1.0
+Author: Elad Domb
+Author URI: http://wordpress.reviewitonline.net
+*/
+
+/***************************************************/
+* {
+	font-family: Arial, "Trebuchet MS";
+	font-size: 1em;
+	color: #fff;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+	text-decoration: none;
+	white-space: normal;
+	vertical-align: baseline;
+}
+
+html, body {line-height: 1}
+hr {display: none}
+blockquote:before, blockquote:after, q:before, q:after {content: ''}
+blockquote, q {quotes: "" ""}
+ul {list-style-type: none}
+ol {list-style-type: decimal}
+.clear {clear: both}
+/***************************************************/
+body {
+	background: #000 url(images/bg.png) repeat-x;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+#container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+#header {
+	width: 980px;
+	height: 173px;
+}
+/***************************************************/
+#pagenav {
+	float: left;
+	width: 627px;
+	height: 45px;
+}
+
+#pagenav ul {
+	float: left;
+	padding-top: 18px;
+	padding-left: 20px;
+	height: 30px;
+}
+
+#pagenav ul li {
+	float: left;
+	height: 30px;
+	text-align: center;
+	margin-right: 1px;
+	font-size: 1.2em;
+}
+
+#pagenav ul li a {
+	background-position: center 0px;
+	float: left;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	height: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#pagenav ul li a:hover {
+	background: #333;
+}
+
+#pagenav ul li.current_page_item a {
+	background: #333;
+}
+/***************************************************/
+#searchform {
+	float: left;
+	width: 333px;
+	height: 45px;
+	margin-right: 20px;
+}
+
+#searchform form {
+	float: right;
+	display: inline;
+	background: url(images/ico-search.png) no-repeat;
+	background-position: left 12px;
+	width: 333px;
+	height: 45px;
+}
+
+#searchform fieldset {
+	float: right;
+	display: inline;
+	padding-top: 20px;
+	height: 35px;
+}
+
+#searchform label {
+	vertical-align: middle;
+	color: #fff;
+	font-weight: bold;
+}
+
+#searchform input {
+	display: inline;
+	vertical-align: middle;
+}
+
+#searchinput {
+	width: 160px;
+	padding: 2px 4px 2px 4px;
+	border: 1px solid #666;
+	color: #fff;
+	background: #333;
+}
+
+#searchinput:hover {
+	border: 1px solid #999;
+}
+
+#searchbutton {
+	line-height: 1.4em;
+	font-weight: bold;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+#searchbutton:hover {
+	background: #ff9600;
+	color: #fff;
+}
+/***************************************************/
+/* Search form CSS */
+form#srcform {
+	background: #EEE;
+	padding: 10px;
+}
+
+form#srcform fieldset {
+}
+
+form#srcform input {
+	vertical-align: middle;
+}
+
+form#srcform #srcinput {
+	padding: 4px;
+	width: 225px;
+	background: #FFF;
+	color: #333;
+	font-weight: normal;
+	border: 1px solid #ddd;
+}
+
+form#srcform #srcbutton {
+	padding: 2px;
+	width: 50px;
+	background: #aaa;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+/***************************************************/
+#logo {
+	float: left;
+	display: inline;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-right: 1px solid #f9a83f;
+	background: url(images/logo.png) no-repeat;	
+	background-position: left 5px;
+}
+
+#logo h1 {
+	padding-top: 9px;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+
+#logo h1 a {
+	font-weight: bold;
+	letter-spacing: -1px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+#logo h1 a:hover {
+	color: #333;
+}
+
+#logo .description {
+	color: #fff;
+	line-height: 1.4em;
+}
+
+#about {
+	float: left;
+	display: inline;
+	margin-top: 50px;
+	width: 500px;
+}
+
+#about p {
+	color: #fff;
+	line-height: 1.4em;
+}
+/***************************************************/
+#column {
+	float: left;
+	width: 540px;
+	margin-right: 20px;
+}
+
+.post {
+	margin-top: 20px;
+	background: #333;
+}
+
+.post a {
+	color: #ffb80d;
+}
+
+.post a:hover {
+	color: #f5e0af;
+}
+
+.entry {
+	background: #333;
+	display: block;
+}
+
+.entry h2 {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	font-size: 1.8em;
+	line-height: 1.4em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-family: georgia;
+	color: #fff;
+}
+
+.entry .date {
+	display: block;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #999;
+	padding-bottom: 5px;
+	font-size: 0.9em;
+}
+
+/********* CSS For Post Info Below Header ***************/
+.info {
+	background: #666;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 0.9em;
+	color: #ddd;
+}
+
+.info .cat {
+	float: left;
+}
+
+.info .comments {
+	float: right;
+}
+
+.info .cat a {
+	line-height: 26px;
+	background: url(images/ico-cat.png) no-repeat;
+	background-position: left center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+}
+
+.info .comments a {
+	line-height: 26px;
+	background: url(images/ico-comments.png) no-repeat;
+	background-position: left center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+}
+/********* CSS For Article CONTENT ***************/
+.content {
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 1px;
+	display: block;
+	overflow: hidden;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+	line-height: 1.5em;
+	margin: 0px 0px 5px 0px;
+	padding: 0;
+}
+
+.content h1 {
+	font-size: 2em;
+	line-height: 1.4em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-family: georgia;
+	color: #fff;
+}
+
+.content h3 {
+	font-size: 1.4em;
+}
+
+.content p {
+	line-height: 1.5em;
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+}
+
+.content .more-link {
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+}
+
+/* CSS for UL/OL lists */
+.content ol {padding-left: 20px;}
+.content ul {margin: 5px 5px 20px 5px;}
+.content ol {margin: 5px 5px 20px 5px;}
+.content ul ul {margin: 5px 5px 5px 5px;}
+.content ol ol {margin: 5px 5px 5px 5px;}
+
+.content ol li {
+	line-height: 1.5em;
+	color: #eee;
+	margin-bottom: 5px;
+}
+
+.content ul li {
+	line-height: 1.5em;
+	color: #eee;
+	background: url(images/bullet.gif) no-repeat;
+	background-position: left 6px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+/* End CSS for UL/OL lists */
+
+/* Additional post tags */
+blockquote {
+	padding: 10px;
+	padding-left: 40px;
+	background: #000;
+	background-position: 8px 8px;
+	margin-bottom: 15px;
+}
+
+blockquote p {
+	font-family: georgia, arial;
+	line-height: 1.5em;
+	color: #fff;
+}
+
+blockquote * {
+	font-family: georgia, arial;
+	line-height: 1.5em;
+	color: #fff;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+code {
+	color: #fff;
+	font-family: verdana;
+	background: #333;
+}
+/* Thanks! */
+
+.tags {
+	border-top: 1px solid #444;
+	font-weight: bold;
+	line-height: 2em;
+	color: #777;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+.tags a {
+	font-weight: normal;
+	color: #ffb80d;
+	text-transform:lowercase;
+}
+
+.tags a:hover {
+	background: #ff9600;
+	color: #fff;
+}
+
+.follow {
+	border: 1px dotted #222;
+	padding: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background: #ff9000;
+}
+
+.follow a {
+	font-weight:bold;
+	background: url(images/rss.png) no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	color: #fff;
+}
+
+.state {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.state a {
+	line-height: 1.5em;
+}
+/***************************************************/
+.navigation {
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navigation a {
+	color: #fff;
+}
+
+.navigation a:hover {
+	color: #eee;
+}
+
+.navleft {
+	float: left;
+	width: 48%;
+}
+
+.navright {
+	float: right;
+	width: 48%;
+	text-align: right;
+}
+/***************************************************/
+.alignleft {
+	float: left;
+	overflow: hidden;
+	display: inline;
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+
+.alignright {
+	float: right;
+	overflow: hidden;
+	display: inline;
+	margin-left: 10px;
+	margin-bottom: 4px;
+}
+
+.aligncenter {
+	text-align: center;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+.alignnone {
+	text-align: center;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+p.wp-caption-text {
+	padding: 3px;
+	margin: 0;
+	color: #999;
+}
+/***************************************************/
+#sidebar {
+	float: left;
+	width: 420px;
+}
+/***************************************************/
+.box {
+	width: 420px;
+}
+
+.box h2 {
+	margin-top: 20px;
+	display: block;
+	background: url(images/header.gif) repeat-x;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-indent: 10px;
+	height: 22px;
+	line-height: 22px;
+}
+/***************************************************/
+.ads {
+	padding: 10px;
+	background: #ffeec0;
+}
+
+.ads ul {
+
+}
+
+.ads ul li {
+	float: left;
+	display: inline;
+	width: 125px;
+	height: 125px;
+	margin-left: 5px;
+	margin-right: 2px;
+}
+
+.ads ul li a {
+	float: left;
+	display: block;
+	width: 125px;
+	height: 125px;
+}
+
+.ads ul li a img {
+	float: left;
+	display: block;
+	width: 125px;
+	height: 125px;
+}
+/***************************************************/
+.subscribe {
+	padding: 10px;
+	background: #222;
+}
+
+.rssfeed {
+	line-height: 1.4em;
+	background: url(images/bullet.png) no-repeat;
+	background-position: left 5px;
+	padding-left: 12px;
+	margin-bottom: 5px;
+}
+
+.rssfeedlinks {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #333;
+}
+
+.rssfeedlinks a {
+	float: left;
+	font-weight: bold;
+	background: url(images/rss.png) no-repeat left;
+	padding-left: 22px;
+	line-height: 1.5em;
+	color: #fff;
+	margin-right: 40px;
+}
+
+.rssfeedlinks a:hover {
+	color: #fdcd27;
+	line-height: 1.5em;
+}
+
+.subscribe form {
+	display: inline;
+}
+
+.subscribe fieldset {
+	display: inline;
+}
+
+.subscribe input {
+	display: inline;
+	vertical-align: middle;
+}
+
+#rssinput {
+	width: 200px;
+	padding-left: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #333;
+	border: 1px dotted #000;
+}
+
+#rssinput:hover {
+	background: #fff;
+}
+
+#rssbutton {
+	background: #333;
+	color: #fff;
+	border: 1px solid #333;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#rssbutton:hover {
+	background: #666;
+}
+/***************************************************/
+.tabs {
+	margin-top: 20px;
+	width: 420px;
+	overflow: hidden;
+}
+
+.tabs li {
+	float: left;
+	display: inline;
+	margin-right: 5px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.tabs li a {
+	float: left;
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 22px;
+	height: 22px;
+	background: #ff9000;
+}
+
+.tabs li a:hover {
+	display: block;
+	background: #f6c763;
+}
+
+.tabs li a.selected {
+	display: block;
+	color: #fff;
+	background: #333;
+	border-left: 1px solid #333;
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+}
+
+.tabs li a.selected:hover {
+	display: block;
+	color: #fff;
+	background: #333;
+}
+/***************** CSS For TAB Content *******************/
+.tabcontent {
+	display: none;
+	border-top: 0;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	background: #333;
+}
+
+.tabcontent a, .tabcontent a strong {
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.tabcontent a:hover, .tabcontent a:hover strong {
+	color: #eee;
+}
+
+.tabcontent ul li {
+	display: block;
+	background: url(images/bullet.png) no-repeat;
+	background-position: left 6px;
+	border-bottom: 1px dotted #111;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+	padding-left: 17px;
+	color: #999;
+	line-height: 1.4em;
+}
+
+.tabcontent ul li a {
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.tabcontent ul li a:hover {
+	color: #eee;
+}
+
+.tabcontent ul li span {
+	display: block;
+	color: #999;
+	font-size: 0.9em;
+}
+/***************** CSS For TAB Content *******************/
+@media print {
+	.tabcontent {
+	display: block !important;
+	}
+}
+/***************************************************/
+.sidebar {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+}
+
+.sidebar a {
+	color: #fff;
+}
+
+.sidebar a:hover {
+	color: #ff9000;
+}
+
+.sidebar ul li h2 {
+	margin-top: 20px;
+	display: block;
+	width: 200px;
+	height: 22px;
+	background: url(images/header.gif) repeat-x;
+	color: #fff;
+	line-height: 22px;
+	font-weight: bold;
+	text-indent: 10px;
+}
+
+.sidebar ul li div {
+	padding: 10px;
+	line-height: 1.4em;
+}
+/***********************************************/
+.sidebar ul ul {
+	padding: 10px;
+}
+
+.sidebar ul ul ul {
+	padding: 0px;
+	border: 0;
+	background: #FFF;
+}
+
+.sidebar ul li ul li {
+	display: block;
+	background: url(images/bullet.png) no-repeat;
+	background-position: left 9px;
+	border-bottom: 1px dotted #222;
+	padding-left: 17px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.sidebar ul li ul li a {
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.sidebar ul li ul li a:hover {
+	color: #ff9000;
+}
+/***************************************************/
+#footer {
+	margin-top: 20px;
+	width: 100%;
+	background: #fff;
+	border-top: 5px solid #e4ecee;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#footercontent {
+	width: 980px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footercontent ul {
+	float: left;
+	margin-bottom: 10px;
+}
+
+#footercontent ul li {
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px dotted #ddd;
+	line-height: 1.5em;
+}
+
+#footercontent ul li a {
+	float: left;
+	display: block;
+	color: #333;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+
+#footercontent ul li a:hover {
+	color: #fff;
+	background: #ff9600;
+	line-height: 1.5em;
+}
+
+.copyright {
+	float: right;
+	color: #333;
+	line-height: 1.5em;
+}
+
+.copyright a {
+	font-weight: bold;
+	line-height: 1.5em;
+	color: #333;
+}
+
+.copyright a:hover {
+	color: #fff;
+	background: #ff9600;
+	line-height: 1.5em;
+}
+
+.rss {
+	float: left;
+}
+
+.rss a {
+	float: left;
+	display: block;
+	font-weight: bold;
+	background: url(images/rss.png) no-repeat left;
+	padding-left: 25px;
+	line-height: 1.5em;
+	color: #366799;
+	margin-right: 25px;
+}
+
+.rss a:hover {
+	color: #fff;
+	background: #ff9600 url(images/rss.png) no-repeat left;
+	line-height: 1.5em;
+}
+
+.property {
+	float: right;
+	color: #777;
+	line-height: 1.5em;
+}
+
+.property a {
+	font-weight: bold;
+	color: #366799;
+}
+
+.property a:hover {
+	color: #ff9600;
+	text-decoration: underline;
+}
+/***************************************************/
+/* CSS for Search Results Only Optional */
+.result {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #444;
+}
+
+.result h3 {
+	font-weight: normal;
+	font-size: 1.6em;
+	letter-spacing: -1px;
+	padding:0;margin:0;
+	line-height: 1em;
+}
+
+.result h3 a {
+	padding:0;margin:0;
+	line-height: 1em;
+}
+
+.result .rdate {
+	float: left;
+	line-height: 2em;
+	color: #aaa;
+}
+
+.result .rcomment {
+	float: right;
+	line-height: 1.5em;
+	color: #aaa;
+	font-weight: bold;
+}
+
+.result .rcomment a {
+	color: #fff;
+	background: #333;
+	font-weight: bold;
+}
+
+.result .rcomment a:hover {
+	background: #ff9000;
+	color: #fff;
+}
+
+.result .rsummary {
+}
+
+.result .rsummary p {
+	margin:0;
+	padding:0;
+}
+
+.result .rcat {
+	float: left;
+	line-height: 2em;
+	color: #aaa;
+}
+
+.result .rcat a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.result .rcat a:hover {
+	background: #ff9000;
+	color: #fff;
+}
+
+.result .rtags {
+	float: right;
+	line-height: 2em;
+	color: #aaa;
+}
+
+.result .rtags a {
+	color: #999;
+	text-transform: lowercase;
+}
+
+.result .rtags a:hover {
+	background: #ff9000;
+	color: #fff;
+}
+/***************************************************/
+/*           Commenting System CSS        */
+#combox {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h3#respond {
+	font-weight: normal;
+	font-size: 1.6em;
+	color: #f3fcb8;
+	letter-spacing: -1px;
+	line-height: 1em;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border-bottom: 1px dotted #222;
+}
+
+h3#comments {
+	font-weight: normal;
+	font-size: 1.6em;
+	color: #f3fcb8;
+	letter-spacing: -1px;
+	line-height: 1em;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border-bottom: 1px dotted #222;
+}
+
+ol.commentlist {
+	list-style-type: none;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+ol.commentlist li {
+	background: #222;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+ol.commentlist li.alt {
+	background: #222;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.avatar {
+	float: left;
+	display: inline;
+}
+
+.avatar img {
+	padding: 1px;
+	border: 1px solid #ddd;
+}
+
+.commentbody {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+	width: 410px;
+}
+
+.commentbody em {
+}
+/***************************************************/
+p.comment_author, p.comment_author a {
+	font-weight: bold;
+	color: #999;
+}
+
+p.comment_author a:hover {
+	font-weight: bold;
+	color: #fff;
+}
+
+p.comment_time {
+	line-height: 1.5em;
+	color: #999;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.comment_text {
+	line-height: 1.5em;
+	color: #fff;
+	margin-top: 15px;
+}
+/***************************************************/
+.reply form {
+}
+
+.reply p {
+	margin-top: 10px;
+}
+
+.reply fieldset {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply input {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply textarea {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply label {
+	vertical-align: middle;
+	display: inline;
+	font-weight: bold;
+	font-family: tahoma;
+	margin-left: 10px;
+}
+
+.replytext {
+	border: 1px solid #222;
+	background: #000;
+	width: 200px;
+	padding: 2px;
+	color: #fff;
+}
+
+.replytext:focus {
+	background: #222;
+}
+
+.replyarea {
+	border: 1px solid #222;
+	background: #000;
+	line-height: 1.5em;
+	padding: 2px;
+	width: 470px;
+	height: 120px;
+	color: #fff;
+}
+
+.replyarea:focus {
+	background: #222;
+}
+
+.replybutton {
+	background: #ff9600;
+	border: 1px solid #ff9000;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.replybutton:hover {
+	background: #ff2000;
+}
+/***************************************************/

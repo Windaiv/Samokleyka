@@ -1,0 +1,42 @@
+.g_votebg {
+  width:134px; 
+  height:62px;
+  background:url(img/vote.png);
+}
+
+.g_votesbg {
+  width:134px; 
+  height:26px;
+  background:url(img/vote.png) 0px -189px;
+  color:white;
+  padding-top:2px;
+  font-size:15px;
+  font-weight:bold;
+  text-align:center;
+  visibility:hidden;
+  position:absolute;
+}
+
+.g_vote, .g_vote2 {
+  float:left; 
+  width:48%; 
+  padding:0px; 
+  margin:0px; 
+  height:63px; 
+  cursor:pointer;
+  display:block;
+  }
+
+.g_vote2 {
+  float:right;
+}
+
+.votewidget_skin ul, .votewidget_skin li {
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+}
+
+.votewidget_skin li {
+  margin-bottom:7px;
+}

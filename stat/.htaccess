@@ -1,0 +1,7 @@
+DirectoryIndex awstats.samokleyka.net.html
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/www/z134086/htdocs/stat/.htpasswd
+<Limit GET POST>
+	require valid-user
+</Limit>

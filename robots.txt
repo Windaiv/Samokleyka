@@ -1,0 +1,45 @@
+User-agent: *
+Disallow: /zakaz.php
+Disallow: /otmena.php
+Disallow: /ok.php
+Disallow: /kor.php
+Disallow: /koren.php
+Disallow: /del.php
+Disallow: /templates/
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes
+Disallow: /blog/wp-content/plugins
+Disallow: /blog/wp-content/cache
+Disallow: /blog/wp-content/themes
+
+User-agent: googlebot
+Disallow: /zakaz.php
+Disallow: /otmena.php
+Disallow: /ok.php
+Disallow: /kor.php
+Disallow: /koren.php
+Disallow: /del.php
+Disallow: /templates/
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes
+Disallow: /blog/wp-content/plugins
+Disallow: /blog/wp-content/cache
+Disallow: /blog/wp-content/themes
+
+User-agent: Yandex
+Disallow: /zakaz.php
+Disallow: /otmena.php
+Disallow: /ok.php
+Disallow: /kor.php
+Disallow: /koren.php
+Disallow: /del.php
+Disallow: /templates/
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes
+Disallow: /blog/wp-content/plugins
+Disallow: /blog/wp-content/cache
+Disallow: /blog/wp-content/themes
+Host: www.samokleyka.net
+
+Sitemap: http://www.samokleyka.net/sitemap.xml.gz
+Sitemap: http://www.samokleyka.net/sitemap.xml

@@ -1,0 +1,44 @@
+<?
+$x=$height[$i];
+$y=$width[$i];
+$s=$x*$y;
+$s=$s*0.0001;
+if ($s>=0.0001 and $s<=0.1299)
+	{$end=$s*2300;}
+else{
+	if ($s>=0.10 and $s<=0.1299)
+	{$end=$s*2300;}
+	else
+		{
+		if ($s>=0.13 and $s<=0.1599)
+		{$end=$s*2000;}
+		else
+			{
+			if ($s>=0.16 and $s<=0.1899)
+			{$end=$s*1800;}
+			else
+				{
+				if ($s>=0.19 and $s<=0.2199)
+				{$end=$s*1600;}
+				else
+					{
+					if ($s>=0.22 and $s<=0.2499)
+					{$end=$s*1500;}
+					else
+						{
+						if ($s>=0.25 and $s<=0.2999)
+						{$end=$s*1400;}
+						else
+							{
+							if ($s>=0.3)
+							{$end=$s*1200;}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+$end = $end*2;
+$ends[$i]= round($end,0);
+?>

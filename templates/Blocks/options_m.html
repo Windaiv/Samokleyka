@@ -1,0 +1,91 @@
+﻿<label>Первый цвет:</label>
+<select name="color" class="change-color">
+<option value="19"  alt="0.0000">белый </option>
+<option value="20" selected alt="0.0000">серый </option>
+<option value="21"  alt="0.0000">черный </option>
+<option value="26"  alt="0.0000">желтый </option>
+<option value="28"  alt="0.0000">красный </option>
+<option value="29"  alt="0.0000">оранжевый </option>
+<option value="37"  alt="0.0000">голубой </option>
+<option value="41"  alt="0.0000">лесной зеленый </option>
+</select>
+							<div class="nuancier1"></div>
+							<script type="text/javascript">
+							
+															// SELECT DEFAULT COLOR IF SORT ORDER = 99
+								function thisIsLoaded(random){
+									initiateColorChange("20");
+								}
+															
+							$(document).ready(function () {
+								$(".nuancier1").css("background", "none");
+								jQuery.each(colorsObj, function(i, val) {
+								  if(val == "0xA8B1B8") colorBg = ' metal-silver';
+								  else if(val == "0xB38808") colorBg = ' metal-gold';
+								  else colorBg = '" style=\"background-color:' + val.replace("0x","#") +';"';
+								  $(".nuancier1").append('<a id="' + i + '" class="carre-nuancier' + colorBg + '" value="' + val + '" ' + colorBg + '>' + val + '</a>');
+								});
+								
+								$(".nuancier1 a").click(function() {
+									colorId = parseInt($(this).attr("id"));
+									if(colorsObj[colorId]){
+										$(".change-color").val(colorId);
+										SelectColorSquare(".nuancier1", colorId);
+										if (hasReqestedVersion){ thisMovie("productviewer_380_2c").changeColor(colorsObj[colorId]); }
+									}
+								});	
+							});
+							</script>
+<label>Материал майки:</label><select name="mat" class="mat"><option value="1"  alt="0.0000">хлопок </option><option value="2"  alt="0.0000">синтетика </option></select>
+
+<label>Второй цвет:</label>
+<select name="color_2c" class="change-color_2c">
+<option value="102"  alt="0.0000">золотисто-желтый </option>
+<option value="103"  alt="0.0000">пастельно-оранжевый </option>
+<option value="104"  alt="0.0000">светло-розовый </option>
+<option value="106"  alt="0.0000">бургунди </option>
+<option value="108"  alt="0.0000">фиолетовый </option>
+<option value="110"  alt="0.0000">синий </option>
+<option value="111"  alt="0.0000">темно-синий </option>
+<option value="114"  alt="0.0000">зеленый </option>
+<option value="118"  alt="0.0000">коричневый </option>
+<option value="119"  alt="0.0000">белый </option>
+<option value="121" selected alt="0.0000">черный </option>
+<option value="125"  alt="0.0000">ярко-желтый </option>
+<option value="126"  alt="0.0000">желтый </option>
+<option value="128"  alt="0.0000">красный </option>
+<option value="129"  alt="0.0000">оранжевый </option>
+<option value="132"  alt="0.0000">сиреневый </option>
+<option value="133"  alt="0.0000">королевский-синий </option>
+<option value="137"  alt="0.0000">голубой </option>
+<option value="147"  alt="0.0000">темно-серый </option>
+</select>
+							<div class="nuancier2"></div>
+							<script type="text/javascript">
+															// SELECT DEFAULT COLOR IF SORT ORDER = 99
+								function thisIsLoaded2(random){
+									initiateColorChange2("121");
+								}
+														
+							$(document).ready(function () {
+								$(".nuancier2").css("background", "none");
+								jQuery.each(colorsObj_2, function(i, val) {
+								  if(val == "0xA8B1B8") colorBg = ' metal-silver';
+								  else if(val == "0xB38808") colorBg = ' metal-gold';
+								  else colorBg = '" style=\"background-color:' + val.replace("0x","#") +';"';
+								  $(".nuancier2").append('<a id="' + i + '" class="carre-nuancier' + colorBg + '" value="' + val + '" ' + colorBg + '">' + val + '</a>');
+								});
+								
+								$(".nuancier2 a").click(function() {
+									colorId = parseInt($(this).attr("id"));
+									if(colorsObj_2[colorId]){
+										$(".change-color_2c").val(colorId);
+										SelectColorSquare(".nuancier2", colorId);
+										if (hasReqestedVersion){ thisMovie("productviewer_380_2c").changeColor2(colorsObj_2[colorId]); }
+									}
+								});
+							});
+							</script>
+<label>Материал наклейки:</label><select name="mat_2c" class="mat_2c"><option value="1"  alt="0.0000">флекс (резиновый) </option><option value="2"  alt="0.0000">флок (имитация бархата)</option></select>
+
+<label>Положение:</label><select name="pol" class="change-side"><option value="57"  alt="0.0000">нормальное </option><option value="58"  alt="0.0000">зеркальное </option></select>

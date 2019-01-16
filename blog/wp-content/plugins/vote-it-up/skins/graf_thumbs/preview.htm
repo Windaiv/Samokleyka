@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<style>
+.g_votebg {
+  width:134px; 
+  height:63px;
+  background:url(img/vote.png);
+}
+
+.g_vote, .g_vote2 {
+  float:left; 
+  width:48%; 
+  padding:0px; 
+  margin:0px; 
+  height:63px; 
+  cursor:pointer;
+  }
+
+.g_vote2 {
+  float:right;
+}
+
+</style>
+
+
+
+<div id="vote3" class="g_votebg"
+onmouseout="document.getElementById('vote3').style.backgroundPosition='0px 0px'"
+>
+  <span class="g_vote" 
+    onmouseover="document.getElementById('vote3').style.backgroundPosition='0px -63px'"
+  ></span>
+  <span class="g_vote2" 
+    onmouseover="document.getElementById('vote3').style.backgroundPosition='0px -126px'"
+  ></span>
+</div>

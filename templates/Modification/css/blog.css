@@ -1,0 +1,162 @@
+h1, .post-loop h2{
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 35px;
+}
+
+	h2 a{
+		color: #000;
+		text-decoration:none;
+	}
+		h2 a:hover{
+			text-decoration:underline;
+		}
+		
+h2.title{
+	border-bottom: 1px solid #ccc;
+	color: #999;
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 35px;
+	margin:0;
+	padding: 0 0 8px 17px;
+}
+
+#blog-sidebar{
+	padding: 10px 16px;
+}
+
+	#blog-sidebar h3{
+		font-size: 16px;
+	}
+	
+	#blog-sidebar ul{
+		margin-right:0;
+		margin-left:0;
+		padding:0;
+	}
+	
+	#blog-sidebar ul li{
+		border-top: 1px solid #ccc;
+		font-size: 14px;
+		line-height: 18px;
+		list-style-type: none;
+		margin:0;
+		padding: 8px 0;
+	}	
+	
+		#blog-sidebar ul li a{
+			text-decoration: none;
+		}
+
+div.nav{
+	padding: 17px;
+}
+
+
+.post-wrapper{
+	border-bottom: 1px solid #ccc;
+	padding: 17px 0;
+}
+	.post-wrapper p.image-homepage{
+		background: url("../images/logo_fondgris_200x200.jpg"/*tpa=http://www.french-dezign.ru/templates/Modification/images/logo_fondgris_200x200.jpg*/) #ccc;
+		display:block;
+		height: 200px;
+		margin: 0 0 0 17px;
+		padding: 0;
+		width: 200px;
+	}
+	.post-wrapper p.image-homepage img{
+		display:block;
+		height: 200px;
+		width: 200px;
+	}
+
+.p-head {
+	margin: 0 0 17px 0;
+}
+
+	.post-single .p-head, .post-single .p-con, .post-single .p-who{
+		margin-left:17px;
+	}
+
+.p-head h2{
+	margin:0;
+}
+
+p.p-infos , p.p-more{
+	margin:0;
+	padding: 0;
+}
+
+	p.p-infos a{
+		color: #333;
+		text-decoration:underline;
+	}
+	p.p-more a{
+		color: #E81313;
+		text-decoration:underline;
+	}
+
+/* GRID */
+
+.caption{display:block;}
+.caption p{margin:0;padding:8px 0 0 0;}
+
+/* P L A C E M E N T */
+.left {float: left; margin-left:-17px; margin-right: 20px;}
+.right {float: right; margin-left: 20px;}
+.right.inset {margin: 0 120px 0 20px;} /* img floated right within text */
+.left.inset {margin-left: 230px;} /* img floated left within text */
+
+/* S I Z E */
+.one {width: 90px;}
+.two {width: 180px;}
+.three {width: 270px;}
+.four {width: 360px;}
+.five {width: 450px;}
+.six {width: 540px;}
+.seven{width: 630px;}
+.eight {width: 720px; margin-left:-17px; }
+
+
+.eight p{padding-left:17px;}
+
+/* V E R T I C A L   P A D D I N G S */
+.top-pad-1 {padding-top: 10px;}
+.top-pad-2 {padding-top: 20px;}
+.top-pad-3 {padding-top: 30px;}
+.top-pad-4 {padding-top: 40px;}
+.top-pad-5 {padding-top: 50px;}
+.top-pad-6 {padding-top: 60px;}
+.top-pad-7 {padding-top: 70px;}
+.top-pad-8 {padding-top: 80px;}
+.top-pad-9 {padding-top: 90px;}
+.top-pad-10 {padding-top: 100px;}
+
+.left-pad-1{padding-left: 17px;}
+.right-pad-1{padding-right: 17px;}
+
+/* comments */
+
+.com-list{
+	border-top: 1px solid #ccc;
+}
+
+.com-list h3{
+	font-size: 14px;
+	padding: 17px;
+}
+.com-list .com-entry{
+	border-bottom: 1px solid #ccc;
+	padding: 17px;
+}
+
+	.com-entry p.com-name, .com-entry p.com-date{
+		margin:0;
+	}
+	
+	.com-form{
+		padding: 17px;
+	}
+	.com-form label{display:block;}

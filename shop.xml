@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE yml_catalog SYSTEM "shop.dtd">
+<yml_catalog date="2010-05-12 9:52">
+
+<shop>
+<name>Samokleyka</name>
+<company>Samokleyka.net</company>
+<url>http://www.samokleyka.net/</url>
+
+<currencies>
+    <currency id="RUR" rate="1"/>
+</currencies>
+
+<categories>
+    <category id="1">Абстракции</category>
+    <category id="2">Растения</category>
+    <category id="3">Детские</category>
+    <category id="4">Здания</category>
+    <category id="5">Живность</category>
+    <category id="6">Автомобилисту</category>
+    <category id="7">Еда</category>
+    <category id="8">Разное</category>
+</categories>
+
+<offers>
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_1.php</url>
+      <price>675</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+	  <picture>http://www.samokleyka.net/albom1/a1_1.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>
+	  Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!
+	  </description>
+	  <country_of_origin>Россия</country_of_origin>
+    </offer>
+
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_2.php</url>
+      <price>300</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_2.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_3.php</url>
+      <price>328</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_3.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_4.php</url>
+      <price>242</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_4.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_5.php</url>
+      <price>165</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_5.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_6.php</url>
+      <price>110</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_6.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_7.php</url>
+      <price>145</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_7.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_8.php</url>
+      <price>1272</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_8.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_9.php</url>
+      <price>290</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_9.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_10.php</url>
+      <price>69</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_10.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_11.php</url>
+      <price>296</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_11.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a1_12.php</url>
+      <price>287</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>1</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a1_12.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Абстракция</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_1.php</url>
+      <price>241</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_1.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_2.php</url>
+      <price>244</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_2.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_3.php</url>
+      <price>315</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_3.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_4.php</url>
+      <price>263</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_4.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_5.php</url>
+      <price>756</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_5.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_6.php</url>
+      <price>999</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_6.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_7.php</url>
+      <price>227</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_7.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_8.php</url>
+      <price>241</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_8.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_9.php</url>
+      <price>1089</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_9.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_10.php</url>
+      <price>828</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_10.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_11.php</url>
+      <price>276</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_11.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a2_12.php</url>
+      <price>136</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a2_12.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Растения</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_1.php</url>
+      <price>276</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_1.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_2.php</url>
+      <price>1066</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_2.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_3.php</url>
+      <price>570</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_3.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_4.php</url>
+      <price>317</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_4.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_5.php</url>
+      <price>259</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_5.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_6.php</url>
+      <price>295</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_6.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_7.php</url>
+      <price>706</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_7.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_8.php</url>
+      <price>475</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_8.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_9.php</url>
+      <price>783</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_9.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+		
+	<offer id="12341" type="vendor.model" available="true">
+      <url>http://www.samokleyka.net/albom1/a3_10.php</url>
+      <price>329</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>2</categoryId>
+      <picture>http://www.samokleyka.net/albom1/a3_10.jpg</picture>
+	  <delivery> true </delivery>
+	  <local_delivery_cost>150</local_delivery_cost>
+      <typePrefix>Детская</typePrefix>
+	  <vendor> - </vendor>
+	  <model>наклейка</model>
+      <description>Самоклеющаяся пленка на мебель, стены, машины, ноутбуки в 50 цветах!</description>
+    </offer>
+	
+</offers>
+</shop>
+</yml_catalog>

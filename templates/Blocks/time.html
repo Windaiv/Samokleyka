@@ -1,0 +1,188 @@
+<html><head>
+<title>Календарики</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+<body  topmargin="0" leftmargin="0" marginheight="0">
+<SCRIPT LANGUAGE="JavaScript">
+if (parent.frames.length < 1)
+	{
+	document.location.href = 'http://www.samokleyka.net/index.php';
+	}
+</SCRIPT>
+<SCRIPT language=JavaScript>
+<!--
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+// --> 
+</SCRIPT>
+
+<table border="0" cellspacing="0"   background="http://www.samokleyka.net/images/menu/time.gif" width="179" height="180" cellpadding="2">
+<tr>
+<td width="100%" align="center" valign="middle"><script language="JavaScript">
+<!--//Begin
+monthnames = new Array(
+"Январь",
+"Февраль",
+"Март",
+"Апрель",
+"Май",
+"Июнь",
+"Июль",
+"Август",
+"Сентябрь",
+"Октябрь",
+"Ноябрь",
+"Декабрь");
+var linkcount=0;
+function addlink(month, day, href) {
+var entry = new Array(3);
+entry[0] = month;
+entry[1] = day;
+entry[2] = href;
+this[linkcount++] = entry;
+}
+Array.prototype.addlink = addlink;
+linkdays = new Array();
+monthdays = new Array(12);
+monthdays[0]=31;
+monthdays[1]=28;
+monthdays[2]=31;
+monthdays[3]=30;
+monthdays[4]=31;
+monthdays[5]=30;
+monthdays[6]=31;
+monthdays[7]=31;
+monthdays[8]=30;
+monthdays[9]=31;
+monthdays[10]=30;
+monthdays[11]=31;
+todayDate=new Date();
+thisday=todayDate.getDay();
+thismonth=todayDate.getMonth();
+thisdate=todayDate.getDate();
+thisyear=todayDate.getYear();
+thisyear = thisyear % 100;
+thisyear = ((thisyear < 50) ? (2000 + thisyear) : (1900 + thisyear));
+if (((thisyear % 4 == 0) 
+&& !(thisyear % 100 == 0))
+||(thisyear % 400 == 0)) monthdays[1]++;
+startspaces=thisdate;
+while (startspaces > 7) startspaces-=7;
+startspaces = thisday - startspaces + 0;
+if (startspaces < 0) startspaces+=7;
+document.write("<FONT face='verdana'>");<!--Font Face-->
+document.write("<table border=0 " );<!--Border size-->
+document.write("style='font-size : 12px; color : #FFFBE4; font-weight: bold;???•???:???:???A??' cellpadding=1 cellspacing=2>");<!--Border color, font size, cell padding, cellspacing and font color-->
+
+document.write("<tr><td align=center colspan=7><center>" 
++ monthnames[thismonth] + " " + thisyear 
++ "</center></td></tr>");
+document.write("<tr>");<!--The color here and below are for each week day-->
+document.write("<td align=center><font color=#FFFFFF>П</td>");
+document.write("<td align=center><font color=#FFFFFF>В</td>")
+document.write("<td align=center><font color=#FFFFFF>С</td>");
+document.write("<td align=center><font color=#FFFFFF>Ч</td>");
+document.write("<td align=center><font color=#FFFFFF>П</td>");
+document.write("<td align=center><font color=#FFFFFF>С</td>");
+document.write("<td align=center><font color=#FFFFFF>В</td>");<!--Last color chage here-->
+document.write("</tr>");
+document.write("<tr>");
+for (s=0;s<startspaces;s++) {
+document.write("<td align=center>-</td>");
+}
+count=1;
+while (count <= monthdays[thismonth]) {
+for (b = startspaces;b<7;b++) {
+linktrue=false;
+document.write("<td align=center>");
+for (c=0;c<linkdays.length;c++) {
+if (linkdays[c] != null) {
+if ((linkdays[c][0]==thismonth + 1) && (linkdays[c][1]==count)) {
+document.write("<a href=\"" + linkdays[c][2] + "\">");
+linktrue=true;
+}
+}
+}
+if (count==thisdate) {
+document.write("<span style='background-color: #ff7200;border: 1px solid #FFFFFF'><font color='#FFFFFF'>");<!--todays date color-->
+}
+if (count <= monthdays[thismonth]) {
+document.write(count);
+}
+else {
+document.write(" ");
+}
+if (count==thisdate) {
+document.write("</font>");
+}
+if (linktrue)
+document.write("</a>");
+document.write("</td>");
+count++;
+}
+document.write("</tr>");
+document.write("<tr>");
+startspaces=0;
+}
+document.write("</table>");
+document.write("</FONT>");
+</script></td></tr>
+<tr>
+<td width="100%" align=center><font face="Verdana" size="1"><strong><script>
+document.write("<FONT color='#FFFFFF' face='verdana' style='font-size : 13px;'>");
+var clockid=new Array()
+var clockidoutside=new Array()
+var i_clock=-1
+var thistime= new Date()
+var hours=thistime.getHours()
+var minutes=thistime.getMinutes()
+var seconds=thistime.getSeconds()
+if (eval(hours) <10) {hours="0"+hours}
+if (eval(minutes) < 10) {minutes="0"+minutes}
+if (seconds < 10) {seconds="0"+seconds}
+var thistime = hours+":"+minutes+":"+seconds
+	
+function writeclock() {
+	i_clock++
+	if (document.all || document.getElementById || document.layers) {
+		clockid[i_clock]="clock"+i_clock
+		document.write("<span id='"+clockid[i_clock]+"' style='position:relative'>"+thistime+"</span>")
+	}
+}
+
+function clockon() {
+	thistime= new Date()
+	hours=thistime.getHours()
+	minutes=thistime.getMinutes()
+	seconds=thistime.getSeconds()
+	if (eval(hours) <10) {hours="0"+hours}
+	if (eval(minutes) < 10) {minutes="0"+minutes}
+	if (seconds < 10) {seconds="0"+seconds}
+	thistime = hours+":"+minutes+":"+seconds
+		
+	if (document.all) {
+		for (i=0;i<=clockid.length-1;i++) {
+			var thisclock=eval(clockid[i])
+			thisclock.innerHTML=thistime
+		}
+	}
+	
+	if (document.getElementById) {
+		for (i=0;i<=clockid.length-1;i++) {
+			document.getElementById(clockid[i]).innerHTML=thistime
+		}
+	}
+	var timer=setTimeout("clockon()",1000)
+}
+window.onload=clockon
+    </script><script>writeclock()</script></strong></font></td></tr></table>
+
+
+</body></html>

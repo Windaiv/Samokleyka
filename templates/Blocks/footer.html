@@ -1,0 +1,158 @@
+<?php 
+$paneloffindex=basename($_SERVER['PHP_SELF']);
+if ($paneloffindex!='index.php')
+{
+echo'
+<div class="panel">
+	<a rel="sidebar" href="http://www.samokleyka.net" onClick="window.external.AddFavorite ("http://www.samokleyka.net", "title");" title="Интернет-каталог Samokleyka.net">Добавить сайт в закладки</a><br>
+<form name="sovet" action="'.$_SERVER['PHP_SELF'].'" method="post" id="GRSubscribeForm" accept-charset="UTF-8" onsubmit="return rsv2.validate(this, rules2)">
+<br>
+<p align="center">
+<br>
+<b>Отправить приглашение другу посетить наш интернет-каталог</b><br>
+<table align="center">
+   <col width="140">
+<tr align="center"> 
+	<td>Email друга</td>
+</tr>
+<tr align="left">
+	<td><b><input name="milo" type="text" maxLength="20" size="20"></b></td>
+</tr>
+</table>
+<input type="submit" value="Пригласить">
+
+</form>
+<div style="clear:both;"></div>
+</p>
+</div>
+<a class="trigger" href="#">                 </a>
+';
+}
+if (isset ($_POST['milo']))
+{
+$milo=$_POST['milo'];
+$subject = "Вам выслано приглашение посетить наш интернет-каталог"; 
+$message = ' 
+<html> 
+    <head> 
+        <title>Ваш знакомый или друг выслал приглашение посетить наш интернет-каталог</title> 
+    </head> 
+    <body> 
+<p>Здравствуйте</p><br>
+<p>Интернет-каталог виниловых наклеек <a href="http://www.samokleyka.net">www.Samokleyka.net</a> предлагает Вам широчайший ассортимент виниловых наклеек!<br>
+Наши наклейки могут применяться на любой ровной, сухой поверхности, а так же в ванных комнатах<br>
+Все наклейки отсортированы по каталогам, если Вы не найдёте интересующую Вас наклейку, можно заказать индивидуальную по вашему эскизу или пожеланиям.</p>
+		<p>
+		<b>Если у Вас есть пожелания или предложения, то напишите нам на почтовый ящик:</b> support@samokleyka.net<br>
+		</p>
+		<p align="center">
+Интернет-каталог виниловых наклеек для стен, мебели, автомобилей, ноутбуков, стёкол, зеркал - <a href="http://www.samokleyka.net">www.Samokleyka.net</a><br>
+Наш блог и множество полезных статей - <a href="http://www.samokleyka.net/blog">ЧИТАТЬ</a></p>
+    </body>
+</html>';
+
+$headers  = "Content-type: text/html; charset=UTF-8 \r\n";
+$headers .= "From: Samokleyka.net <support@samokleyka.net>\r\n";
+$milo2="support@samokleyka.net";
+$subject2 = "Выслано приглашение посетить Ваш интернет-каталог"; 
+$message2 = ' 
+<html> 
+    <head> 
+        <title>Ваш каталог посоветовали знакомым</title> 
+    </head> 
+    <body> 
+<p>Здравствуйте Samokleyka.net</p><br>
+<p>На адрес '.$_POST['milo'].' было выслано приглашение посетить Ваш интернет-каталог</p>
+
+    </body>
+</html>';
+
+$headers2  = "Content-type: text/html; charset=UTF-8 \r\n";
+$headers2 .= "From: Samokleyka.net <support@samokleyka.net>\r\n";
+mail($milo, $subject, $message, $headers);
+mail($milo2, $subject2, $message2, $headers2);
+}
+?>
+
+<div id="footer">
+	<div class="container_12">	
+		<div class="grid_12"; align="center">
+		<p> </p>
+		<p>Copyright © Samokleyka.net г.Пенза, 2003-2010 гг. Все права защищены.<br>
+		
+		Разрешается републикация материалов сайта в Интернете с обязательным указанием ссылки на <a href="http://www.samokleyka.net">www.samokleyka.net</a><br>
+					<div class="white">еда, пища, вода, питье, выпивка, фрукты, овощи, вино, шампанское, тарелка, натюрморт, наклейки, стены, интерьер, кухня, кухни, пица, приготовление, готовка, украшение, дизайн, декор, машины, винил, наклейки, машина, стиль, дизайн, аэрография, стикер, хаммер, волга, газ, ваз, 21099, 2109, 2110, 2111, 2112, 2114, 2115, газель, бык, зебра, конь, лошадь,  дельфин, носорог, орел, птица, ястреб, сокол, наклеить, обклеить, матовая, глянцевая, логотип, марка, ниссан, хонда, БМВ, живность, дельфин, дельфины, океан, море, барсук, бурундук, жираф, заяц, кролик, зайцы, кролики, кошка, кошки, лебедь, утка, птица, птицы, животные, животное, леопард, лось, лев, тигр, конь, лошадь, пони, мышь, крыса, мышка, мыши, олень, петух, курица, скорпион, слон, страус, утка, утенок, хамелеон, цвета, здания, дом, здание, дома, постройка, интерьер, декор, стен, стены, потолок, обои, наклейки, разноцветные, разноцветный, сказочный, мельница, мост, колодец, барак, мосты, мельницы, сказка, детская, спальня, украсить, комнату, комната, ребёнок, игрушки, ребенок, наклейки, рисунки, разукрашка, разукрашки, детская спальня, кроватка, колыбельная, колыбель, цветные, разноцветные, красивые, цвета, прическа, завихрения, украшения, абстракции, растения, цветы, спирали, цветок, спираль, абстракция, девушка, женщина, рука, след, отпечаток, снежинка, снег, дерево, растение, Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  24 цветах и разного размера для необыкновенного и  индивидуального интерьера, Наклейки для интерьера, Samokleyka.net, Nakleiki, Nakleyki, stickers, Stikeri, Стикеры, Стикер, Стикеры для дома, Наклейки для дома, Интерьер, Дизайн, Design, Украшения, полноцвет, матовая, пленка, матовая пленка, глянцевая, глянцевая пленка, двух цветные наклейки, двух, цветные, красивые наклейки, Наклейки, наклейки на ноутбук, наклейки на авто, наклейки на машины, наклейки на сотовые, наклейки на стены, наклейки на мебель, наклейки на автомобили, наклейки на машину, наклейки для авто, наклейки для машин, наклейки для ноутбуков, наклейки для ноутов, наклейки для сотовых, наклейки для мебели, самоклейка, samokleyka, samokleyka.net, интернет магазин, интернет-магазин, рисунки, картинки, цветы, деревья, дерево, цветок, узор, декор, декорирование, узоры, наклейки, дизайн, наклейка, украшение, украшение помещений, декорирование интерьера квартиры с помощью дизайнерских наклеек, стикеры для стен, виниловые стикеры, виниловые наклейки, купить наклейки на стены, наклейки на обои, виниловые стикеры на стену</div>
+<div class="white">Украшение для кухни. Украшение для комнат. Новый интерьер с помощью наших наклеек. Самоклейка для стен и мебели. Украсьте свой интерьер нашими декоративными наклейками для всех. Стикеры на стены в спальню, кухню, зал, корридор. Вы можете наклеить их на пол, стены, стекло. Разукрасьте свою машину. Наклейки на авто. Наклейки на стены. Декоративные наклейки на цветы. Наклейки на машину. Наклейки на ноутбук</div>
+
+<!--<a href="http://clck.yandex.ru/redir/dtype=stred/pid=47/cid=2508/*http://grade.market.yandex.ru/?id=39133&action=link"><img src="http://clck.yandex.ru/redir/dtype=stred/pid=47/cid=2505/*http://grade.market.yandex.ru/?id=39133&action=image&size=0" border="0" width="88" height="31" alt="Читайте отзывы покупателей и оценивайте качество магазина Samokleyka.net на Яндекс.Маркете" /></a>-->
+<!--Google Analytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16756790-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--/Google Analytics-->
+			<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t19.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+			<!--Rating@Mail.ru counter-->
+<script language="javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></script>
+<script language="javascript1.1"><!--
+a+=';j='+navigator.javaEnabled();js=11;//--></script>
+<script language="javascript1.2"><!--
+s=screen;a+=';s='+s.width+'*'+s.height;
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
+<script language="javascript1.3"><!--
+js=13;//--></script><script language="javascript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=1826992" target="_top">'+
+'<img src="http://d0.ce.bb.a1.top.mail.ru/counter?id=1826992;t=52;js='+js+
+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+
+'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></script>
+<noscript><a target="_top" href="http://top.mail.ru/jump?from=1826992">
+<img src="http://d0.ce.bb.a1.top.mail.ru/counter?js=na;id=1826992;t=52" 
+height="31" width="88" border="0" alt="Рейтинг@Mail.ru"></a></noscript>
+<script language="javascript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>');//--></script>
+<!--// Rating@Mail.ru counter-->
+<a href="http://flsticker-penza.ru"><img src="http://flsticker-penza.ru/banner/88_31/banner1.gif"  border="0" alt="Надписи на цветы" /></a>
+<!-- begin of Top100 code -->
+
+<script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?2160626"></script>
+<noscript>
+<img src="http://counter.rambler.ru/top100.cnt?2160626" alt="" width="1" height="1" border="0" />
+
+</noscript>
+<!-- end of Top100 code -->
+<!-- cy-pr.com --><a href="http://www.cy-pr.com/" target="_blank"><img src="http://www.cy-pr.com/e/samokleyka.net_1_0.0.0.gif" border="0" width="88" height="31" alt="Проверка сайта" /></a><!-- / cy-pr.com -->
+<?
+if (isset($idnomer))
+{
+$page= substr($idnomer,1,1);
+$urlmail='?share_url=http://www.samokleyka.net/albom'.$page.'/'.$idnomer.'.php';
+}
+else {$urlmail='';}
+?>
+
+<p> </p>
+			</div>
+		<div class="clearfix"></div>
+	</div>
+	
+</div>

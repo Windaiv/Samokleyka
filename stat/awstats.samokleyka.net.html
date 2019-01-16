@@ -1,0 +1,684 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang='ru'>
+<head>
+<meta name="robots" content="noindex,nofollow" />
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<meta http-equiv="description" content="Awstats - Advanced Web Statistics for samokleyka.net" />
+<title>Статистика для samokleyka.net</title>
+<style type="text/css">
+<!--
+body { font: 11px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; margin-top: 0 }
+.aws_bodyl  { background-image: url(http://support.infobox.ru/awstats2/icons/other/backleft.png); background-repeat: repeat-y; }
+.aws_border { background-color: #CCCCDD; padding: 1px 1px 1px 1px; margin-top: 0 }
+.aws_title  { font: 13px verdana, arial, helvetica, sans-serif; font-weight: bold; background-color: #CCCCDD; text-align: center; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_blank { font: 13px verdana, arial, helvetica, sans-serif; background-color: #CCCCDD; text-align: center; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_data { background-color: #FFFFFF; }
+.aws_formfield { font: 13px verdana, arial, helvetica; }
+.aws_button {
+	font-family: arial,verdana,helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccd7e0;
+	background-image : url(http://support.infobox.ru/awstats2/icons/other/button.gif);
+}
+th { font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+th.aws { font-size: 13px; font-weight: bold; }
+td { font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+.aws { font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; }
+b { font-weight: bold; }
+a { font: 11px verdana, arial, helvetica, sans-serif; }
+a:link    { color: #0011BB; text-decoration: none; }
+a:visited { color: #0011BB; text-decoration: none; }
+a:hover   { color: #605040; text-decoration: underline; }
+//-->
+</style>
+</head>
+
+<body>
+<a name="TOP">&nbsp;</a>
+
+
+
+<a name="MENU">&nbsp;</a>
+<form name="FormDateFilter" action="/cgi-bin/awstats.pl?config=samokleyka.net&staticlinks&lang=ru" style="padding: 0px 0px 0px 0px; margin-top: 0">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td>
+<table class="aws_data" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td class="aws" valign="middle"><b>Статистика для:</b>&nbsp;</td><td class="aws"><span style="font-size: 14px;">samokleyka.net</span></td><td align="right" rowspan="3"><a href="http://awstats.sourceforge.net" target="awstatshome"><img src="http://support.infobox.ru/awstats2/icons/other/awstats_logo1.png" border="0" alt='Awstats Web Site' title='Awstats Web Site'></a></td></tr>
+<tr><td class="aws" valign="middle" width="150"><b>Последнее обновление:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 12px;">27 Окт 2010 - 00:59</span></td></tr>
+<tr><td class="aws" valign="middle"><b>Отчетный период:</b></td><td class="aws" valign="middle"><span style="font-size: 14px;">Месяц Окт 2010</span></td></tr>
+</table>
+</td></tr></table>
+</form>
+
+<table>
+<tr><td class="aws" width="150" valign=top><b>Когда:</b></td>
+<td class="aws"><a href="#TOP">Сводная таблица</a> &nbsp; <a href="#DAYOFMONTH">По дням месяца</a> &nbsp; <a href="#DAYOFWEEK">Дни недели</a> &nbsp; <a href="#HOUR">Время (на сервере)</a> &nbsp; </td></tr>
+<tr><td class="aws" valign=top><b>Кто:</b></td>
+<td class="aws"><a href="#COUNTRIES">Countries</a> &nbsp; <a href="awstats.samokleyka.net.alldomains.html" target="awstatsbis">Весь список</a>
+ &nbsp; <a href="#VISITOR">Хосты</a> &nbsp; <a href="awstats.samokleyka.net.allhosts.html" target="awstatsbis">Весь список</a>
+ &nbsp; <a href="awstats.samokleyka.net.lasthosts.html" target="awstatsbis">Последнее посещение</a>
+ &nbsp; <a href="awstats.samokleyka.net.unknownip.html" target="awstatsbis">IP без имени домена</a>
+ &nbsp; <a href="#LOGIN">Авторизованые посетители</a> &nbsp; <a href="awstats.samokleyka.net.alllogins.html" target="awstatsbis">Весь список</a>
+ &nbsp; <a href="awstats.samokleyka.net.lastlogins.html" target="awstatsbis">Последнее посещение</a>
+ &nbsp; <a href="#ROBOTS">Роботы</a> &nbsp; <a href="awstats.samokleyka.net.allrobots.html" target="awstatsbis">Весь список</a>
+ &nbsp; <a href="awstats.samokleyka.net.lastrobots.html" target="awstatsbis">Последнее посещение</a>
+ &nbsp; </td></tr>
+<tr><td class="aws" valign=top><b>Посетители:</b></td>
+<td class="aws"><a href="#SESSIONS">Продолжительность визитов</a> &nbsp; <a href="#FILETYPES">Типы файлов</a> &nbsp; <a href="#PAGE">Доступ</a>
+ &nbsp; <a href="awstats.samokleyka.net.urldetail.html" target="awstatsbis">Весь список</a>
+ &nbsp; <a href="awstats.samokleyka.net.urlentry.html" target="awstatsbis">Просмотрена первой</a>
+ &nbsp; <a href="awstats.samokleyka.net.urlexit.html" target="awstatsbis">Просмотрена последней</a>
+ &nbsp; <a href="#OS">Операционные системы</a> &nbsp; <a href="awstats.samokleyka.net.osdetail.html" target="awstatsbis">Версии</a>
+ &nbsp; <a href="awstats.samokleyka.net.unknownos.html" target="awstatsbis">Неизвестно</a>
+ &nbsp; <a href="#BROWSER">Браузеры</a> &nbsp; <a href="awstats.samokleyka.net.browserdetail.html" target="awstatsbis">Версии</a>
+ &nbsp; <a href="awstats.samokleyka.net.unknownbrowser.html" target="awstatsbis">Неизвестно</a>
+ &nbsp; </td></tr>
+<tr><td class="aws" valign=top><b>Запросы:</b></td>
+<td class="aws"><a href="#REFERER">Откуда</a>
+ &nbsp; <a href="awstats.samokleyka.net.refererse.html" target="awstatsbis">Ссылающиеся поисковики</a>
+ &nbsp; <a href="awstats.samokleyka.net.refererpages.html" target="awstatsbis">Ссылающиеся сайты</a>
+ &nbsp; <a href="#KEYS">Поиск</a> &nbsp; <a href="awstats.samokleyka.net.keyphrases.html" target="awstatsbis">Поисковые&nbsp;фразы</a>
+ &nbsp; <a href="awstats.samokleyka.net.keywords.html" target="awstatsbis">Поисковые&nbsp;слова</a>
+ &nbsp; </td></tr>
+<tr><td class="aws" valign=top><b>Прочие:</b></td>
+<td class="aws"><a href="#MISC">Разное</a> &nbsp; <a href="#ERRORS">Коды ошибок HTTP</a> &nbsp; <a href="awstats.samokleyka.net.errors404.html" target="awstatsbis">Не найденные страницы</a>
+ &nbsp; </td></tr>
+</table>
+<br />
+<a name="MONTH">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Сводная таблица </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><td><b>Первое посещение</b></td>
+<td colspan=3>Сводная таблица</td><td><b>Последнее посещение</b></td></tr>
+<tr bgcolor="#ECECEC"><td>01 Окт 2010 - 01:12</td><td colspan=3><b>Месяц Окт 2010</b></td><td>26 Окт 2010 - 23:46</td></tr>
+<tr><td width="20%" bgcolor="#FFB055">Уникальных посетителей</td><td width="20%" bgcolor="#F8E880">Количество посетителей</td><td width="20%" bgcolor="#4477DD">Страниц</td><td width="20%" bgcolor="#66F0FF">Запросов</td><td width="20%" bgcolor="#2EA495">Байт</td></tr>
+<tr><td><b>1176</b><br />&nbsp;</td><td><b>1531</b><br />(1.3&nbsp;визитов на посетителя)</td><td><b>8321</b><br />(5.43&nbsp;Страниц/посетителя)</td><td><b>89017</b><br />(58.14&nbsp;Запросов/посетителя)</td><td><b>2.64 GB</b><br />(1809.77&nbsp;KB/посетителя)</td></tr>
+<tr valign="bottom"><td align="center" colspan=5><center><table><tr valign="bottom"><td>&nbsp;</td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=1 WIDTH=6 alt='Уникальных посетителей: ' title='Уникальных посетителей: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=6 alt='Количество посетителей: ' title='Количество посетителей: '>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: ' title='Страниц: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=6 alt='Запросов: ' title='Запросов: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=6 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=1 WIDTH=6 alt='Уникальных посетителей: ' title='Уникальных посетителей: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=6 alt='Количество посетителей: ' title='Количество посетителей: '>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: ' title='Страниц: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=6 alt='Запросов: ' title='Запросов: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=6 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=1 WIDTH=6 alt='Уникальных посетителей: ' title='Уникальных посетителей: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=6 alt='Количество посетителей: ' title='Количество посетителей: '>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: ' title='Страниц: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=6 alt='Запросов: ' title='Запросов: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=6 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=5 WIDTH=6 alt='Уникальных посетителей: 181' title='Уникальных посетителей: 181'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=6 WIDTH=6 alt='Количество посетителей: 243' title='Количество посетителей: 243'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 1925' title='Страниц: 1925'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=6 WIDTH=6 alt='Запросов: 18032' title='Запросов: 18032'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=4 WIDTH=6 alt='Байт: 341.58 MB' title='Байт: 341.58 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=17 WIDTH=6 alt='Уникальных посетителей: 693' title='Уникальных посетителей: 693'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=24 WIDTH=6 alt='Количество посетителей: 981' title='Количество посетителей: 981'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 7462' title='Страниц: 7462'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=29 WIDTH=6 alt='Запросов: 90273' title='Запросов: 90273'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=31 WIDTH=6 alt='Байт: 2.82 GB' title='Байт: 2.82 GB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=25 WIDTH=6 alt='Уникальных посетителей: 1027' title='Уникальных посетителей: 1027'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=38 WIDTH=6 alt='Количество посетителей: 1547' title='Количество посетителей: 1547'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 12942' title='Страниц: 12942'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=40 WIDTH=6 alt='Запросов: 126595' title='Запросов: 126595'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=40 WIDTH=6 alt='Байт: 3.71 GB' title='Байт: 3.71 GB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=34 WIDTH=6 alt='Уникальных посетителей: 1365' title='Уникальных посетителей: 1365'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=46 WIDTH=6 alt='Количество посетителей: 1857' title='Количество посетителей: 1857'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 15099' title='Страниц: 15099'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=46 WIDTH=6 alt='Запросов: 142452' title='Запросов: 142452'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=46 WIDTH=6 alt='Байт: 4.18 GB' title='Байт: 4.18 GB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=32 WIDTH=6 alt='Уникальных посетителей: 1317' title='Уникальных посетителей: 1317'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=41 WIDTH=6 alt='Количество посетителей: 1654' title='Количество посетителей: 1654'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 14170' title='Страниц: 14170'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=43 WIDTH=6 alt='Запросов: 134571' title='Запросов: 134571'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=40 WIDTH=6 alt='Байт: 3.65 GB' title='Байт: 3.65 GB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=27 WIDTH=6 alt='Уникальных посетителей: 1077' title='Уникальных посетителей: 1077'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=34 WIDTH=6 alt='Количество посетителей: 1380' title='Количество посетителей: 1380'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 10511' title='Страниц: 10511'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=30 WIDTH=6 alt='Запросов: 92987' title='Запросов: 92987'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=30 WIDTH=6 alt='Байт: 2.77 GB' title='Байт: 2.77 GB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=29 WIDTH=6 alt='Уникальных посетителей: 1176' title='Уникальных посетителей: 1176'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=38 WIDTH=6 alt='Количество посетителей: 1531' title='Количество посетителей: 1531'>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 8321' title='Страниц: 8321'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=29 WIDTH=6 alt='Запросов: 89017' title='Запросов: 89017'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=29 WIDTH=6 alt='Байт: 2.64 GB' title='Байт: 2.64 GB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=1 WIDTH=6 alt='Уникальных посетителей: ' title='Уникальных посетителей: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=6 alt='Количество посетителей: ' title='Количество посетителей: '>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: ' title='Страниц: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=6 alt='Запросов: ' title='Запросов: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=6 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vu.png" HEIGHT=1 WIDTH=6 alt='Уникальных посетителей: ' title='Уникальных посетителей: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=6 alt='Количество посетителей: ' title='Количество посетителей: '>&nbsp;<IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: ' title='Страниц: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=6 alt='Запросов: ' title='Запросов: '><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=6 alt='Байт: 0' title='Байт: 0'></td>
+<td>&nbsp;</td></tr>
+<tr valign="middle"><td>&nbsp;</td><td>Янв<br />2010</td><td>Фев<br />2010</td><td>Мар<br />2010</td><td>Апр<br />2010</td><td>Май<br />2010</td><td>Июн<br />2010</td><td>Июл<br />2010</td><td>Авг<br />2010</td><td>Сен<br />2010</td><td>Окт<br />2010</td><td>Ноя<br />2010</td><td>Дек<br />2010</td><td>&nbsp;</td></tr>
+</table>
+<br />
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Месяц</td><td width="80" bgcolor="#FFB055">Уникальных посетителей</td><td width="80" bgcolor="#F8E880">Количество посетителей</td><td width="80" bgcolor="#4477DD">Страниц</td><td width="80" bgcolor="#66F0FF">Запросов</td><td width="80" bgcolor="#2EA495">Байт</td></tr>
+<tr><td>Янв 2010</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Фев 2010</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Мар 2010</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Апр 2010</td><td>181</td><td>243</td><td>1925</td><td>18032</td><td>341.58 MB</td></tr>
+<tr><td>Май 2010</td><td>693</td><td>981</td><td>7462</td><td>90273</td><td>2.82 GB</td></tr>
+<tr><td>Июн 2010</td><td>1027</td><td>1547</td><td>12942</td><td>126595</td><td>3.71 GB</td></tr>
+<tr><td>Июл 2010</td><td>1365</td><td>1857</td><td>15099</td><td>142452</td><td>4.18 GB</td></tr>
+<tr><td>Авг 2010</td><td>1317</td><td>1654</td><td>14170</td><td>134571</td><td>3.65 GB</td></tr>
+<tr><td>Сен 2010</td><td>1077</td><td>1380</td><td>10511</td><td>92987</td><td>2.77 GB</td></tr>
+<tr><td>Окт 2010</td><td>1176</td><td>1531</td><td>8321</td><td>89017</td><td>2.64 GB</td></tr>
+<tr><td>Ноя 2010</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Дек 2010</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td bgcolor="#ECECEC">Итог</td><td bgcolor="#ECECEC">6836</td><td bgcolor="#ECECEC">9193</td><td bgcolor="#ECECEC">70430</td><td bgcolor="#ECECEC">693927</td><td bgcolor="#ECECEC">20.11 GB</td></tr>
+</table>
+<br />
+</center>
+</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="WHEN">&nbsp;</a>
+
+<a name="DAYOFMONTH">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">По дням месяца </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center"><center><table><tr valign="bottom">
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=21 WIDTH=4 alt='Количество посетителей: 45' title='Количество посетителей: 45'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 199' title='Страниц: 199'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=23 WIDTH=4 alt='Запросов: 3034' title='Запросов: 3034'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=19 WIDTH=4 alt='Байт: 77.20 MB' title='Байт: 77.20 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=16 WIDTH=4 alt='Количество посетителей: 33' title='Количество посетителей: 33'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 189' title='Страниц: 189'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=16 WIDTH=4 alt='Запросов: 2098' title='Запросов: 2098'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=16 WIDTH=4 alt='Байт: 63.41 MB' title='Байт: 63.41 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=17 WIDTH=4 alt='Количество посетителей: 37' title='Количество посетителей: 37'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 295' title='Страниц: 295'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=23 WIDTH=4 alt='Запросов: 2915' title='Запросов: 2915'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=22 WIDTH=4 alt='Байт: 92.02 MB' title='Байт: 92.02 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=27 WIDTH=4 alt='Количество посетителей: 57' title='Количество посетителей: 57'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 159' title='Страниц: 159'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=15 WIDTH=4 alt='Запросов: 1872' title='Запросов: 1872'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=14 WIDTH=4 alt='Байт: 55.66 MB' title='Байт: 55.66 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=33 WIDTH=4 alt='Количество посетителей: 71' title='Количество посетителей: 71'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=4 alt='Страниц: 437' title='Страниц: 437'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=27 WIDTH=4 alt='Запросов: 3558' title='Запросов: 3558'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=27 WIDTH=4 alt='Байт: 111.62 MB' title='Байт: 111.62 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=31 WIDTH=4 alt='Количество посетителей: 66' title='Количество посетителей: 66'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=4 alt='Страниц: 410' title='Страниц: 410'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=33 WIDTH=4 alt='Запросов: 4277' title='Запросов: 4277'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=30 WIDTH=4 alt='Байт: 123.25 MB' title='Байт: 123.25 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=24 WIDTH=4 alt='Количество посетителей: 51' title='Количество посетителей: 51'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 263' title='Страниц: 263'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=23 WIDTH=4 alt='Запросов: 3013' title='Запросов: 3013'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=22 WIDTH=4 alt='Байт: 89.85 MB' title='Байт: 89.85 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=29 WIDTH=4 alt='Количество посетителей: 62' title='Количество посетителей: 62'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=4 alt='Страниц: 570' title='Страниц: 570'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=38 WIDTH=4 alt='Запросов: 4934' title='Запросов: 4934'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=34 WIDTH=4 alt='Байт: 139.10 MB' title='Байт: 139.10 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=14 WIDTH=4 alt='Количество посетителей: 30' title='Количество посетителей: 30'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 237' title='Страниц: 237'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=19 WIDTH=4 alt='Запросов: 2427' title='Запросов: 2427'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=20 WIDTH=4 alt='Байт: 81.05 MB' title='Байт: 81.05 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=26 WIDTH=4 alt='Количество посетителей: 55' title='Количество посетителей: 55'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 313' title='Страниц: 313'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=24 WIDTH=4 alt='Запросов: 3127' title='Запросов: 3127'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=23 WIDTH=4 alt='Байт: 94.51 MB' title='Байт: 94.51 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=34 WIDTH=4 alt='Количество посетителей: 73' title='Количество посетителей: 73'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=6 WIDTH=4 alt='Страниц: 674' title='Страниц: 674'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=46 WIDTH=4 alt='Запросов: 5952' title='Запросов: 5952'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=44 WIDTH=4 alt='Байт: 183.29 MB' title='Байт: 183.29 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=32 WIDTH=4 alt='Количество посетителей: 69' title='Количество посетителей: 69'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=4 alt='Страниц: 484' title='Страниц: 484'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=36 WIDTH=4 alt='Запросов: 4683' title='Запросов: 4683'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=33 WIDTH=4 alt='Байт: 135.58 MB' title='Байт: 135.58 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=33 WIDTH=4 alt='Количество посетителей: 70' title='Количество посетителей: 70'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=4 alt='Страниц: 418' title='Страниц: 418'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=36 WIDTH=4 alt='Запросов: 4740' title='Запросов: 4740'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=34 WIDTH=4 alt='Байт: 139.45 MB' title='Байт: 139.45 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=26 WIDTH=4 alt='Количество посетителей: 55' title='Количество посетителей: 55'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 295' title='Страниц: 295'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=25 WIDTH=4 alt='Запросов: 3202' title='Запросов: 3202'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=25 WIDTH=4 alt='Байт: 101.66 MB' title='Байт: 101.66 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=25 WIDTH=4 alt='Количество посетителей: 54' title='Количество посетителей: 54'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 274' title='Страниц: 274'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=24 WIDTH=4 alt='Запросов: 3073' title='Запросов: 3073'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=24 WIDTH=4 alt='Байт: 96.78 MB' title='Байт: 96.78 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=23 WIDTH=4 alt='Количество посетителей: 49' title='Количество посетителей: 49'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 293' title='Страниц: 293'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=31 WIDTH=4 alt='Запросов: 3974' title='Запросов: 3974'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=46 WIDTH=4 alt='Байт: 188.97 MB' title='Байт: 188.97 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=20 WIDTH=4 alt='Количество посетителей: 43' title='Количество посетителей: 43'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 134' title='Страниц: 134'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=15 WIDTH=4 alt='Запросов: 1874' title='Запросов: 1874'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=15 WIDTH=4 alt='Байт: 62.31 MB' title='Байт: 62.31 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=29 WIDTH=4 alt='Количество посетителей: 61' title='Количество посетителей: 61'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 195' title='Страниц: 195'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=20 WIDTH=4 alt='Запросов: 2533' title='Запросов: 2533'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=20 WIDTH=4 alt='Байт: 82.86 MB' title='Байт: 82.86 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=46 WIDTH=4 alt='Количество посетителей: 98' title='Количество посетителей: 98'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 380' title='Страниц: 380'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=37 WIDTH=4 alt='Запросов: 4866' title='Запросов: 4866'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=29 WIDTH=4 alt='Байт: 118.56 MB' title='Байт: 118.56 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=30 WIDTH=4 alt='Количество посетителей: 65' title='Количество посетителей: 65'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 242' title='Страниц: 242'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=23 WIDTH=4 alt='Запросов: 2990' title='Запросов: 2990'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=21 WIDTH=4 alt='Байт: 86.83 MB' title='Байт: 86.83 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=25 WIDTH=4 alt='Количество посетителей: 53' title='Количество посетителей: 53'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 282' title='Страниц: 282'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=25 WIDTH=4 alt='Запросов: 3185' title='Запросов: 3185'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=24 WIDTH=4 alt='Байт: 98.58 MB' title='Байт: 98.58 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=34 WIDTH=4 alt='Количество посетителей: 73' title='Количество посетителей: 73'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=4 alt='Страниц: 563' title='Страниц: 563'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=37 WIDTH=4 alt='Запросов: 4847' title='Запросов: 4847'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=34 WIDTH=4 alt='Байт: 141.50 MB' title='Байт: 141.50 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=33 WIDTH=4 alt='Количество посетителей: 71' title='Количество посетителей: 71'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 240' title='Страниц: 240'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=23 WIDTH=4 alt='Запросов: 3001' title='Запросов: 3001'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=23 WIDTH=4 alt='Байт: 94.13 MB' title='Байт: 94.13 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=28 WIDTH=4 alt='Количество посетителей: 59' title='Количество посетителей: 59'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 291' title='Страниц: 291'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=22 WIDTH=4 alt='Запросов: 2873' title='Запросов: 2873'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=23 WIDTH=4 alt='Байт: 93.41 MB' title='Байт: 93.41 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=32 WIDTH=4 alt='Количество посетителей: 68' title='Количество посетителей: 68'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 270' title='Страниц: 270'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=27 WIDTH=4 alt='Запросов: 3445' title='Запросов: 3445'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=21 WIDTH=4 alt='Байт: 84.02 MB' title='Байт: 84.02 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=29 WIDTH=4 alt='Количество посетителей: 63' title='Количество посетителей: 63'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=4 alt='Страниц: 214' title='Страниц: 214'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=20 WIDTH=4 alt='Запросов: 2524' title='Запросов: 2524'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=17 WIDTH=4 alt='Байт: 70.21 MB' title='Байт: 70.21 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=4 alt='Количество посетителей: 0' title='Количество посетителей: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=4 alt='Страниц: 0' title='Страниц: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=4 alt='Запросов: 0' title='Запросов: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=4 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=4 alt='Количество посетителей: 0' title='Количество посетителей: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=4 alt='Страниц: 0' title='Страниц: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=4 alt='Запросов: 0' title='Запросов: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=4 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=4 alt='Количество посетителей: 0' title='Количество посетителей: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=4 alt='Страниц: 0' title='Страниц: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=4 alt='Запросов: 0' title='Запросов: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=4 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=4 alt='Количество посетителей: 0' title='Количество посетителей: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=4 alt='Страниц: 0' title='Страниц: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=4 alt='Запросов: 0' title='Запросов: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=4 alt='Байт: 0' title='Байт: 0'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=1 WIDTH=4 alt='Количество посетителей: 0' title='Количество посетителей: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=4 alt='Страниц: 0' title='Страниц: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=1 WIDTH=4 alt='Запросов: 0' title='Запросов: 0'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=1 WIDTH=4 alt='Байт: 0' title='Байт: 0'></td>
+<td>&nbsp;</td><td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vv.png" HEIGHT=27 WIDTH=4 alt='Количество посетителей: 56.70' title='Количество посетителей: 56.70'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=4 alt='Страниц: 308.19' title='Страниц: 308.19'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=25 WIDTH=4 alt='Запросов: 3296.93' title='Запросов: 3296.93'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=24 WIDTH=4 alt='Байт: 100.22 MB' title='Байт: 100.22 MB'></td>
+</tr>
+<tr valign="middle"><td>01<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">02<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">03<br /><span style="font-size: 9px;">Окт</span></td>
+<td>04<br /><span style="font-size: 9px;">Окт</span></td>
+<td>05<br /><span style="font-size: 9px;">Окт</span></td>
+<td>06<br /><span style="font-size: 9px;">Окт</span></td>
+<td>07<br /><span style="font-size: 9px;">Окт</span></td>
+<td>08<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">09<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">10<br /><span style="font-size: 9px;">Окт</span></td>
+<td>11<br /><span style="font-size: 9px;">Окт</span></td>
+<td>12<br /><span style="font-size: 9px;">Окт</span></td>
+<td>13<br /><span style="font-size: 9px;">Окт</span></td>
+<td>14<br /><span style="font-size: 9px;">Окт</span></td>
+<td>15<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">16<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">17<br /><span style="font-size: 9px;">Окт</span></td>
+<td>18<br /><span style="font-size: 9px;">Окт</span></td>
+<td>19<br /><span style="font-size: 9px;">Окт</span></td>
+<td>20<br /><span style="font-size: 9px;">Окт</span></td>
+<td>21<br /><span style="font-size: 9px;">Окт</span></td>
+<td>22<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">23<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">24<br /><span style="font-size: 9px;">Окт</span></td>
+<td>25<br /><span style="font-size: 9px;">Окт</span></td>
+<td>26<br /><span style="font-size: 9px;">Окт</span></td>
+<td><b>27<br /><span style="font-size: 9px;">Окт</span></b></td>
+<td>28<br /><span style="font-size: 9px;">Окт</span></td>
+<td>29<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">30<br /><span style="font-size: 9px;">Окт</span></td>
+<td bgcolor="#EAEAEA">31<br /><span style="font-size: 9px;">Окт</span></td>
+<td>&nbsp;</td><td valign="middle">Среднее</td>
+</tr>
+</table>
+<br />
+<table>
+<tr><td width="80" bgcolor="#ECECEC">День</td><td width="80" bgcolor="#F8E880">Количество посетителей</td><td width="80" bgcolor="#4477DD">Страниц</td><td width="80" bgcolor="#66F0FF">Запросов</td><td width="80" bgcolor="#2EA495">Байт</td></tr><tr><td>01 Окт 2010</td><td>45</td><td>199</td><td>3034</td><td>77.20 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>02 Окт 2010</td><td>33</td><td>189</td><td>2098</td><td>63.41 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>03 Окт 2010</td><td>37</td><td>295</td><td>2915</td><td>92.02 MB</td></tr>
+<tr><td>04 Окт 2010</td><td>57</td><td>159</td><td>1872</td><td>55.66 MB</td></tr>
+<tr><td>05 Окт 2010</td><td>71</td><td>437</td><td>3558</td><td>111.62 MB</td></tr>
+<tr><td>06 Окт 2010</td><td>66</td><td>410</td><td>4277</td><td>123.25 MB</td></tr>
+<tr><td>07 Окт 2010</td><td>51</td><td>263</td><td>3013</td><td>89.85 MB</td></tr>
+<tr><td>08 Окт 2010</td><td>62</td><td>570</td><td>4934</td><td>139.10 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>09 Окт 2010</td><td>30</td><td>237</td><td>2427</td><td>81.05 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>10 Окт 2010</td><td>55</td><td>313</td><td>3127</td><td>94.51 MB</td></tr>
+<tr><td>11 Окт 2010</td><td>73</td><td>674</td><td>5952</td><td>183.29 MB</td></tr>
+<tr><td>12 Окт 2010</td><td>69</td><td>484</td><td>4683</td><td>135.58 MB</td></tr>
+<tr><td>13 Окт 2010</td><td>70</td><td>418</td><td>4740</td><td>139.45 MB</td></tr>
+<tr><td>14 Окт 2010</td><td>55</td><td>295</td><td>3202</td><td>101.66 MB</td></tr>
+<tr><td>15 Окт 2010</td><td>54</td><td>274</td><td>3073</td><td>96.78 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>16 Окт 2010</td><td>49</td><td>293</td><td>3974</td><td>188.97 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>17 Окт 2010</td><td>43</td><td>134</td><td>1874</td><td>62.31 MB</td></tr>
+<tr><td>18 Окт 2010</td><td>61</td><td>195</td><td>2533</td><td>82.86 MB</td></tr>
+<tr><td>19 Окт 2010</td><td>98</td><td>380</td><td>4866</td><td>118.56 MB</td></tr>
+<tr><td>20 Окт 2010</td><td>65</td><td>242</td><td>2990</td><td>86.83 MB</td></tr>
+<tr><td>21 Окт 2010</td><td>53</td><td>282</td><td>3185</td><td>98.58 MB</td></tr>
+<tr><td>22 Окт 2010</td><td>73</td><td>563</td><td>4847</td><td>141.50 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>23 Окт 2010</td><td>71</td><td>240</td><td>3001</td><td>94.13 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>24 Окт 2010</td><td>59</td><td>291</td><td>2873</td><td>93.41 MB</td></tr>
+<tr><td>25 Окт 2010</td><td>68</td><td>270</td><td>3445</td><td>84.02 MB</td></tr>
+<tr><td>26 Окт 2010</td><td>63</td><td>214</td><td>2524</td><td>70.21 MB</td></tr>
+<tr><td>27 Окт 2010</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>28 Окт 2010</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>29 Окт 2010</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr bgcolor="#EAEAEA"><td>30 Окт 2010</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr bgcolor="#EAEAEA"><td>31 Окт 2010</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr bgcolor="#ECECEC"><td>Среднее</td><td>56.70</td><td>308.19</td><td>3296.93</td><td>100.22 MB</td></tr>
+<tr bgcolor="#ECECEC"><td>Итог</td><td>1531</td><td>8321</td><td>89017</td><td>2.64 GB</td></tr>
+</table>
+<br /></center>
+</td></tr>
+</table></td></tr></table><br />
+
+<a name="DAYOFWEEK">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Дни недели </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center"><center><table><tr valign="bottom">
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 324.50' title='Страниц: 324.50'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=40 WIDTH=6 alt='Запросов: 3450.50' title='Запросов: 3450.50'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=41 WIDTH=6 alt='Байт: 101.46 MB' title='Байт: 101.46 MB'></td>
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 378.75' title='Страниц: 378.75'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=45 WIDTH=6 alt='Запросов: 3907.75' title='Запросов: 3907.75'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=44 WIDTH=6 alt='Байт: 108.99 MB' title='Байт: 108.99 MB'></td>
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 267.50' title='Страниц: 267.50'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=35 WIDTH=6 alt='Запросов: 3001.75' title='Запросов: 3001.75'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=35 WIDTH=6 alt='Байт: 87.38 MB' title='Байт: 87.38 MB'></td>
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 280' title='Страниц: 280'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=36 WIDTH=6 alt='Запросов: 3133.33' title='Запросов: 3133.33'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=39 WIDTH=6 alt='Байт: 96.70 MB' title='Байт: 96.70 MB'></td>
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 401.50' title='Страниц: 401.50'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=46 WIDTH=6 alt='Запросов: 3972' title='Запросов: 3972'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=46 WIDTH=6 alt='Байт: 113.65 MB' title='Байт: 113.65 MB'></td>
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 239.75' title='Страниц: 239.75'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=33 WIDTH=6 alt='Запросов: 2875' title='Запросов: 2875'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=43 WIDTH=6 alt='Байт: 106.89 MB' title='Байт: 106.89 MB'></td>
+<td valign="bottom"><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 258.25' title='Страниц: 258.25'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=31 WIDTH=6 alt='Запросов: 2697.25' title='Запросов: 2697.25'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=34 WIDTH=6 alt='Байт: 85.56 MB' title='Байт: 85.56 MB'></td>
+</tr>
+<tr>
+<td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td bgcolor="#EAEAEA">Сб</td><td bgcolor="#EAEAEA">Вс</td></tr>
+</table>
+<br />
+<table>
+<tr><td width="80" bgcolor="#ECECEC">День</td><td width="80" bgcolor="#4477DD">Страниц</td><td width="80" bgcolor="#66F0FF">Запросов</td><td width="80" bgcolor="#2EA495">Байт</td></tr><tr><td>Пн</td><td>324.50</td><td>3450.50</td><td>101.46 MB</td></tr>
+<tr><td>Вт</td><td>378.75</td><td>3907.75</td><td>108.99 MB</td></tr>
+<tr><td>Ср</td><td>267.50</td><td>3001.75</td><td>87.38 MB</td></tr>
+<tr><td>Чт</td><td>280</td><td>3133.33</td><td>96.70 MB</td></tr>
+<tr><td>Пт</td><td>401.50</td><td>3972</td><td>113.65 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>Сб</td><td>239.75</td><td>2875</td><td>106.89 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>Вс</td><td>258.25</td><td>2697.25</td><td>85.56 MB</td></tr>
+</table>
+<br />
+</center></td></tr>
+</table></td></tr></table><br />
+
+<a name="HOUR">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Время (на сервере) </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center"><center><table>
+<tr valign="bottom">
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=6 alt='Страниц: 182' title='Страниц: 182'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=11 WIDTH=6 alt='Запросов: 1581' title='Запросов: 1581'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=10 WIDTH=6 alt='Байт: 53.85 MB' title='Байт: 53.85 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=6 alt='Страниц: 222' title='Страниц: 222'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=12 WIDTH=6 alt='Запросов: 1698' title='Запросов: 1698'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=10 WIDTH=6 alt='Байт: 53.46 MB' title='Байт: 53.46 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 125' title='Страниц: 125'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=7 WIDTH=6 alt='Запросов: 977' title='Запросов: 977'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=5 WIDTH=6 alt='Байт: 28.14 MB' title='Байт: 28.14 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 102' title='Страниц: 102'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=5 WIDTH=6 alt='Запросов: 588' title='Запросов: 588'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=4 WIDTH=6 alt='Байт: 17.61 MB' title='Байт: 17.61 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 57' title='Страниц: 57'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=3 WIDTH=6 alt='Запросов: 357' title='Запросов: 357'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=2 WIDTH=6 alt='Байт: 9.15 MB' title='Байт: 9.15 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 35' title='Страниц: 35'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=3 WIDTH=6 alt='Запросов: 382' title='Запросов: 382'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=3 WIDTH=6 alt='Байт: 12.18 MB' title='Байт: 12.18 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 134' title='Страниц: 134'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=4 WIDTH=6 alt='Запросов: 565' title='Запросов: 565'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=3 WIDTH=6 alt='Байт: 16.63 MB' title='Байт: 16.63 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=1 WIDTH=6 alt='Страниц: 112' title='Страниц: 112'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=7 WIDTH=6 alt='Запросов: 963' title='Запросов: 963'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=6 WIDTH=6 alt='Байт: 30.01 MB' title='Байт: 30.01 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 308' title='Страниц: 308'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=20 WIDTH=6 alt='Запросов: 2846' title='Запросов: 2846'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=14 WIDTH=6 alt='Байт: 79.06 MB' title='Байт: 79.06 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=2 WIDTH=6 alt='Страниц: 266' title='Страниц: 266'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=24 WIDTH=6 alt='Запросов: 3426' title='Запросов: 3426'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=17 WIDTH=6 alt='Байт: 93.28 MB' title='Байт: 93.28 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 379' title='Страниц: 379'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=29 WIDTH=6 alt='Запросов: 4188' title='Запросов: 4188'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=22 WIDTH=6 alt='Байт: 123.09 MB' title='Байт: 123.09 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 464' title='Страниц: 464'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=40 WIDTH=6 alt='Запросов: 5816' title='Запросов: 5816'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=27 WIDTH=6 alt='Байт: 151.91 MB' title='Байт: 151.91 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 667' title='Страниц: 667'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=43 WIDTH=6 alt='Запросов: 6291' title='Запросов: 6291'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=31 WIDTH=6 alt='Байт: 179.29 MB' title='Байт: 179.29 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 557' title='Страниц: 557'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=42 WIDTH=6 alt='Запросов: 6065' title='Запросов: 6065'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=30 WIDTH=6 alt='Байт: 173.22 MB' title='Байт: 173.22 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 651' title='Страниц: 651'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=45 WIDTH=6 alt='Запросов: 6472' title='Запросов: 6472'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=32 WIDTH=6 alt='Байт: 180.80 MB' title='Байт: 180.80 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=5 WIDTH=6 alt='Страниц: 603' title='Страниц: 603'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=46 WIDTH=6 alt='Запросов: 6608' title='Запросов: 6608'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=34 WIDTH=6 alt='Байт: 193.05 MB' title='Байт: 193.05 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 582' title='Страниц: 582'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=38 WIDTH=6 alt='Запросов: 5537' title='Запросов: 5537'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=29 WIDTH=6 alt='Байт: 167.08 MB' title='Байт: 167.08 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 381' title='Страниц: 381'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=34 WIDTH=6 alt='Запросов: 4879' title='Запросов: 4879'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=26 WIDTH=6 alt='Байт: 150.14 MB' title='Байт: 150.14 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 381' title='Страниц: 381'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=27 WIDTH=6 alt='Запросов: 3909' title='Запросов: 3909'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=20 WIDTH=6 alt='Байт: 112.25 MB' title='Байт: 112.25 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 451' title='Страниц: 451'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=34 WIDTH=6 alt='Запросов: 4911' title='Запросов: 4911'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=28 WIDTH=6 alt='Байт: 157.84 MB' title='Байт: 157.84 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 377' title='Страниц: 377'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=31 WIDTH=6 alt='Запросов: 4495' title='Запросов: 4495'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=25 WIDTH=6 alt='Байт: 142.74 MB' title='Байт: 142.74 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 500' title='Страниц: 500'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=40 WIDTH=6 alt='Запросов: 5841' title='Запросов: 5841'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=32 WIDTH=6 alt='Байт: 183.79 MB' title='Байт: 183.79 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=3 WIDTH=6 alt='Страниц: 342' title='Страниц: 342'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=30 WIDTH=6 alt='Запросов: 4389' title='Запросов: 4389'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=24 WIDTH=6 alt='Байт: 135.93 MB' title='Байт: 135.93 MB'></td>
+<td><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vp.png" HEIGHT=4 WIDTH=6 alt='Страниц: 443' title='Страниц: 443'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vh.png" HEIGHT=43 WIDTH=6 alt='Запросов: 6233' title='Запросов: 6233'><IMG align="bottom" SRC="http://support.infobox.ru/awstats2/icons/other/vk.png" HEIGHT=46 WIDTH=6 alt='Байт: 261.31 MB' title='Байт: 261.31 MB'></td>
+</tr>
+<tr><th width=19>0</th>
+<th width=19>1</th>
+<th width=19>2</th>
+<th width=19>3</th>
+<th width=19>4</th>
+<th width=19>5</th>
+<th width=19>6</th>
+<th width=19>7</th>
+<th width=19>8</th>
+<th width=19>9</th>
+<th width=19>10</th>
+<th width=19>11</th>
+<th width=19>12</th>
+<th width=19>13</th>
+<th width=19>14</th>
+<th width=19>15</th>
+<th width=19>16</th>
+<th width=19>17</th>
+<th width=19>18</th>
+<th width=19>19</th>
+<th width=19>20</th>
+<th width=19>21</th>
+<th width=19>22</th>
+<th width=19>23</th>
+</tr>
+<tr>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr1.png" width=10 alt="0:00 - 1:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr2.png" width=10 alt="1:00 - 2:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr3.png" width=10 alt="2:00 - 3:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr4.png" width=10 alt="3:00 - 4:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr5.png" width=10 alt="4:00 - 5:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr6.png" width=10 alt="5:00 - 6:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr7.png" width=10 alt="6:00 - 7:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr8.png" width=10 alt="7:00 - 8:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr9.png" width=10 alt="8:00 - 9:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr10.png" width=10 alt="9:00 - 10:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr11.png" width=10 alt="10:00 - 11:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr12.png" width=10 alt="11:00 - 12:00 am"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr1.png" width=10 alt="0:00 - 1:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr2.png" width=10 alt="1:00 - 2:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr3.png" width=10 alt="2:00 - 3:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr4.png" width=10 alt="3:00 - 4:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr5.png" width=10 alt="4:00 - 5:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr6.png" width=10 alt="5:00 - 6:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr7.png" width=10 alt="6:00 - 7:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr8.png" width=10 alt="7:00 - 8:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr9.png" width=10 alt="8:00 - 9:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr10.png" width=10 alt="9:00 - 10:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr11.png" width=10 alt="10:00 - 11:00 pm"></td>
+<td><IMG SRC="http://support.infobox.ru/awstats2/icons/clock/hr12.png" width=10 alt="11:00 - 12:00 pm"></td>
+</tr>
+</table>
+<br />
+<table width="650"><tr>
+<td align="center"><center>
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Время (на сервере)</td><td width="80" bgcolor="#4477DD">Страниц</td><td width="80" bgcolor="#66F0FF">Запросов</td><td width="80" bgcolor="#2EA495">Байт</td></tr><tr><td>00</td><td>182</td><td>1581</td><td>53.85 MB</td></tr>
+<tr><td>01</td><td>222</td><td>1698</td><td>53.46 MB</td></tr>
+<tr><td>02</td><td>125</td><td>977</td><td>28.14 MB</td></tr>
+<tr><td>03</td><td>102</td><td>588</td><td>17.61 MB</td></tr>
+<tr><td>04</td><td>57</td><td>357</td><td>9.15 MB</td></tr>
+<tr><td>05</td><td>35</td><td>382</td><td>12.18 MB</td></tr>
+<tr><td>06</td><td>134</td><td>565</td><td>16.63 MB</td></tr>
+<tr><td>07</td><td>112</td><td>963</td><td>30.01 MB</td></tr>
+<tr><td>08</td><td>308</td><td>2846</td><td>79.06 MB</td></tr>
+<tr><td>09</td><td>266</td><td>3426</td><td>93.28 MB</td></tr>
+<tr><td>10</td><td>379</td><td>4188</td><td>123.09 MB</td></tr>
+<tr><td>11</td><td>464</td><td>5816</td><td>151.91 MB</td></tr>
+</table>
+</center></td><td width="10">&nbsp;</td><td align="center"><center>
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Время (на сервере)</td><td width="80" bgcolor="#4477DD">Страниц</td><td width="80" bgcolor="#66F0FF">Запросов</td><td width="80" bgcolor="#2EA495">Байт</td></tr>
+<tr><td>12</td><td>667</td><td>6291</td><td>179.29 MB</td></tr>
+<tr><td>13</td><td>557</td><td>6065</td><td>173.22 MB</td></tr>
+<tr><td>14</td><td>651</td><td>6472</td><td>180.80 MB</td></tr>
+<tr><td>15</td><td>603</td><td>6608</td><td>193.05 MB</td></tr>
+<tr><td>16</td><td>582</td><td>5537</td><td>167.08 MB</td></tr>
+<tr><td>17</td><td>381</td><td>4879</td><td>150.14 MB</td></tr>
+<tr><td>18</td><td>381</td><td>3909</td><td>112.25 MB</td></tr>
+<tr><td>19</td><td>451</td><td>4911</td><td>157.84 MB</td></tr>
+<tr><td>20</td><td>377</td><td>4495</td><td>142.74 MB</td></tr>
+<tr><td>21</td><td>500</td><td>5841</td><td>183.79 MB</td></tr>
+<tr><td>22</td><td>342</td><td>4389</td><td>135.93 MB</td></tr>
+<tr><td>23</td><td>443</td><td>6233</td><td>261.31 MB</td></tr>
+</table>
+</center></td></tr></table>
+<br />
+</center></td></tr>
+</table></td></tr></table><br />
+
+
+<a name="WHO">&nbsp;</a>
+
+<a name="COUNTRIES">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Посещения с домена/страны (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.alldomains.html" target="awstatsbis">Весь список</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th width="32">&nbsp;</th><th colspan="2">Домены/страны</th><th bgcolor="#4477DD" width="80">Страниц</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#2EA495" width="80">Байт</th><th>&nbsp;</th></tr>
+<tr><td width="32"><IMG SRC="http://support.infobox.ru/awstats2/icons/flags/ip.png" height=14 alt='Неизвестно' title='Неизвестно'></td><td class="aws">Неизвестно</td><td>ip</td><td>8321</td><td>89017</td><td>2.64 GB</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=25 HEIGHT=5 alt='' title=''><br />
+<IMG SRC="http://support.infobox.ru/awstats2/icons/other/hh.png" WIDTH=261 HEIGHT=5 alt='' title=''><br />
+<IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=261 HEIGHT=5 alt='' title=''></td></tr>
+</table></td></tr></table><br />
+
+<a name="VISITOR">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Хосты (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.allhosts.html" target="awstatsbis">Весь список</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.lasthosts.html" target="awstatsbis">Последнее посещение</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.unknownip.html" target="awstatsbis">IP без имени домена</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Хосты : 0 известных, 4993 неизвестных (unresolved ip) - 1176 Уникальных посетителей</th><th bgcolor="#4477DD" width="80">Страниц</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#2EA495" width="80">Байт</th><th width="120">Последнее посещение</th></tr>
+<tr><td class="aws">85.26.164.151</td><td>134</td><td>660</td><td>13.25 MB</td><td>08 Окт 2010 - 17:18</td></tr>
+<tr><td class="aws">95.52.180.181</td><td>102</td><td>572</td><td>17.13 MB</td><td>11 Окт 2010 - 16:51</td></tr>
+<tr><td class="aws">88.215.185.243</td><td>99</td><td>688</td><td>15.37 MB</td><td>22 Окт 2010 - 12:05</td></tr>
+<tr><td class="aws">188.226.13.240</td><td>94</td><td>406</td><td>13.67 MB</td><td>10 Окт 2010 - 12:58</td></tr>
+<tr><td class="aws">174.121.74.226</td><td>88</td><td>88</td><td>454.17 KB</td><td>05 Окт 2010 - 07:08</td></tr>
+<tr><td class="aws">188.17.67.237</td><td>83</td><td>401</td><td>12.39 MB</td><td>11 Окт 2010 - 08:41</td></tr>
+<tr><td class="aws">94.181.134.64</td><td>71</td><td>490</td><td>16.33 MB</td><td>09 Окт 2010 - 19:45</td></tr>
+<tr><td class="aws">94.251.116.200</td><td>68</td><td>604</td><td>17.48 MB</td><td>08 Окт 2010 - 23:08</td></tr>
+<tr><td class="aws">94.246.126.81</td><td>65</td><td>1114</td><td>10.16 MB</td><td>25 Окт 2010 - 17:20</td></tr>
+<tr><td class="aws">193.169.33.103</td><td>65</td><td>311</td><td>8.26 MB</td><td>22 Окт 2010 - 03:53</td></tr>
+<tr><td class="aws"><span style="color: #666688">Прочие</span></td><td>7452</td><td>83683</td><td>2.52 GB</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="LOGIN">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Авторизованые посетители (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.alllogins.html" target="awstatsbis">Весь список</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.lastlogins.html" target="awstatsbis">Последнее посещение</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Авторизованые посетители : 1</th><th bgcolor="#4477DD" width="80">Страниц</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#2EA495" width="80">Байт</th><th width="120">Последнее посещение</th></tr>
+<tr><td class="aws">Windaiv</td><td>8</td><td>8</td><td>406.89 KB</td><td>25 Окт 2010 - 11:57</td></tr>
+<tr><td class="aws"><span style="color: #666688">Анонимные пользователи</span></td><td>8313</td><td>89009</td><td>2.64 GB</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="ROBOTS">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Роботы (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.allrobots.html" target="awstatsbis">Весь список</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.lastrobots.html" target="awstatsbis">Последнее посещение</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>16 Роботы</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#2EA495" width="80">Байт</th><th width="120">Последнее посещение</th></tr>
+<tr><td class="aws">Yandex bot</td><td>1516</td><td>16.94 MB</td><td>26 Окт 2010 - 23:54</td></tr>
+<tr><td class="aws">Unknown robot (identified by 'robot')</td><td>1462</td><td>3.75 MB</td><td>19 Окт 2010 - 08:41</td></tr>
+<tr><td class="aws">Googlebot (Google)</td><td>697</td><td>9.87 MB</td><td>26 Окт 2010 - 22:07</td></tr>
+<tr><td class="aws">MSNBot</td><td>575</td><td>3.99 MB</td><td>25 Окт 2010 - 14:13</td></tr>
+<tr><td class="aws">Inktomi Slurp</td><td>311</td><td>2.38 MB</td><td>26 Окт 2010 - 23:17</td></tr>
+<tr><td class="aws">Unknown robot (identified by 'crawl')</td><td>278</td><td>1.82 MB</td><td>22 Окт 2010 - 03:29</td></tr>
+<tr><td class="aws">StackRambler</td><td>156</td><td>980.06 KB</td><td>26 Окт 2010 - 13:46</td></tr>
+<tr><td class="aws">Turn It In</td><td>17</td><td>110.06 KB</td><td>23 Окт 2010 - 00:09</td></tr>
+<tr><td class="aws">BaiDuSpider</td><td>10</td><td>61.97 KB</td><td>25 Окт 2010 - 05:42</td></tr>
+<tr><td class="aws">Aport</td><td>8</td><td>62.35 KB</td><td>26 Окт 2010 - 15:54</td></tr>
+<tr><td class="aws"><span style="color: #666688">Прочие</span></td><td>10</td><td>159.28 KB</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="HOW">&nbsp;</a>
+
+<a name="SESSIONS">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Продолжительность визитов </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Количество посетителей: 1531 - Среднее: 226 s</th><th bgcolor="#8888DD" width="80">Количество посетителей</th><th bgcolor="#8888DD" width="80">Процент</th></tr>
+<tr><td class="aws">0s-30s</td><td>1005</td><td>65.6 %</td></tr>
+<tr><td class="aws">30s-2mn</td><td>196</td><td>12.8 %</td></tr>
+<tr><td class="aws">2mn-5mn</td><td>134</td><td>8.7 %</td></tr>
+<tr><td class="aws">5mn-15mn</td><td>103</td><td>6.7 %</td></tr>
+<tr><td class="aws">15mn-30mn</td><td>34</td><td>2.2 %</td></tr>
+<tr><td class="aws">30mn-1h</td><td>28</td><td>1.8 %</td></tr>
+<tr><td class="aws">1h+</td><td>29</td><td>1.8 %</td></tr>
+<tr><td class="aws"><span style="color: #666688">Неизвестно</span></td><td>2</td><td>0.1 %</td></tr>
+</table></td></tr></table><br />
+
+<a name="FILETYPES">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Типы файлов </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th colspan=3>Типы файлов</th><th bgcolor="#66F0FF" width="80">&nbsp;Запросов&nbsp;</th><th bgcolor="#66F0FF" width="80">Процент</th><th bgcolor="#2EA495" width="80">Байт</th></tr>
+<tr><td width="32"><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/image.png" alt='' title=''></td><td class="aws">jpg</td><td class="aws">Image</td><td>51391</td><td>57.7 %</td><td>2.32 GB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/image.png" alt='' title=''></td><td class="aws">gif</td><td class="aws">Image</td><td>12973</td><td>14.5 %</td><td>13.72 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/other.png" alt='' title=''></td><td class="aws">js</td><td class="aws">Javascript file</td><td>6793</td><td>7.6 %</td><td>109.37 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/image.png" alt='' title=''></td><td class="aws">png</td><td class="aws">Image</td><td>6542</td><td>7.3 %</td><td>87.22 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/script.png" alt='' title=''></td><td class="aws">php</td><td class="aws">Dynamic Html page or Script file</td><td>6260</td><td>7 %</td><td>41.95 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/other.png" alt='' title=''></td><td class="aws">css</td><td class="aws">Cascading Style Sheet file</td><td>2997</td><td>3.3 %</td><td>48.14 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/html.png" alt='' title=''></td><td class="aws">shtml</td><td class="aws">Dynamic Html page or Script file</td><td>1743</td><td>1.9 %</td><td>17.38 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/video.png" alt='' title=''></td><td class="aws">swf</td><td class="aws">Macromedia Flash Animation</td><td>294</td><td>0.3 %</td><td>12.74 MB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/doc.png" alt='' title=''></td><td class="aws">doc</td><td class="aws">Document</td><td>10</td><td>0 %</td><td>366.50 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/notavailable.png" alt='' title=''></td><td class="aws">ai</td><td class="aws">&nbsp;</td><td>4</td><td>0 %</td><td>87.16 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/html.png" alt='' title=''></td><td class="aws">xml</td><td class="aws">HTML or XML static page</td><td>3</td><td>0 %</td><td>41.93 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/archive.png" alt='' title=''></td><td class="aws">gz</td><td class="aws">Archive</td><td>2</td><td>0 %</td><td>4.42 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/notavailable.png" alt='' title=''></td><td class="aws">cdr</td><td class="aws">&nbsp;</td><td>2</td><td>0 %</td><td>52.98 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/html.png" alt='' title=''></td><td class="aws">html</td><td class="aws">HTML or XML static page</td><td>1</td><td>0 %</td><td>10.15 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/notavailable.png" alt='' title=''></td><td class="aws">eps</td><td class="aws">&nbsp;</td><td>1</td><td>0 %</td><td>351.72 KB</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/mime/notavailable.png" alt='' title=''></td><td class="aws">mo</td><td class="aws">&nbsp;</td><td>1</td><td>0 %</td><td>429.03 KB</td></tr>
+</table></td></tr></table><br />
+
+<a name="PAGE">&nbsp;</a><a name="ENTRY">&nbsp;</a><a name="EXIT">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Страницы/URL (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.urldetail.html" target="awstatsbis">Весь список</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.urlentry.html" target="awstatsbis">Просмотрена первой</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.urlexit.html" target="awstatsbis">Просмотрена последней</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>489 различные страницы</th><th bgcolor="#4477DD" width="80">Доступ</th><th bgcolor="#2EA495" width="80">Средний размер</th><th bgcolor="#CEC2E8" width="80">Просмотрена первой</th><th bgcolor="#C1B2E2" width="80">Просмотрена последней</th><th>&nbsp;</th></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/" target="url">/</A></td><td>700</td><td>10.95 KB</td><td>567</td><td>275</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=261 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=63 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=211 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=103 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/blog/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.js.php" target="url">/blog/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.js....</A></td><td>589</td><td>7.58 KB</td><td>46</td><td>172</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=219 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=44 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=18 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=64 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/blog/wp-content/plugins/featured-content-gallery/css/jd.gallery.css.php" target="url">/blog/wp-content/plugins/featured-content-gallery/css/jd.gallery.css.php</A></td><td>569</td><td>3.35 KB</td><td>47</td><td>78</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=212 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=20 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=18 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=29 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/templates/Modification/swf/productviewer_380.swf" target="url">/templates/Modification/swf/productviewer_380.swf</A></td><td>247</td><td>45.62 KB</td><td>3</td><td>67</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=92 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=261 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=2 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=25 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/albom1.php" target="url">/albom1.php</A></td><td>232</td><td>6.59 KB</td><td>6</td><td>38</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=87 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=38 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=3 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=15 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/albom2.php" target="url">/albom2.php</A></td><td>230</td><td>6.92 KB</td><td>6</td><td>28</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=86 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=40 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=3 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=11 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/albom5.php" target="url">/albom5.php</A></td><td>204</td><td>6.81 KB</td><td>3</td><td>16</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=76 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=39 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=2 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=6 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/albom13.php" target="url">/albom13.php</A></td><td>203</td><td>6.98 KB</td><td>37</td><td>45</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=76 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=40 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=14 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=17 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/albom9.php" target="url">/albom9.php</A></td><td>190</td><td>6.87 KB</td><td>5</td><td>15</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=71 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=40 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=2 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=6 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><A HREF="http://samokleyka.net/index.php" target="url">/index.php</A></td><td>186</td><td>9.79 KB</td><td>32</td><td>45</td><td class="aws"><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hp.png" WIDTH=70 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hk.png" WIDTH=56 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/he.png" WIDTH=12 HEIGHT=4 alt='' title=''><br /><IMG SRC="http://support.infobox.ru/awstats2/icons/other/hx.png" WIDTH=17 HEIGHT=4 alt='' title=''></td></tr>
+<tr><td class="aws"><span style="color: #666688">Прочие</span></td><td>4971</td><td>8.20 KB</td><td>779</td><td>750</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="OS">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Операционные системы (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.osdetail.html" target="awstatsbis">Весь список/Версии</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.unknownos.html" target="awstatsbis">Неизвестно</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th width="32">&nbsp;</th><th>Операционные системы</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#66F0FF" width="80">Процент</th></tr>
+<tr><td width="32"><IMG SRC="http://support.infobox.ru/awstats2/icons/os/win.png" alt='' title=''></td><td class="aws"><b>Windows</b></td><td>83290</td><td>93.5 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/os/unknown.png" alt='' title=''></td><td class="aws"><span style="color: #666688">Неизвестно</span></td><td>2303</td><td>2.5 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/os/mac.png" alt='' title=''></td><td class="aws"><b>Macintosh</b></td><td>1987</td><td>2.2 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/os/freebsd.png" alt='' title=''></td><td class="aws">FreeBSD</td><td>1064</td><td>1.1 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/os/linux.png" alt='' title=''></td><td class="aws">Linux</td><td>373</td><td>0.4 %</td></tr>
+</table></td></tr></table><br />
+
+<a name="BROWSER">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Браузеры (первые 10) &nbsp; - &nbsp; <a href="awstats.samokleyka.net.browserdetail.html" target="awstatsbis">Весь список/Версии</a> &nbsp; - &nbsp; <a href="awstats.samokleyka.net.unknownbrowser.html" target="awstatsbis">Неизвестно</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th width="32">&nbsp;</th><th>Браузеры</th><th width="80">Скачивалка</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#66F0FF" width="80">Процент</th></tr>
+<tr><td width="32"><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/opera.png" alt='' title=''></td><td class="aws">Opera</td><td>Нет</td><td>33528</td><td>37.6 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/mozilla.png" alt='' title=''></td><td class="aws">Mozilla</td><td>Нет</td><td>25817</td><td>29 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/msie.png" alt='' title=''></td><td class="aws"><b>MS Internet Explorer</b></td><td>Нет</td><td>24147</td><td>27.1 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/safari.png" alt='' title=''></td><td class="aws">Safari</td><td>Нет</td><td>5211</td><td>5.8 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/unknown.png" alt='' title=''></td><td class="aws"><span style="color: #666688">Неизвестно</span></td><td width="80">?</td><td>253</td><td>0.2 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/pdaphone.png" alt='' title=''></td><td class="aws">UP.Browser (PDA/Phone browser)</td><td>Нет</td><td>29</td><td>0 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/notavailable.png" alt='' title=''></td><td class="aws">LibWWW</td><td>Нет</td><td>19</td><td>0 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/pdaphone.png" alt='' title=''></td><td class="aws">Nokia Browser (PDA/Phone browser)</td><td>Нет</td><td>6</td><td>0 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/netscape.png" alt='' title=''></td><td class="aws"><b>Netscape</b></td><td>Нет</td><td>5</td><td>0 %</td></tr>
+<tr><td><IMG SRC="http://support.infobox.ru/awstats2/icons/browser/adobe.png" alt='' title=''></td><td class="aws">Acrobat</td><td><b>Да</b></td><td>2</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="REFERING">&nbsp;</a>
+
+<a name="REFERER">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Заходы на сайт </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Откуда</th><th bgcolor="#4477DD" width="80">Страниц</th><th bgcolor="#4477DD" width="80">Процент</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#66F0FF" width="80">Процент</th></tr>
+<tr><td class="aws"><b>Набор адреса/закладки</b></td><td>1084</td><td>13 %</td><td>1981</td><td>2.2 %</td></tr>
+<tr><td class="aws"><b>Ссылки из News Group</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class="aws"><b>Ссылка с поискового сервера</b> - <a href="awstats.samokleyka.net.refererse.html" target="awstatsbis">Весь список</a><br />
+<table>
+<tr><td class="aws">- Yandex</td><td>440</td><td>1779</td></tr>
+<tr><td class="aws">- Google</td><td>81</td><td>281</td></tr>
+<tr><td class="aws">- Rambler</td><td>35</td><td>35</td></tr>
+<tr><td class="aws">- Google (Images)</td><td>7</td><td>12</td></tr>
+<tr><td class="aws">- Yahoo</td><td>2</td><td>5</td></tr>
+</table></td>
+<td valign=top>565</td><td valign=top>6.7 %</td><td valign=top>2112</td><td valign=top>2.3 %</td></tr>
+<tr><td class="aws"><b>Ссылка с другого сервера (прочие сайты, за искл. поисковиков)</b> - <a href="awstats.samokleyka.net.refererpages.html" target="awstatsbis">Весь список</a><br />
+<table>
+<tr><td class="aws">- <A HREF="http://ch-duff.livejournal.com/469593.html" target="url">http://ch-duff.livejournal.com/469593.html</A></td><td>47</td><td>68</td></tr>
+<tr><td class="aws">- <A HREF="http://yandex.ua/yandsearch" target="url">http://yandex.ua/yandsearch</A></td><td>33</td><td>33</td></tr>
+<tr><td class="aws">- <A HREF="http://cataloxy.ru/firms/penza/www.samokleyka.net.htm" target="url">http://cataloxy.ru/firms/penza/www.samokleyka.net.htm</A></td><td>28</td><td>28</td></tr>
+<tr><td class="aws">- <A HREF="http://www.id4.ru/samokleyka_net_01/" target="url">http://www.id4.ru/samokleyka_net_01/</A></td><td>23</td><td>23</td></tr>
+<tr><td class="aws">- <A HREF="http://yandex.by/yandsearch" target="url">http://yandex.by/yandsearch</A></td><td>15</td><td>15</td></tr>
+<tr><td class="aws">- <A HREF="http://scc.pnz.ru/forum/viewtopic.php" target="url">http://scc.pnz.ru/forum/viewtopic.php</A></td><td>14</td><td>70</td></tr>
+<tr><td class="aws">- <A HREF="http://www.flsticker-penza.ru/samokleyka" target="url">http://www.flsticker-penza.ru/samokleyka</A></td><td>13</td><td>559</td></tr>
+<tr><td class="aws">- <A HREF="http://www.bing.com/search" target="url">http://www.bing.com/search</A></td><td>12</td><td>12</td></tr>
+<tr><td class="aws">- <A HREF="http://soki.tv" target="url">http://soki.tv</A></td><td>12</td><td>12</td></tr>
+<tr><td class="aws">- <A HREF="http://search.ukr.net/yandex/search.php" target="url">http://search.ukr.net/yandex/search.php</A></td><td>9</td><td>9</td></tr>
+<tr><td class="aws"><span style="color: #666688">- Прочие</span></td><td>115</td><td>2331</td></tr>
+</table></td>
+<td valign=top>321</td><td valign=top>3.8 %</td><td valign=top>3160</td><td valign=top>3.5 %</td></tr>
+<tr><td class="aws"><b>Ссылка на сайте (другая страница на этом сервере)</b></td><td>6351</td><td>76.3 %</td><td>81763</td><td>91.8 %</td></tr>
+<tr><td class="aws"><b>Ссылка с новостной группы</b></td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="KEYS">&nbsp;</a>
+
+<a name="KEYPHRASES">&nbsp;</a><a name="KEYWORDS">&nbsp;</a><br />
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="50%" valign=top>
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="95%">Поисковые&nbsp;фразы (первые 10)<br /><a href="awstats.samokleyka.net.keyphrases.html" target="awstatsbis">Весь список</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>1023 Различные ключевые слова</th><th bgcolor="#8888DD" width="80">Поиск</th><th bgcolor="#8888DD" width="80">Процент</th></tr>
+<tr><td class="aws">nissan march</td><td>141</td><td>7 %</td></tr>
+<tr><td class="aws">С‚СЂР°С„Р°СЂРµС‚С‹ РґР»СЏ СЃС‚РµРЅ</td><td>62</td><td>3.1 %</td></tr>
+<tr><td class="aws">РґРµС‚СЃРєР°СЏ РєРѕРјРЅР°С‚Р°</td><td>42</td><td>2.1 %</td></tr>
+<tr><td class="aws">РІРёРЅРёР»РѕРІС‹Рµ РЅР°РєР»РµР№РєРё РЅР° СЃС‚РµРЅС‹</td><td>25</td><td>1.2 %</td></tr>
+<tr><td class="aws">РІРёРЅРёР»РѕРІС‹Рµ РЅР°РєР»РµР№РєРё СЃС‚Р°С‚СЊ РґРёР»РµСЂРѕРј</td><td>23</td><td>1.1 %</td></tr>
+<tr><td class="aws">РЅРёСЃСЃР°РЅ РјР°СЂС‡</td><td>21</td><td>1 %</td></tr>
+<tr><td class="aws">РґРµС‚СЃРєРёРµ РєРѕРјРЅР°С‚С‹</td><td>19</td><td>0.9 %</td></tr>
+<tr><td class="aws">РЅР°РєР»РµР№РєРё РЅР° Р°РІС‚Рѕ</td><td>19</td><td>0.9 %</td></tr>
+<tr><td class="aws">РґРёР·Р°Р№РЅ РґРµС‚СЃРєРѕР№ РєРѕРјРЅР°С‚С‹</td><td>19</td><td>0.9 %</td></tr>
+<tr><td class="aws">РЅР°РєР»РµР№РєРё РЅР° СЃС‚РµРЅС‹</td><td>15</td><td>0.7 %</td></tr>
+<tr><td class="aws"><span style="color: #666688">Другие фразы</span></td><td>1613</td><td>80.6&nbsp;%</td></tr>
+</table></td></tr></table><br />
+
+</td>
+<td> &nbsp; </td><td width="50%" valign=top>
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="95%">Поисковые&nbsp;слова (первые 10)<br /><a href="awstats.samokleyka.net.keywords.html" target="awstatsbis">Весь список</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>930 Ключевое слово</th><th bgcolor="#8888DD" width="80">Поиск</th><th bgcolor="#8888DD" width="80">Процент</th></tr>
+<tr><td class="aws">РЅР°</td><td>415</td><td>6.1 %</td></tr>
+<tr><td class="aws">РЅР°РєР»РµР№РєРё</td><td>357</td><td>5.2 %</td></tr>
+<tr><td class="aws">РґР»СЏ</td><td>321</td><td>4.7 %</td></tr>
+<tr><td class="aws">РєРѕРјРЅР°С‚С‹</td><td>219</td><td>3.2 %</td></tr>
+<tr><td class="aws">С„РѕС‚Рѕ</td><td>179</td><td>2.6 %</td></tr>
+<tr><td class="aws">march</td><td>168</td><td>2.4 %</td></tr>
+<tr><td class="aws">nissan</td><td>168</td><td>2.4 %</td></tr>
+<tr><td class="aws">РґРёР·Р°Р№РЅ</td><td>166</td><td>2.4 %</td></tr>
+<tr><td class="aws">РґРµС‚СЃРєРѕР№</td><td>157</td><td>2.3 %</td></tr>
+<tr><td class="aws">СЃС‚РµРЅ</td><td>125</td><td>1.8 %</td></tr>
+<tr><td class="aws"><span style="color: #666688">Прочие слова</span></td><td>4481</td><td>66.3 %</td></tr>
+</table></td></tr></table><br />
+
+</td>
+</tr></table>
+
+<a name="OTHER">&nbsp;</a>
+
+<a name="MISC">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Разное </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Разное</th><th width=100>&nbsp;</th><th width=100>&nbsp;</th></tr>
+<tr><td class="aws">Добавить в закладки</td><td>409 / 1176 Посетители</td><td>34.7 %</td></tr>
+<tr><td class="aws">Браузеры с поддержкой Java</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Браузеры с поддержкой Macromedia Director</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Браузеры с поддержкой Flash</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Браузеры с поддержкой RealAudio</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Браузеры с поддержкой QuickTime</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Браузеры с поддержкой Windows Media</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Браузеры с поддержкой PDF</td><td>-</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="ERRORS">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Коды ошибок HTTP </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th colspan="2">Коды ошибок HTTP*</th><th bgcolor="#66F0FF" width="80">Запросов</th><th bgcolor="#66F0FF" width="80">Процент</th><th bgcolor="#2EA495" width="80">Байт</th></tr>
+<tr><td><a href="awstats.samokleyka.net.errors404.html" target="awstatsbis">404</a></td><td class="aws">Document Not Found</td><td>222</td><td>27.8 %</td><td>684.80 KB</td></tr>
+<tr><td>206</td><td class="aws">Partial Content</td><td>196</td><td>24.6 %</td><td>6.63 MB</td></tr>
+<tr><td>301</td><td class="aws">Moved permanently (redirect)</td><td>194</td><td>24.3 %</td><td>21.71 KB</td></tr>
+<tr><td>302</td><td class="aws">Moved temporarily (redirect)</td><td>160</td><td>20.1 %</td><td>2.01 KB</td></tr>
+<tr><td>403</td><td class="aws">Forbidden</td><td>17</td><td>2.1 %</td><td>1.36 KB</td></tr>
+<tr><td>401</td><td class="aws">Unauthorized</td><td>5</td><td>0.6 %</td><td>19.52 KB</td></tr>
+<tr><td>416</td><td class="aws">Requested range not valid</td><td>2</td><td>0.2 %</td><td>576 Байт</td></tr>
+</table></td></tr></table>* Codes shown here gave hits or traffic "not viewed" by visitors, so are isolated in this chart.<br />
+<br />
+
+<br /><br />
+<span style="color: #000000"><b>Advanced Web Statistics 5.9 (build 1.605)</b> - <a href="http://awstats.sourceforge.net" target="awstatshome">Created by awstats</a></span><br />
+
+</body>
+</html>

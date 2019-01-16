@@ -1,0 +1,76 @@
+﻿<label>Цвет:</label>
+<select name="color" class="change-color">
+<option value="1"  alt="0.0000">серно-желтый </option>
+<option value="2"  alt="0.0000">золотисто-желтый </option>
+<option value="3"  alt="0.0000">пастельно-оранжевый </option>
+<option value="4"  alt="0.0000">светло-розовый </option>
+<option value="5"  alt="0.0000">светло-красный </option>
+<option value="6"  alt="0.0000">бургунди </option>
+<option value="7"  alt="0.0000">лавандовый </option>
+<option value="8"  alt="0.0000">фиолетовый </option>
+<option value="9"  alt="0.0000">ледяной-голубой </option>
+<option value="10"  alt="0.0000">синий </option>
+<option value="11"  alt="0.0000">темно-синий </option>
+<option value="12"  alt="0.0000">бирюзовый </option>
+<option value="13"  alt="0.0000">липово-зеленый </option>
+<option value="14"  alt="0.0000">зеленый </option>
+<option value="15"  alt="0.0000">темно-зеленый </option>
+<option value="16"  alt="0.0000">светло-коричневый </option>
+<option value="17"  alt="0.0000">ореховый </option>
+<option value="18"  alt="0.0000">коричневый </option>
+<option value="19"  alt="0.0000">белый </option>
+<option value="20" selected alt="0.0000">серый </option>
+<option value="21"  alt="0.0000">черный </option>
+<option value="24"  alt="0.0000">малиновый </option>
+<option value="25"  alt="0.0000">ярко-желтый </option>
+<option value="26"  alt="0.0000">желтый </option>
+<option value="27"  alt="0.0000">тёмно-красный </option>
+<option value="28"  alt="0.0000">красный </option>
+<option value="29"  alt="0.0000">оранжевый </option>
+<option value="30"  alt="0.0000">светло-оранжевый </option>
+<option value="31"  alt="0.0000">пурпурный </option>
+<option value="32"  alt="0.0000">сиреневый </option>
+<option value="33"  alt="0.0000">королевский-синий </option>
+<option value="34"  alt="0.0000">ярко-синий </option>
+<option value="35"  alt="0.0000">лазурный </option>
+<option value="36"  alt="0.0000">небесно-голубой </option>
+<option value="37"  alt="0.0000">голубой </option>
+<option value="38"  alt="0.0000">светло-голубой </option>
+<option value="39"  alt="0.0000">бирюзово-синий </option>
+<option value="40"  alt="0.0000">цвет мяты </option>
+<option value="41"  alt="0.0000">лесной зеленый </option>
+<option value="42"  alt="0.0000">светло-зеленый </option>
+<option value="43"  alt="0.0000">желто-зеленый </option>
+<option value="44"  alt="0.0000">липово-зеленый </option>
+<option value="45"  alt="0.0000">бежевый </option>
+<option value="46"  alt="0.0000">кремовый </option>
+<option value="47"  alt="0.0000">темно-серый </option>
+<option value="48"  alt="0.0000">светло-серый </option>
+<option value="50"  alt="0.0000">серебристо-серый </option>
+<option value="51"  alt="0.0000">золотистый </option>
+</select>
+							<div class="nuancier1"></div>
+							<script type="text/javascript">
+							
+															
+							$(document).ready(function () {
+								$(".nuancier1").css("background", "none");
+								jQuery.each(colorsObj, function(i, val) {
+								  if(val == "0xA8B1B8") colorBg = ' metal-silver';
+								  else if(val == "0xB38808") colorBg = ' metal-gold';
+								  else colorBg = '" style=\"background-color:' + val.replace("0x","#") +';"';
+								  $(".nuancier1").append('<a id="' + i + '" class="carre-nuancier' + colorBg + '" value="' + val + '" ' + colorBg + '>' + val + '</a>');
+								});
+								
+								$(".nuancier1 a").click(function() {
+									colorId = parseInt($(this).attr("id"));
+									if(colorsObj[colorId]){
+										$(".change-color").val(colorId);
+										SelectColorSquare(".nuancier1", colorId);
+										if (hasReqestedVersion){ thisMovie("productviewer_380").changeColor(colorsObj[colorId]); }
+									}
+								});	
+							});
+							</script>
+<label>Материал:</label><select name="mat" class="mat"><option value="1"  alt="0.0000">матовый </option><option value="2"  alt="0.0000">глянцевый </option></select>
+<label>Положение:</label><select name="pol" class="change-side"><option value="57"  alt="0.0000">нормальное </option><option value="58"  alt="0.0000">зеркальное </option></select>
