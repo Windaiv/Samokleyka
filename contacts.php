@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.samokleyka.net/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Контакты - Samokleyka.net</title>
+ <title>Контакты - test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="all" href="templates/Modification/css/stylesheet_nano.min.css"/>
@@ -48,7 +48,7 @@ session_start();
 <p><h5 align=center>Наши контактные данные:</h5></p>
 <p>
 <b>Телефон:</b> +7 (8412) 52-25-98<br>
-<b>Email:</b> support@samokleyka.net<br>
+<b>Email:</b> support@test.vedrov.ru<br>
 </p>
 <p align="center">
 Всю необходимую информацию, Вы сможете узнать у наших Он-лайн консультантов.<br>

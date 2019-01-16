@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-<link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
-<link rel="shortcut icon" href="http://www.samokleyka.net/favicon.gif"/>
-<link rel="icon" href="http://www.samokleyka.net/favicon.gif"/>
+<link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
+<link rel="shortcut icon" href="http://www.test.vedrov.ru/samokleyka/favicon.gif"/>
+<link rel="icon" href="http://www.test.vedrov.ru/samokleyka/favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Декоративная надпись :: Samokleyka.net</title>
+ <title>Декоративная надпись :: test.vedrov.ru</title>
  <meta name="Description" content="Интернет-каталог наклеек для всех, наклейка из нашего каталога для декорирования интерьера Вашей квартиры!"/>
  <meta name="Keywords" content="Интернет-каталог наклеек для всех, наклейка из нашего каталога для декорирования интерьера Вашей квартиры!"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="/templates/Modification/css/stylesheet_nano.min.css"/>
@@ -64,7 +64,7 @@ session_start();
 						'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
 						'width', '380',
 						'height', '385',
-						'src', 'http://www.samokleyka.net/templates/Modification/swf/productviewer_custom.swf',
+						'src', 'http://www.test.vedrov.ru/samokleyka/templates/Modification/swf/productviewer_custom.swf',
 						'quality', 'high',
 						'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
 						'align', 'middle',
@@ -80,7 +80,7 @@ session_start();
 						'menu', 'false',
 						'allowFullScreen', 'false',
 						'allowScriptAccess','sameDomain',
-						'movie', 'http://www.samokleyka.net/templates/Modification/swf/productviewer_custom',
+						'movie', 'http://www.test.vedrov.ru/samokleyka/templates/Modification/swf/productviewer_custom',
 						'salign', ''
 					);//end AC code
 					//console.log(AC_FL_RunContent);
@@ -100,11 +100,11 @@ session_start();
 				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="380" height="385" id="productviewer_custom" align="middle">
 				<param name="allowScriptAccess" value="sameDomain" />
 				<param name="allowFullScreen" value="false" />
-				<param name="movie" value="http://www.samokleyka.net/templates/Modification/swf/productviewer_custom.swf" />
+				<param name="movie" value="http://www.test.vedrov.ru/samokleyka/templates/Modification/swf/productviewer_custom.swf" />
 				<param name="FlashVars" value="" />
 				<param name="quality" value="high" />
 				<param name="bgcolor" value="#ffffff" />
-				<embed src="http://www.samokleyka.net/templates/Modification/swf/productviewer_custom.swf" FlashVars="" quality="high" bgcolor="#ffffff" width="380" height="385" name="productviewer_custom" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+				<embed src="http://www.test.vedrov.ru/samokleyka/templates/Modification/swf/productviewer_custom.swf" FlashVars="" quality="high" bgcolor="#ffffff" width="380" height="385" name="productviewer_custom" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
 				</object>
 			</noscript>	
 		

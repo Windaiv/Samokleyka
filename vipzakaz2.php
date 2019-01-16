@@ -19,7 +19,7 @@ $otch=$_POST['otch'];
 $adres=$_POST['adres'];
 $tel=$_POST['tel'];
 $mail=$_POST['mail'];
-$mail2="zakaz@samokleyka.net";
+$mail2="zakaz@test.vedrov.ru";
 
 $subject = "Ваш индивидуальный заказ принят"; 
 
@@ -38,26 +38,26 @@ $message = '
 <p>Здравствуйте, '.$fam.' '.$imya.' '.$otch.'</p><br>
 <p><b>Вашему индивидуальному заказу присвоен номер: '.$count.'<b></p><br>
 <p>
-<b>Подробнее про способы оплаты можно узнать </b><a href="http://www.samokleyka.net/oplata.php">ЗДЕСЬ</a><br>
-<b>О том, как наклеивать наклейки можно узнать </b><a href="http://www.samokleyka.net/support.php">ЗДЕСЬ</a><br>
+<b>Подробнее про способы оплаты можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/oplata.php">ЗДЕСЬ</a><br>
+<b>О том, как наклеивать наклейки можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/support.php">ЗДЕСЬ</a><br>
 </p>
 		<p>
-		<b>Если вы ничего не заказывали в нашем инетернет магазине и это письмо случайно оказалось у Вас в ящике, то отправьте пустое письмо на наш адрес:</b> support@samokleyka.net<br>
+		<b>Если вы ничего не заказывали в нашем инетернет магазине и это письмо случайно оказалось у Вас в ящике, то отправьте пустое письмо на наш адрес:</b> support@test.vedrov.ru<br>
 		</p>
 		<p align="center">
-По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://www.samokleyka.net/contacts.php">он-лайн консультантам</a></p>
+По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">он-лайн консультантам</a></p>
     </body> 
 </html>'; 
 
 $headers  = "Content-type: text/html; charset=UTF-8 \r\n"; 
-$headers .= "From: Samokleyka.net <zakaz@samokleyka.net>\r\n"; 
+$headers .= "From: test.vedrov.ru <zakaz@test.vedrov.ru>\r\n"; 
 
-$subject2 = "Принят индивидуальный заказ на samokleyka.net"; 
+$subject2 = "Принят индивидуальный заказ на test.vedrov.ru"; 
 
 $message2 = ' 
 <html> 
     <head> 
-        <title>Принят индивидуальный заказ на samokleyka.net</title> 
+        <title>Принят индивидуальный заказ на test.vedrov.ru</title> 
     </head> 
     <body> 
 <p>'.$fam.' '.$imya.' '.$otch.' - заказал индивидуальную наклейку.</p><br>
@@ -72,7 +72,7 @@ $message2 = '
 </html>'; 
 
 $headers2  = "Content-type: text/html; charset=UTF-8 \r\n"; 
-$headers2 .= "From: Samokleyka.net <zakaz@samokleyka.net>\r\n"; 
+$headers2 .= "From: test.vedrov.ru <zakaz@test.vedrov.ru>\r\n"; 
 
 mail($mail, $subject, $message, $headers); 
 mail($mail2, $subject2, $message2, $headers2); 

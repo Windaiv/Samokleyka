@@ -31,7 +31,7 @@ $otch=$_POST['otch'];
 $adres=$_POST['adres'];
 $tel=$_POST['tel'];
 $mail=$_POST['mail'];
-$mail2="zakaz@samokleyka.net";
+$mail2="zakaz@test.vedrov.ru";
 
 $oplataarray = array("1" => "WebManey", "2" => "Яндекс-Деньги", "3" => "Наложный платеж", "4" => "Сбербанк", "5" => "Оплата курьеру (Пенза)");
 $oplata=strtr($_POST['oplata'], $oplataarray);
@@ -97,12 +97,12 @@ $color='
 </tr>
 <tr align="center"> 
 <td width=90px>
-<img src="http://www.samokleyka.net/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
+<img src="http://www.test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
 '.$color.'<br>
 '.$_SESSION['mas'][$i]["mat"].'
 </td>
 <td width=90px>
-<img src="http://www.samokleyka.net/images/color/'.$_SESSION['mas'][$i]["color_2c"].'.jpg"><br>
+<img src="http://www.test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color_2c"].'.jpg"><br>
 '.$color_2c.'<br>
 '.$_SESSION['mas'][$i]["mat_2c"].'
 </td>
@@ -115,7 +115,7 @@ else
 if ($_SESSION['mas'][$i]["color"]=="Полноцвет")
 {
 $color='
-<img src="http://www.samokleyka.net/images/color/full.jpg"><br>
+<img src="http://www.test.vedrov.ru/samokleyka/images/color/full.jpg"><br>
 '.$color.'<br>
 '.$_SESSION['mas'][$i]["mat"].'
 ';
@@ -123,7 +123,7 @@ $color='
 else
 {
 $color='
-<img src="http://www.samokleyka.net/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
+<img src="http://www.test.vedrov.ru/samokleyka/images/color/'.$_SESSION['mas'][$i]["color"].'.jpg"><br>
 '.$color.'<br>
 '.$_SESSION['mas'][$i]["mat"].'
 ';
@@ -139,7 +139,7 @@ $one='<p>'.$_SESSION['mas'][$i]["text"].'</p>';
 }
 else
 {
-$one='<img src="http://www.samokleyka.net/imagesm/'.$_SESSION['mas'][$i]["id"].'.png">';
+$one='<img src="http://www.test.vedrov.ru/samokleyka/imagesm/'.$_SESSION['mas'][$i]["id"].'.png">';
 }
 $fog .='
 <tr align="center">
@@ -223,26 +223,26 @@ $message = '
 </td>
 </tr>
   </table>
-  <b>Подробнее про выбранный Вами способ оплаты можно узнать </b><a href="http://www.samokleyka.net/oplata.php">ЗДЕСЬ</a><br>
-  <b>О том, как наклеивать наклейки можно узнать </b><a href="http://www.samokleyka.net/support.php">ЗДЕСЬ</a><br>
+  <b>Подробнее про выбранный Вами способ оплаты можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/oplata.php">ЗДЕСЬ</a><br>
+  <b>О том, как наклеивать наклейки можно узнать </b><a href="http://www.test.vedrov.ru/samokleyka/support.php">ЗДЕСЬ</a><br>
 		</p>
 		<p>
-		<b>Если вы ничего не заказывали в нашем инетернет магазине и это письмо случайно оказалось у Вас в ящике, то отправьте пустое письмо на наш адрес:</b> support@samokleyka.net<br>
+		<b>Если вы ничего не заказывали в нашем инетернет магазине и это письмо случайно оказалось у Вас в ящике, то отправьте пустое письмо на наш адрес:</b> support@test.vedrov.ru<br>
 		</p>
 		<p align="center">
-По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://www.samokleyka.net/contacts.php">он-лайн консультантам</a></p>
+По всем возникающим вопросам, Вы можете обращаться к нашим <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">он-лайн консультантам</a></p>
     </body> 
 </html>'; 
 
 $headers  = "Content-type: text/html; charset=UTF-8 \r\n"; 
-$headers .= "From: Samokleyka.net <zakaz@samokleyka.net>\r\n"; 
+$headers .= "From: test.vedrov.ru <zakaz@test.vedrov.ru>\r\n"; 
 
-$subject2 = "Принят заказ на samokleyka.net"; 
+$subject2 = "Принят заказ на test.vedrov.ru"; 
 
 $message2 = ' 
 <html> 
     <head> 
-        <title>Принят заказ на samokleyka.net</title> 
+        <title>Принят заказ на test.vedrov.ru</title> 
     </head> 
     <body> 
 <p>'.$fam.' '.$imya.' '.$otch.' - заказал наклейки.</p><br>
@@ -309,7 +309,7 @@ $message2 = '
 </html>'; 
 
 $headers2  = "Content-type: text/html; charset=UTF-8 \r\n"; 
-$headers2 .= "From: Samokleyka.net <zakaz@samokleyka.net>\r\n"; 
+$headers2 .= "From: test.vedrov.ru <zakaz@test.vedrov.ru>\r\n"; 
 
 mail($mail, $subject, $message, $headers); 
 mail($mail2, $subject2, $message2, $headers2); 

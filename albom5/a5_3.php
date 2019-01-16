@@ -41,14 +41,14 @@ include("../formula.html");
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-<link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
-<link rel="shortcut icon" href="http://www.samokleyka.net/favicon.gif"/>
-<link rel="icon" href="http://www.samokleyka.net/favicon.gif"/>
+<link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
+<link rel="shortcut icon" href="http://www.test.vedrov.ru/samokleyka/favicon.gif"/>
+<link rel="icon" href="http://www.test.vedrov.ru/samokleyka/favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title><?=$namefoto?> :: Samokleyka.net</title>
+ <title><?=$namefoto?> :: test.vedrov.ru</title>
  <meta name="Description" content="Интернет-каталог наклеек для всех, наклейка <?=$namefoto?> из нашего каталога для декорирования интерьера Вашей квартиры!"/>
  <meta name="Keywords" content="Интернет-каталог наклеек для всех, наклейка <?=$namefoto?> из нашего каталога для декорирования интерьера Вашей квартиры!"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="../templates/Modification/css/stylesheet_nano.min.css"/>
@@ -160,13 +160,13 @@ include("../formula.html");
 <table width="100%">
 <tr>
 <td width="50%" align="left">
-<a href="http://www.samokleyka.net/albom5/<?=$back?>.php">
-<img src="http://www.samokleyka.net/templates/Modification/images/buttons/french/back.png"
+<a href="http://www.test.vedrov.ru/samokleyka/albom5/<?=$back?>.php">
+<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/back.png"
 alt="Дальше" width="103" height="43" border="0" /></a>
 </td>
 <td  width="50%" align="right">
-<a href="http://www.samokleyka.net/albom5/<?=$next?>.php">
-<img src="http://www.samokleyka.net/templates/Modification/images/buttons/french/next.png"
+<a href="http://www.test.vedrov.ru/samokleyka/albom5/<?=$next?>.php">
+<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
 alt="Дальше" width="103" height="43" border="0" /></a>
 </td>
 </tr>

@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-<link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
+<link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>На ноутбуки - 1 страница :: Samokleyka.net</title>
+ <title>На ноутбуки - 1 страница :: test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="templates/Modification/css/stylesheet_nano.min.css"/>
@@ -40,7 +40,7 @@ session_start();
 			<div id="content">
 			<div id="content-simple">
 <div class="title-desc"; align="center">
-<img src="../images/albom11.png" alt="Samokleyka.net" width="231px" height="51px"/>
+<img src="../images/albom11.png" alt="test.vedrov.ru" width="231px" height="51px"/>
 </div>
 <div id="main-content-bloc-infinite">
 <div id="main-content-bloc-infinite-top">
@@ -51,25 +51,25 @@ session_start();
 </td>
 <td width="30%" align="center">
 <b>1</b>
- | <a href="http://www.samokleyka.net/albom11_1.php">2</a>
- | <a href="http://www.samokleyka.net/albom11_2.php">3</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom11_1.php">2</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom11_2.php">3</a>
 </td>
 <td  width="35%" align="right">
 </td>
 </tr>
 </table>
-<div class="product-medium "><a href="albom11/a11_1.php" ><img src="albom11/a11_1.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_1.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_2.php" ><img src="albom11/a11_2.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_2.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_3.php" ><img src="albom11/a11_3.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_3.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_4.php" ><img src="albom11/a11_4.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_4.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_5.php" ><img src="albom11/a11_5.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_5.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_6.php" ><img src="albom11/a11_6.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_6.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_7.php" ><img src="albom11/a11_7.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_7.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_8.php" ><img src="albom11/a11_8.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_8.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_9.php" ><img src="albom11/a11_9.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_9.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_10.php" ><img src="albom11/a11_10.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_10.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_11.php" ><img src="albom11/a11_11.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_11.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom11/a11_12.php" ><img src="albom11/a11_12.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_12.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_1.php" ><img src="albom11/a11_1.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_1.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_2.php" ><img src="albom11/a11_2.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_2.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_3.php" ><img src="albom11/a11_3.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_3.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_4.php" ><img src="albom11/a11_4.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_4.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_5.php" ><img src="albom11/a11_5.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_5.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_6.php" ><img src="albom11/a11_6.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_6.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_7.php" ><img src="albom11/a11_7.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_7.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_8.php" ><img src="albom11/a11_8.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_8.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_9.php" ><img src="albom11/a11_9.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_9.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_10.php" ><img src="albom11/a11_10.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_10.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_11.php" ><img src="albom11/a11_11.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_11.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom11/a11_12.php" ><img src="albom11/a11_12.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom11/a11_12.php">Подробнее</a> Цена - 360 руб</p></div></div>
 
 <br>
 <table width="100%">
@@ -78,12 +78,12 @@ session_start();
 </td>
 <td width="30%" align="center">
 <b>1</b>
- | <a href="http://www.samokleyka.net/albom11_1.php">2</a>
- | <a href="http://www.samokleyka.net/albom11_2.php">3</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom11_1.php">2</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom11_2.php">3</a>
 </td>
 <td  width="35%" align="right">
-<a href="http://www.samokleyka.net/albom11_1.php">
-<img src="http://www.samokleyka.net/templates/Modification/images/buttons/french/next.png"
+<a href="http://www.test.vedrov.ru/samokleyka/albom11_1.php">
+<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
 alt="Дальше" width="103" height="43" border="0" /></a>
 </td>
 </tr>

@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.samokleyka.net/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Доставка - Samokleyka.net</title>
+ <title>Доставка - test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="all" href="templates/Modification/css/stylesheet_nano.min.css"/>

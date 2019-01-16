@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-<link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
+<link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Растения - Samokleyka.net</title>
+ <title>Растения - test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="templates/Modification/css/stylesheet_nano.min.css"/>
@@ -40,24 +40,24 @@ session_start();
 			<div id="content">
 			<div id="content-simple">
 <div class="title-desc"; align="center">
-<img src="../images/albom2.png" alt="Samokleyka.net" width="231px" height="51px"/>
+<img src="../images/albom2.png" alt="test.vedrov.ru" width="231px" height="51px"/>
 </div>
 <div id="main-content-bloc-infinite">
 <div id="main-content-bloc-infinite-top">
 <div id="main-content-bloc-infinite-bottom">
 
-<div class="product-medium "><a href="albom2/a2_1.php" ><img src="albom2/a2_1.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_1.php">Подробнее</a> Цена - 248 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_2.php" ><img src="albom2/a2_2.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_2.php">Подробнее</a> Цена - 244 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_3.php" ><img src="albom2/a2_3.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_3.php">Подробнее</a> Цена - 426 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_4.php" ><img src="albom2/a2_4.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_4.php">Подробнее</a> Цена - 264 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_5.php" ><img src="albom2/a2_5.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_5.php">Подробнее</a> Цена - 756 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_6.php" ><img src="albom2/a2_6.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_6.php">Подробнее</a> Цена - 1008 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_7.php" ><img src="albom2/a2_7.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_7.php">Подробнее</a> Цена - 235 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_8.php" ><img src="albom2/a2_8.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_8.php">Подробнее</a> Цена - 248 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_9.php" ><img src="albom2/a2_9.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_9.php">Подробнее</a> Цена - 1098 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_10.php" ><img src="albom2/a2_10.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_10.php">Подробнее</a> Цена - 828 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_11.php" ><img src="albom2/a2_11.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_11.php">Подробнее</a> Цена - 283 руб</p></div></div>
-<div class="product-medium "><a href="albom2/a2_12.php" ><img src="albom2/a2_12.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_12.php">Подробнее</a> Цена - 276 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_1.php" ><img src="albom2/a2_1.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_1.php">Подробнее</a> Цена - 248 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_2.php" ><img src="albom2/a2_2.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_2.php">Подробнее</a> Цена - 244 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_3.php" ><img src="albom2/a2_3.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_3.php">Подробнее</a> Цена - 426 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_4.php" ><img src="albom2/a2_4.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_4.php">Подробнее</a> Цена - 264 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_5.php" ><img src="albom2/a2_5.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_5.php">Подробнее</a> Цена - 756 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_6.php" ><img src="albom2/a2_6.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_6.php">Подробнее</a> Цена - 1008 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_7.php" ><img src="albom2/a2_7.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_7.php">Подробнее</a> Цена - 235 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_8.php" ><img src="albom2/a2_8.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_8.php">Подробнее</a> Цена - 248 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_9.php" ><img src="albom2/a2_9.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_9.php">Подробнее</a> Цена - 1098 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_10.php" ><img src="albom2/a2_10.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_10.php">Подробнее</a> Цена - 828 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_11.php" ><img src="albom2/a2_11.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_11.php">Подробнее</a> Цена - 283 руб</p></div></div>
+<div class="product-medium "><a href="albom2/a2_12.php" ><img src="albom2/a2_12.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom2/a2_12.php">Подробнее</a> Цена - 276 руб</p></div></div>
 
 <div class="clear"></div>
 </div></div></div>

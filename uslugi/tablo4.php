@@ -3,13 +3,13 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.samokleyka.net/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Электронное табло для спорта- Samokleyka.net</title>
- <meta name="Description" content="электронное табло, курсы валют, спортивное табло, температура, давление, бегущая строка, программируемое табло, спорт, плавание, футбол, табло, счет, матч, тенис, волейболл, www.samokleyka.net"/>
- <meta name="Keywords" content="электронное табло, курсы валют, спортивное табло, температура, давление, бегущая строка, программируемое табло, спорт, плавание, футбол, табло, счет, матч, тенис, волейболл, www.samokleyka.net"/>
+ <title>Электронное табло для спорта- test.vedrov.ru</title>
+ <meta name="Description" content="электронное табло, курсы валют, спортивное табло, температура, давление, бегущая строка, программируемое табло, спорт, плавание, футбол, табло, счет, матч, тенис, волейболл, www.test.vedrov.ru"/>
+ <meta name="Keywords" content="электронное табло, курсы валют, спортивное табло, температура, давление, бегущая строка, программируемое табло, спорт, плавание, футбол, табло, счет, матч, тенис, волейболл, www.test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="all" href="../templates/Modification/css/stylesheet_nano.min.css"/>
@@ -44,17 +44,17 @@ session_start();
 <div class="product-medium222">
 
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.samokleyka.net/uslugi/tablo1.php">«Бегущая строка»</a><br>
-- <a href="http://www.samokleyka.net/uslugi/tablo2.php">Курсов валют</a><br>
-- <a href="http://www.samokleyka.net/uslugi/tablo3.php">Для АЗС</a><br>
+<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
 - Для спорта<br>
-- <a href="http://www.samokleyka.net/uslugi/tablo5.php">Для метеостанции</a><br>
-- <a href="http://www.samokleyka.net/uslugi/tablo6.php">Аптечный крест</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
 </p>
 <h2 align=center> ТАБЛО ДЛЯ СПОРТА</h2> <br>
 <p align="center"><img src="http://mirtablo.ru/img/pages/sport.png" width="100%" alt="Табло для спорта"/>
 <p>Табло любой конфигурации может быть изготовлены с разным размером и цветом индикации, разным набором информационных полей, разными функциональными возможностями. Места установки табло могут быть: спортивные залы, стадионы, бассейны, школы и т.д.</p>
-<p>Установка электронного спортивного табло придаст положительный имидж вашему спортзалу и позволит оперативно информировать о ходе и результатах соревнований. Встроенное электронное табло <a href="http://www.samokleyka.net/uslugi/tablo1.php">"Бегущая строка"</a> позволит организовать информационную поддержку соревнований и мероприятий, вывод различной информации рекламного характера и др.</p>
+<p>Установка электронного спортивного табло придаст положительный имидж вашему спортзалу и позволит оперативно информировать о ходе и результатах соревнований. Встроенное электронное табло <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">"Бегущая строка"</a> позволит организовать информационную поддержку соревнований и мероприятий, вывод различной информации рекламного характера и др.</p>
 <p>Точная стоимость табло может быть определена только после определения конкретной конфигурации табло, габаритных размеров, его функциональных возможностей , способа управления, длин информационных и управляющих кабелей, наличия сирен, дополнительных ламп, наличия дублирующих табло и др. </p>
 <p><b>На сегодняшний день мы производит табло для следующих видов спорта:</b></p>
 <p>
@@ -85,14 +85,14 @@ session_start();
    - Спортивные табло для авто и мото спорта<br>
    - Универсальные табло<br>
 </p>
-<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.samokleyka.net/contacts.php">Контакты</a></b></p>
+<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
 <h4 align=left> Электронное табло:</h4>
-<p>- <a href="http://www.samokleyka.net/uslugi/tablo1.php">«Бегущая строка»</a><br>
-- <a href="http://www.samokleyka.net/uslugi/tablo2.php">Курсов валют</a><br>
-- <a href="http://www.samokleyka.net/uslugi/tablo3.php">Для АЗС</a><br>
+<p>- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo1.php">«Бегущая строка»</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo2.php">Курсов валют</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo3.php">Для АЗС</a><br>
 - Для спорта<br>
-- <a href="http://www.samokleyka.net/uslugi/tablo5.php">Для метеостанции</a><br>
-- <a href="http://www.samokleyka.net/uslugi/tablo6.php">Аптечный крест</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo5.php">Для метеостанции</a><br>
+- <a href="http://www.test.vedrov.ru/samokleyka/uslugi/tablo6.php">Аптечный крест</a><br>
 </p>
 </div>
 <div class="clearfix"></div>

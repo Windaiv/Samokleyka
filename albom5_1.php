@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-<link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
+<link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Живность - 2 страница :: Samokleyka.net</title>
+ <title>Живность - 2 страница :: test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="templates/Modification/css/stylesheet_nano.min.css"/>
@@ -40,7 +40,7 @@ session_start();
 			<div id="content">
 			<div id="content-simple">
 <div class="title-desc"; align="center">
-<img src="../images/albom5.png" alt="Samokleyka.net" width="231px" height="51px"/>
+<img src="../images/albom5.png" alt="test.vedrov.ru" width="231px" height="51px"/>
 </div>
 <div id="main-content-bloc-infinite">
 <div id="main-content-bloc-infinite-top">
@@ -50,41 +50,41 @@ session_start();
 <td width="35%" align="left">
 </td>
 <td width="30%" align="center">
-<a href="http://www.samokleyka.net/albom5.php">1</a> | <b>2</b>
+<a href="http://www.test.vedrov.ru/samokleyka/albom5.php">1</a> | <b>2</b>
 </td>
 <td  width="35%" align="right">
 </td>
 </tr>
 </table>
-<div class="product-medium "><a href="albom5/a5_16.php" ><img src="albom5/a5_16.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_16.php">Подробнее</a> Цена - 221 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_17.php" ><img src="albom5/a5_17.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_17.php">Подробнее</a> Цена - 514 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_18.php" ><img src="albom5/a5_18.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_18.php">Подробнее</a> Цена - 538 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_19.php" ><img src="albom5/a5_19.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_19.php">Подробнее</a> Цена - 330 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_20.php" ><img src="albom5/a5_20.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_20.php">Подробнее</a> Цена - 358 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_21.php" ><img src="albom5/a5_21.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_21.php">Подробнее</a> Цена - 320 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_22.php" ><img src="albom5/a5_22.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_22.php">Подробнее</a> Цена - 310 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_23.php" ><img src="albom5/a5_23.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_23.php">Подробнее</a> Цена - 330 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_24.php" ><img src="albom5/a5_24.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_24.php">Подробнее</a> Цена - 389 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_25.php" ><img src="albom5/a5_25.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_25.php">Подробнее</a> Цена - 339 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_26.php" ><img src="albom5/a5_26.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_26.php">Подробнее</a> Цена - 330 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_27.php" ><img src="albom5/a5_27.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_27.php">Подробнее</a> Цена - 360 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_28.php" ><img src="albom5/a5_28.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_28.php">Подробнее</a> Цена - 398 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_29.php" ><img src="albom5/a5_29.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_29.php">Подробнее</a> Цена - 346 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_30.php" ><img src="albom5/a5_30.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_30.php">Подробнее</a> Цена - 310 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_31.php" ><img src="albom5/a5_31.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_31.php">Подробнее</a> Цена - 317 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_32.php" ><img src="albom5/a5_32.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_32.php">Подробнее</a> Цена - 324 руб</p></div></div>
-<div class="product-medium "><a href="albom5/a5_33.php" ><img src="albom5/a5_33.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_33.php">Подробнее</a> Цена - 374 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_16.php" ><img src="albom5/a5_16.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_16.php">Подробнее</a> Цена - 221 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_17.php" ><img src="albom5/a5_17.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_17.php">Подробнее</a> Цена - 514 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_18.php" ><img src="albom5/a5_18.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_18.php">Подробнее</a> Цена - 538 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_19.php" ><img src="albom5/a5_19.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_19.php">Подробнее</a> Цена - 330 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_20.php" ><img src="albom5/a5_20.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_20.php">Подробнее</a> Цена - 358 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_21.php" ><img src="albom5/a5_21.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_21.php">Подробнее</a> Цена - 320 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_22.php" ><img src="albom5/a5_22.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_22.php">Подробнее</a> Цена - 310 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_23.php" ><img src="albom5/a5_23.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_23.php">Подробнее</a> Цена - 330 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_24.php" ><img src="albom5/a5_24.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_24.php">Подробнее</a> Цена - 389 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_25.php" ><img src="albom5/a5_25.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_25.php">Подробнее</a> Цена - 339 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_26.php" ><img src="albom5/a5_26.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_26.php">Подробнее</a> Цена - 330 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_27.php" ><img src="albom5/a5_27.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_27.php">Подробнее</a> Цена - 360 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_28.php" ><img src="albom5/a5_28.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_28.php">Подробнее</a> Цена - 398 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_29.php" ><img src="albom5/a5_29.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_29.php">Подробнее</a> Цена - 346 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_30.php" ><img src="albom5/a5_30.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_30.php">Подробнее</a> Цена - 310 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_31.php" ><img src="albom5/a5_31.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_31.php">Подробнее</a> Цена - 317 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_32.php" ><img src="albom5/a5_32.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_32.php">Подробнее</a> Цена - 324 руб</p></div></div>
+<div class="product-medium "><a href="albom5/a5_33.php" ><img src="albom5/a5_33.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom5/a5_33.php">Подробнее</a> Цена - 374 руб</p></div></div>
 
 <br>
 <table width="100%">
 <tr>
 <td width="35%" align="left">
-<a href="http://www.samokleyka.net/albom5.php">
-<img src="http://www.samokleyka.net/templates/Modification/images/buttons/french/back.png"
+<a href="http://www.test.vedrov.ru/samokleyka/albom5.php">
+<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/back.png"
 alt="Назад" width="103" height="43" border="0" /></a>
 </td>
 <td width="30%" align="center">
-<a href="http://www.samokleyka.net/albom5.php">1</a> | <b>2</b>
+<a href="http://www.test.vedrov.ru/samokleyka/albom5.php">1</a> | <b>2</b>
 </td>
 <td  width="35%" align="right">
 </td>

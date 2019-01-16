@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.samokleyka.net/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Подбор подходящей наклейки для вашего интерьера - Samokleyka.net</title>
+ <title>Подбор подходящей наклейки для вашего интерьера - test.vedrov.ru</title>
  <meta name="Description" content="Наклейка по вашему фото, индивидуальный портрет, контур человека, образ"/>
  <meta name="Keywords" content="Наклейка по вашему фото, индивидуальный портрет, контур человека, образ"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="all" href="../templates/Modification/css/stylesheet_nano.min.css"/>
@@ -48,7 +48,7 @@ session_start();
 
 <p>
 Если Вы просмотрели весь наш каталог, но так и не смогли определиться с выбором наклейки, которая подошла бы именно Вам, то 
-просто отправляйте нам на почтовый ящик <a href="mailto:zakaz@samokleyka.net">zakaz@samokleyka.net</a> фотографию того места, куда бы Вам хотелось приклеить нашу наклейку.<br>
+просто отправляйте нам на почтовый ящик <a href="mailto:zakaz@test.vedrov.ru">zakaz@test.vedrov.ru</a> фотографию того места, куда бы Вам хотелось приклеить нашу наклейку.<br>
 Мы постараемся подобрать подходящую к интерьеру наклейку из тех, что представлены у нас в каталоге или при Вашем желании разработаем новую наклейку индивидуально для Вас!<br>
 </p>
 <p>

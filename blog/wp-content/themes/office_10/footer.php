@@ -5,7 +5,7 @@
         
         	<div id="footertext">
 				<?php echo($aOptions['footer-text']); ?><br />
-                <? echo'Разрешается републикация материалов сайта в Интернете с обязательным указанием ссылки на www.samokleyka.net';?>
+                <? echo'Разрешается републикация материалов сайта в Интернете с обязательным указанием ссылки на www.test.vedrov.ru';?>
 <!--Google Analytics-->
 <script type="text/javascript">
 

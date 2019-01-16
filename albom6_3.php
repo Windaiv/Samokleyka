@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-<link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
+<link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.liveinternet.ru/users/samokleyka/rss" />
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Автомобилисту - 4 страница :: Samokleyka.net</title>
+ <title>Автомобилисту - 4 страница :: test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="templates/Modification/css/stylesheet_nano.min.css"/>
@@ -40,7 +40,7 @@ session_start();
 			<div id="content">
 			<div id="content-simple">
 <div class="title-desc"; align="center">
-<img src="../images/albom6.png" alt="Samokleyka.net" width="231px" height="51px"/>
+<img src="../images/albom6.png" alt="test.vedrov.ru" width="231px" height="51px"/>
 </div>
 <div id="main-content-bloc-infinite">
 <div id="main-content-bloc-infinite-top">
@@ -50,50 +50,50 @@ session_start();
 <td width="35%" align="left">
 </td>
 <td width="30%" align="center">
-<a href="http://www.samokleyka.net/albom6.php">1</a>
- | <a href="http://www.samokleyka.net/albom6_1.php">2</a>
- | <a href="http://www.samokleyka.net/albom6_2.php">3</a>
+<a href="http://www.test.vedrov.ru/samokleyka/albom6.php">1</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_1.php">2</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_2.php">3</a>
  | <b>4</b>
- | <a href="http://www.samokleyka.net/albom6_4.php">5</a>
- | <a href="http://www.samokleyka.net/albom6_5.php">6</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_4.php">5</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_5.php">6</a>
 </td>
 <td  width="35%" align="right">
 </td>
 </tr>
 </table>
-<div class="product-medium "><a href="albom6/a6_47.php" ><img src="albom6/a6_47.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_47.php">Подробнее</a> Цена - 307 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_48.php" ><img src="albom6/a6_48.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_48.php">Подробнее</a> Цена - 398 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_49.php" ><img src="albom6/a6_49.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_49.php">Подробнее</a> Цена - 409 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_50.php" ><img src="albom6/a6_50.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_50.php">Подробнее</a> Цена - 392 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_51.php" ><img src="albom6/a6_51.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_51.php">Подробнее</a> Цена - 333 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_52.php" ><img src="albom6/a6_52.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_52.php">Подробнее</a> Цена - 346 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_53.php" ><img src="albom6/a6_53.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_53.php">Подробнее</a> Цена - 379 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_54.php" ><img src="albom6/a6_54.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_54.php">Подробнее</a> Цена - 398 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_55.php" ><img src="albom6/a6_55.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_55.php">Подробнее</a> Цена - 414 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_56.php" ><img src="albom6/a6_56.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_56.php">Подробнее</a> Цена - 336 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_57.php" ><img src="albom6/a6_57.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_57.php">Подробнее</a> Цена - 307 руб</p></div></div>
-<div class="product-medium "><a href="albom6/a6_58.php" ><img src="albom6/a6_58.jpg" alt="Samokleyka.net" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_58.php">Подробнее</a> Цена - 381 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_47.php" ><img src="albom6/a6_47.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_47.php">Подробнее</a> Цена - 307 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_48.php" ><img src="albom6/a6_48.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_48.php">Подробнее</a> Цена - 398 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_49.php" ><img src="albom6/a6_49.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_49.php">Подробнее</a> Цена - 409 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_50.php" ><img src="albom6/a6_50.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_50.php">Подробнее</a> Цена - 392 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_51.php" ><img src="albom6/a6_51.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_51.php">Подробнее</a> Цена - 333 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_52.php" ><img src="albom6/a6_52.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_52.php">Подробнее</a> Цена - 346 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_53.php" ><img src="albom6/a6_53.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_53.php">Подробнее</a> Цена - 379 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_54.php" ><img src="albom6/a6_54.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_54.php">Подробнее</a> Цена - 398 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_55.php" ><img src="albom6/a6_55.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_55.php">Подробнее</a> Цена - 414 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_56.php" ><img src="albom6/a6_56.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_56.php">Подробнее</a> Цена - 336 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_57.php" ><img src="albom6/a6_57.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_57.php">Подробнее</a> Цена - 307 руб</p></div></div>
+<div class="product-medium "><a href="albom6/a6_58.php" ><img src="albom6/a6_58.jpg" alt="test.vedrov.ru" width="220px" height="180px"/></a><div class="bottom-bar"><p class="product-buy-now"></p><p class="product-price" ><a href="albom6/a6_58.php">Подробнее</a> Цена - 381 руб</p></div></div>
 
 
 <br>
 <table width="100%">
 <tr>
 <td width="35%" align="left">
-<a href="http://www.samokleyka.net/albom6_2.php">
-<img src="http://www.samokleyka.net/templates/Modification/images/buttons/french/back.png"
+<a href="http://www.test.vedrov.ru/samokleyka/albom6_2.php">
+<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/back.png"
 alt="Назад" width="103" height="43" border="0" /></a>
 </td>
 <td width="30%" align="center">
-<a href="http://www.samokleyka.net/albom6.php">1</a>
- | <a href="http://www.samokleyka.net/albom6_1.php">2</a>
- | <a href="http://www.samokleyka.net/albom6_2.php">3</a>
+<a href="http://www.test.vedrov.ru/samokleyka/albom6.php">1</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_1.php">2</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_2.php">3</a>
  | <b>4</b>
- | <a href="http://www.samokleyka.net/albom6_4.php">5</a>
- | <a href="http://www.samokleyka.net/albom6_5.php">6</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_4.php">5</a>
+ | <a href="http://www.test.vedrov.ru/samokleyka/albom6_5.php">6</a>
 </td>
 <td  width="35%" align="right">
-<a href="http://www.samokleyka.net/albom6_4.php">
-<img src="http://www.samokleyka.net/templates/Modification/images/buttons/french/next.png"
+<a href="http://www.test.vedrov.ru/samokleyka/albom6_4.php">
+<img src="http://www.test.vedrov.ru/samokleyka/templates/Modification/images/buttons/french/next.png"
 alt="Дальше" width="103" height="43" border="0" /></a>
 </td>
 </tr>

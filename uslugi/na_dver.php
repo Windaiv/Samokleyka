@@ -3,13 +3,13 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.samokleyka.net/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="../favicon.gif"/>
 <link rel="icon" href="../favicon.gif"/>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- <title>Таблички на дверь - Samokleyka.net</title>
- <meta name="Description" content="Фото в рамке, табличка на дом, www.samokleyka.net"/>
- <meta name="Keywords" content="Фото в рамке, табличка на дом, www.samokleyka.net"/>
+ <title>Таблички на дверь - test.vedrov.ru</title>
+ <meta name="Description" content="Фото в рамке, табличка на дом, www.test.vedrov.ru"/>
+ <meta name="Keywords" content="Фото в рамке, табличка на дом, www.test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="all" href="../templates/Modification/css/stylesheet_nano.min.css"/>
@@ -49,7 +49,7 @@ session_start();
 Работаем по готовому эскизу, либо разрабатываем новый с учетом Ваших требований.
 <img src="../images/blog/tabl2.jpg"><br>
 </p>
-<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.samokleyka.net/contacts.php">Контакты</a></b></p>
+<p align=center><b>Сделать заказ или получить консультацию Вы сможете по указанным координатам в разделе <a href="http://www.test.vedrov.ru/samokleyka/contacts.php">Контакты</a></b></p>
 </div>
 <div class="clearfix"></div>
 </div>

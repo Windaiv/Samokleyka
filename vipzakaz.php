@@ -3,14 +3,14 @@ session_start();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 <head>
-	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="Samokleyka.net RSS" href="http://www.samokleyka.net/blog/?feed=rss2" />-->
+	<!-- *RCC новости* <link rel="alternate" type="application/rss+xml" title="test.vedrov.ru RSS" href="http://www.test.vedrov.ru/samokleyka/blog/?feed=rss2" />-->
 <link rel="shortcut icon" href="favicon.gif"/>
 <link rel="icon" href="favicon.gif"/>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
- <title>Индивидуальный заказ - Samokleyka.net</title>
+ <title>Индивидуальный заказ - test.vedrov.ru</title>
  <meta name="Description" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
  <meta name="Keywords" content="Интернет магазин наклеек для всех, Огромная коллекция разнообразных наклеек разнообразных стилей и направлений, доступно в  50 цветах и разного размера"/>
- <meta name="Reply-to" content="support@samokleyka.net"/>
+ <meta name="Reply-to" content="support@test.vedrov.ru"/>
  <meta name="robots" content="index, follow, noodp"/>
  <meta name="revisit-after" content="7 days"/>
 <link rel="stylesheet" type="text/css" media="screen" href="templates/Modification/css/stylesheet_nano.min.css"/>
@@ -151,7 +151,7 @@ function myCustomErrorDisplayFunction2(f, errorInfo)
 	<option value="4">Сбербанк</option>
 	<option value="5">Оплата курьеру (Пенза)</option>
 	</select></b></td>
-	<td><h7>   Выберите способ оплаты, подробнее можно узнать в разделе <a href="http://www.samokleyka.net/oplata.php" target="_blank">Оплата</a></h7></td>
+	<td><h7>   Выберите способ оплаты, подробнее можно узнать в разделе <a href="http://www.test.vedrov.ru/samokleyka/oplata.php" target="_blank">Оплата</a></h7></td>
 </tr>
 </table>
 <![if !IE]>
